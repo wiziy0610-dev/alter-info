@@ -118,7 +118,7 @@ function groupByCategory(arr) {
 }
 
 /* ── 키워드 분석 ── */
-const STOP=new Set(["있다","있는","하는","하고","으로","에서","이후","대한","통해","위한","따라","관련","지난","올해","내년","지속","기준","전년","분기","수준","규모","펀드","투자","시장","기업","운용","국내","글로벌","업계","이번","해당","계획"]);
+const STOP=new Set(["있다","있는","하는","하고","으로","에서","이후","대한","통해","위한","따라","관련","지난","올해","내년","지속","기준","전년","분기","수준","규모","펀드","투자","시장","기업","운용","국내","글로벌","업계","이번","해당","계획","부동산","인프라","벤처","스타트업","사모펀드"]);
 function extractKeywords(articles,n=8){
   const freq={};
   articles.forEach(a=>{
@@ -178,7 +178,8 @@ function KeywordBar({articles}){
 }
 
 /* ── 기사 행 ── */
-function ArticleRow({news,isScrapped,onToggle}){
+function ArticleRow({news,isScrapped,onToggle,memo,onMemo}){
+  const [showMemo,setShowMemo]=useState(false);
   const summary=cleanSummary(news.summary,news.title);
   return(
     <div style={{borderBottom:"1px solid #ebebeb"}}>
@@ -194,7 +195,37 @@ function ArticleRow({news,isScrapped,onToggle}){
         </h3>
         {summary.length>0&&<p style={{fontSize:13,color:"#666",lineHeight:1.85,fontWeight:300}}>{summary.join(" ")}</p>}
       </a>
-      <div style={{paddingBottom:"1.25rem",display:"flex",justifyContent:"flex-end"}}>
+
+      {/* 메모 표시 */}
+      {memo&&!showMemo&&(
+        <div style={{margin:"0 0 0.75rem",padding:"0.6rem 0.9rem",background:"#fffbf0",border:"1px solid #f0e8c8",borderRadius:3,fontSize:12,color:"#7a6a3a",lineHeight:1.7,fontWeight:300}}>
+          📝 {memo}
+        </div>
+      )}
+
+      {/* 메모 입력창 */}
+      {showMemo&&(
+        <div style={{margin:"0 0 0.75rem"}}>
+          <textarea
+            value={memo}
+            onChange={e=>onMemo(news.id,e.target.value)}
+            placeholder="이 기사에 대한 메모를 남겨보세요…"
+            style={{width:"100%",minHeight:80,padding:"0.7rem",fontSize:12,fontFamily:"inherit",color:"#333",border:"1px solid #ddd",borderRadius:3,resize:"vertical",outline:"none",lineHeight:1.7,fontWeight:300}}
+          />
+          <div style={{display:"flex",justifyContent:"flex-end",gap:8,marginTop:6}}>
+            <button onClick={()=>setShowMemo(false)} style={{fontSize:11,padding:"4px 12px",border:"1px solid #ddd",background:"transparent",color:"#bbb",borderRadius:2}}>닫기</button>
+          </div>
+        </div>
+      )}
+
+      <div style={{paddingBottom:"1.25rem",display:"flex",justifyContent:"flex-end",gap:8}}>
+        {/* 메모 버튼 (저장된 기사에서만) */}
+        {isScrapped&&(
+          <button onClick={()=>setShowMemo(p=>!p)} style={{display:"flex",alignItems:"center",gap:5,fontSize:11,padding:"4px 12px",border:`1px solid ${showMemo?"#111":"#ddd"}`,background:showMemo?"#f7f7f7":"transparent",color:showMemo?"#111":"#bbb",borderRadius:2,letterSpacing:"0.06em"}}>
+            <svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M2 10h8M2 7h6M2 4h8" strokeLinecap="round"/></svg>
+            {memo?"메모 수정":"메모 추가"}
+          </button>
+        )}
         <button onClick={()=>onToggle(news.id)} style={{display:"flex",alignItems:"center",gap:5,fontSize:11,padding:"4px 12px",border:`1px solid ${isScrapped?"#111":"#ddd"}`,background:isScrapped?"#111":"transparent",color:isScrapped?"#fff":"#bbb",borderRadius:2,letterSpacing:"0.08em"}}>
           <svg width="10" height="10" viewBox="0 0 12 12" fill={isScrapped?"white":"none"} stroke={isScrapped?"white":"#ccc"} strokeWidth="1.5"><path d="M2 2h8v9L6 8.5 2 11V2z" strokeLinecap="round" strokeLinejoin="round"/></svg>
           {isScrapped?"저장됨":"저장"}
@@ -234,6 +265,7 @@ function App(){
   const [tab,setTab]=useState("home");
   const [cat,setCat]=useState(null); // null = 홈 랜딩
   const [scrapped,setScrapped]=useState({});
+  const [memos,setMemos]=useState({});
   const [data,setData]=useState(FALLBACK);
   const [loading,setLoading]=useState(true);
   const [mobile,setMobile]=useState(window.innerWidth<768);
@@ -354,7 +386,7 @@ function App(){
                 <span style={{fontSize:11,color:"#ccc",fontWeight:300}}>{loading?"업데이트 중…":`${allFlat.length}건`}</span>
               </div>
               {allFlat.slice(0,5).map(news=>(
-                <ArticleRow key={news.id} news={news} isScrapped={!!scrapped[news.id]} onToggle={toggle}/>
+                <ArticleRow key={news.id} news={news} isScrapped={!!scrapped[news.id]} onToggle={toggle} memo={memos[news.id]||""} onMemo={(id,txt)=>setMemos(p=>({...p,[id]:txt}))}/>
               ))}
               {allFlat.length>5&&(
                 <div style={{textAlign:"center",marginTop:"2rem"}}>
@@ -387,7 +419,7 @@ function App(){
                 </div>
               )}
               {list.map(news=>(
-                <ArticleRow key={news.id} news={news} isScrapped={!!scrapped[news.id]} onToggle={toggle}/>
+                <ArticleRow key={news.id} news={news} isScrapped={!!scrapped[news.id]} onToggle={toggle} memo={memos[news.id]||""} onMemo={(id,txt)=>setMemos(p=>({...p,[id]:txt}))}/>
               ))}
             </>
           )}
@@ -412,7 +444,7 @@ function App(){
       {isLanding&&(
         <footer style={{borderTop:"1px solid #ebebeb",padding:"2rem 3.5rem",display:"flex",alignItems:"center",justifyContent:"space-between",flexWrap:"wrap",gap:"1rem"}}>
           <span className="serif" style={{fontSize:14,fontWeight:700,color:"#111",letterSpacing:"-0.03em"}}>Alter-Info</span>
-          <span style={{fontSize:11,color:"#ccc",fontWeight:300,letterSpacing:"0.06em"}}>© 2025 Alter-Info · 대체투자 취준생을 위한 뉴스 큐레이션</span>
+          <span style={{fontSize:11,color:"#ccc",fontWeight:300,letterSpacing:"0.06em"}}>© 2026 Alter-Info · 대체투자 뉴스 큐레이션</span>
         </footer>
       )}
     </div>
