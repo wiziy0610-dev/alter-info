@@ -264,8 +264,12 @@ function Settings(){
 function App(){
   const [tab,setTab]=useState("home");
   const [cat,setCat]=useState(null); // null = 홈 랜딩
-  const [scrapped,setScrapped]=useState({});
-  const [memos,setMemos]=useState({});
+  const [scrapped,setScrapped]=useState(()=>{
+    try { return JSON.parse(localStorage.getItem("ai_scrapped")||"{}"); } catch { return {}; }
+  });
+  const [memos,setMemos]=useState(()=>{
+    try { return JSON.parse(localStorage.getItem("ai_memos")||"{}"); } catch { return {}; }
+  });
   const [data,setData]=useState(FALLBACK);
   const [loading,setLoading]=useState(true);
   const [mobile,setMobile]=useState(window.innerWidth<768);
@@ -289,7 +293,16 @@ function App(){
       navigator.serviceWorker.register("service-worker.js").catch(()=>{});
   },[]);
 
-  const toggle=id=>setScrapped(p=>({...p,[id]:!p[id]}));
+  const toggle=id=>setScrapped(p=>{
+    const next={...p,[id]:!p[id]};
+    try { localStorage.setItem("ai_scrapped",JSON.stringify(next)); } catch {}
+    return next;
+  });
+  const saveMemo=(id,txt)=>setMemos(p=>{
+    const next={...p,[id]:txt};
+    try { localStorage.setItem("ai_memos",JSON.stringify(next)); } catch {}
+    return next;
+  });
   const allFlat=Object.values(data).flat();
   const scrapCnt=Object.values(scrapped).filter(Boolean).length;
   const saved=allFlat.filter(n=>scrapped[n.id]);
@@ -386,7 +399,7 @@ function App(){
                 <span style={{fontSize:11,color:"#ccc",fontWeight:300}}>{loading?"업데이트 중…":`${allFlat.length}건`}</span>
               </div>
               {allFlat.slice(0,5).map(news=>(
-                <ArticleRow key={news.id} news={news} isScrapped={!!scrapped[news.id]} onToggle={toggle} memo={memos[news.id]||""} onMemo={(id,txt)=>setMemos(p=>({...p,[id]:txt}))}/>
+                <ArticleRow key={news.id} news={news} isScrapped={!!scrapped[news.id]} onToggle={toggle} memo={memos[news.id]||""} onMemo={saveMemo}/>
               ))}
               {allFlat.length>5&&(
                 <div style={{textAlign:"center",marginTop:"2rem"}}>
@@ -419,7 +432,7 @@ function App(){
                 </div>
               )}
               {list.map(news=>(
-                <ArticleRow key={news.id} news={news} isScrapped={!!scrapped[news.id]} onToggle={toggle} memo={memos[news.id]||""} onMemo={(id,txt)=>setMemos(p=>({...p,[id]:txt}))}/>
+                <ArticleRow key={news.id} news={news} isScrapped={!!scrapped[news.id]} onToggle={toggle} memo={memos[news.id]||""} onMemo={saveMemo}/>
               ))}
             </>
           )}
