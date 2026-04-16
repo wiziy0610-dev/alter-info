@@ -80,11 +80,15 @@
     function groupByCategory(arr) {
       const result = { 부동산:[], 인프라:[], PE:[], VC:[] };
       arr.forEach(item => {
-        const cat = item.category;
-        if (result[cat]) result[cat].push(item);
-      });
-      return result;
+        const cat = (item.category || "").trim();
+    if (result[cat] !== undefined) {
+      result[cat].push(item);
+    } else {
+      result["부동산"].push(item); // 분류 안되면 부동산에 넣기
     }
+  });
+  return result;
+}
 
     /* ── 뉴스 카드 ──────────────────────────────────────────── */
     function NewsCard({ news, isScrapped, onToggle }) {
