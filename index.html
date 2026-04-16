@@ -1,287 +1,288 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
   <title>Alt-In — 대체투자 뉴스</title>
-  <link rel="manifest" href="manifest.json" />
-  <meta name="theme-color" content="#185FA5" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-title" content="Alt-In" />
+  <link rel="manifest" href="manifest.json"/>
+  <meta name="theme-color" content="#111111"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-title" content="Alt-In"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600&family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet"/>
   <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f5f6f8; }
+    body { font-family: 'Noto Sans KR', sans-serif; background: #fff; color: #111; }
     button { font-family: inherit; }
-
-    /* 카테고리 탭 스크롤바 숨기기 */
+    .serif { font-family: 'Noto Serif KR', serif; }
     .tab-scroll { overflow-x: auto; display: flex; scrollbar-width: none; }
     .tab-scroll::-webkit-scrollbar { display: none; }
-
-    /* 카드 호버 */
-    .news-card { transition: box-shadow 0.15s; }
-    .news-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.07); }
-
-    /* 하단 안전 영역 (아이폰 홈 바) */
     .bottom-bar { padding-bottom: env(safe-area-inset-bottom); }
+    a { text-decoration: none; color: inherit; }
+    a:hover { opacity: 0.7; }
   </style>
 </head>
 <body>
-  <div id="root"></div>
+<div id="root"></div>
+<script type="text/babel">
+const { useState, useEffect } = React;
 
-  <script type="text/babel">
-    const { useState, useEffect } = React;
+const TAG_COLORS = {
+  리츠:    "#1a4a8a", 오피스: "#2d6a4f", 물류:   "#7b4f1e",
+  에너지:  "#1a6a5a", 교통:   "#4a3a8a", 디지털: "#1a4a8a",
+  바이아웃:"#7b4f1e", 엑시트: "#7a2040", 세컨더리:"#4a3a8a",
+  펀드결성:"#2d6a4f", 바이오: "#1a6a5a", AI:     "#1a4a8a",
+  대체투자:"#555",
+};
 
-    /* ── 태그 색상 ─────────────────────────────────────────── */
-    const TAG_COLORS = {
-      리츠:    { bg:"#EBF2FB", color:"#185FA5" },
-      오피스:  { bg:"#EAF3DE", color:"#3B6D11" },
-      물류:    { bg:"#FAEEDA", color:"#854F0B" },
-      에너지:  { bg:"#E1F5EE", color:"#0F6E56" },
-      교통:    { bg:"#EEEDFE", color:"#534AB7" },
-      디지털:  { bg:"#EBF2FB", color:"#185FA5" },
-      바이아웃:{ bg:"#FAEEDA", color:"#854F0B" },
-      엑시트:  { bg:"#FBEAF0", color:"#993556" },
-      세컨더리:{ bg:"#EEEDFE", color:"#534AB7" },
-      AI:      { bg:"#EBF2FB", color:"#185FA5" },
-      펀드결성:{ bg:"#EAF3DE", color:"#3B6D11" },
-      바이오:  { bg:"#E1F5EE", color:"#0F6E56" },
-    };
+const NEWS_CATS = ["부동산","인프라","PE","VC"];
 
-    /* ── 가상 데이터 (JSON 로드 실패 시 폴백) ───────────────── */
-    const FALLBACK_NEWS = {
-      부동산: [
-        { id:1, tag:"리츠", source:"한국경제", time:"2시간 전", title:"국내 리츠 시장, 2025년 공모 규모 역대 최대 전망", summary:["한국리츠협회에 따르면 2025년 상반기 공모 리츠 신규 상장 규모가 전년 대비 40% 증가할 전망이다.","물류·데이터센터 특화 리츠에 기관 투자자 자금 유입이 집중되며 섹터 다변화가 가속화되고 있다.","금리 안정화 기대감에 배당 수익률 메리트가 부각되며 개인 투자자 청약 경쟁률도 높아지고 있다."] },
-        { id:2, tag:"오피스", source:"매일경제", time:"4시간 전", title:"서울 도심 프라임 오피스 공실률 3%대 진입… 임대료 상승 지속", summary:["2025년 1분기 서울 도심(CBD) 프라임 오피스 공실률이 3.2%로 하락하며 수급 타이트 국면이 이어지고 있다.","글로벌 IB 및 외국계 법인의 확장 이전 수요가 공실 감소를 주도하고 있으며, 신규 공급은 제한적이다.","임대료는 전년 대비 7% 상승한 3.3만원/㎡ 수준으로, 투자 수익률 압축에 대한 우려도 동시에 제기된다."] },
-        { id:3, tag:"물류", source:"조선비즈", time:"6시간 전", title:"수도권 물류센터 투자, 이커머스 수요 둔화에도 '견조'", summary:["이커머스 성장세 둔화에도 콜드체인·라스트마일 특화 물류시설에 대한 기관 매입 수요는 꾸준하다.","수도권 3기 신도시 인근 입지를 중심으로 신규 개발 딜이 활발히 구성되고 있다.","Cap Rate는 5.2~5.8% 수준으로 유지되며, 외국계 코어플러스 펀드의 관심이 높아지고 있다."] },
-      ],
-      인프라: [
-        { id:4, tag:"에너지", source:"에너지경제", time:"1시간 전", title:"해상풍력 인프라 투자 확대… 기관 PF 구성 본격화", summary:["정부의 재생에너지 확대 정책에 따라 서남해·동해 해상풍력 프로젝트에 연기금·공제회 자금이 유입되고 있다.","PF 구조에서 선순위 대출 금리는 CD+180~200bp 수준에서 결정되는 추세다.","해외 인프라 펀드와 국내 기관이 공동 GP로 참여하는 구조가 늘어나며 딜 소싱 경쟁이 치열해지고 있다."] },
-        { id:5, tag:"교통", source:"파이낸셜뉴스", time:"3시간 전", title:"GTX-B 노선 민간투자 재구조화… 수익률 협상 막바지", summary:["GTX-B 노선 민간사업자 컨소시엄과 국토부 간 수익률 조정 협상이 최종 단계에 돌입했다.","IRR 목표치를 두고 5.5% vs 6.0% 수준에서 줄다리기가 이어지고 있다.","협상 타결 시 총 사업비 4.3조 원 규모의 딜이 본격 확정될 전망이다."] },
-        { id:6, tag:"디지털", source:"블로터", time:"5시간 전", title:"데이터센터 인프라, 대체투자 핵심 자산으로 급부상", summary:["AI 수요 폭증에 따라 하이퍼스케일 데이터센터가 글로벌 인프라 펀드의 최우선 투자 대상으로 자리 잡았다.","국내에서는 경기 북부·인천 지역 중심으로 외국계 운용사의 그린필드 개발이 본격화되고 있다.","전력 인프라 확보 및 인허가 리스크가 주요 병목으로 꼽힌다."] },
-      ],
-      PE: [
-        { id:7, tag:"바이아웃", source:"딜사이트", time:"30분 전", title:"국내 대형 PE, 2.5조 원 규모 블라인드 펀드 결성 완료", summary:["IMM프라이빗에쿼티가 국내 PE 역사상 최대 규모의 바이아웃 블라인드 펀드를 성공적으로 클로징했다.","국민연금·사학연금 등 국내 연기금이 앵커 LP로 참여하였으며 글로벌 기관의 참여도 확인됐다.","헬스케어·소비재·B2B 서비스 섹터 중심으로 포트폴리오 구성이 본격 시작될 전망이다."] },
-        { id:8, tag:"엑시트", source:"더벨", time:"2시간 전", title:"PE 보유 제조 포트폴리오 IPO 재추진… 밸류에이션 관건", summary:["국내 중견 PE 운용사 H사가 보유 중인 정밀부품 제조사의 코스피 IPO를 2025년 하반기 재추진한다.","EV/EBITDA 12~14배 밸류에이션을 목표로 실적 개선을 바탕으로 상장을 재추진하는 것이다.","수요예측 일정은 9월로 잠정 계획된 것으로 전해진다."] },
-        { id:9, tag:"세컨더리", source:"한국경제", time:"7시간 전", title:"글로벌 세컨더리 시장 역대 최대… 국내 운용사도 진출 타진", summary:["2024년 글로벌 PE 세컨더리 거래 규모가 1,600억 달러를 돌파하며 사상 최고치를 경신했다.","GP-led 컨티뉴에이션 펀드 거래 비중이 전체의 45%까지 확대됐다.","국내 운용사들도 세컨더리 전략 펀드 결성을 준비 중이다."] },
-      ],
-      VC: [
-        { id:10, tag:"AI", source:"스타트업투데이", time:"1시간 전", title:"AI 스타트업 투자 열기 지속… 시드 밸류에이션 고평가 우려", summary:["2025년 1분기 국내 AI 스타트업 시드 라운드 평균 밸류에이션이 전년 대비 60% 상승했다.","생성형 AI·에이전트 분야에 초기 투자가 집중되며, 일부 VC는 포트폴리오 쏠림 경고를 발령하고 있다.","글로벌 헤지펀드의 브릿지 투자 참여 증가로 시장 과열 신호가 감지된다."] },
-        { id:11, tag:"펀드결성", source:"벤처스퀘어", time:"4시간 전", title:"모태펀드 출자 사업 공고… 총 5,200억 원 규모", summary:["한국벤처투자가 2025년 상반기 모태펀드 정시 출자 사업 공고를 발표했다.","딥테크·바이오·소부장 분야 특화 GP에 가점을 부여하는 방식으로 선발 기준이 강화됐다.","출자 신청 마감은 5월 말이며, 최종 선정 결과는 7월 중 공지될 예정이다."] },
-        { id:12, tag:"바이오", source:"바이오스펙테이터", time:"6시간 전", title:"K-바이오 스타트업, 글로벌 VC 후속 투자 유치 잇따라", summary:["국내 항체·세포치료제 스타트업 3개사가 글로벌 헬스케어 VC로부터 시리즈B·C를 연이어 클로징했다.","M&A를 통한 글로벌 빅파마 엑시트 전략이 주목받고 있다.","FDA 임상 1상 승인 파이프라인 보유 기업에 프리미엄 밸류에이션이 집중되는 추세다."] },
-      ],
-    };
+const FALLBACK = {
+  부동산:[
+    {id:1,tag:"리츠",source:"한국경제",time:"2시간 전",title:"국내 리츠 시장, 2025년 공모 규모 역대 최대 전망",url:"https://www.hankyung.com",summary:["공모 리츠 신규 상장 규모가 전년 대비 40% 증가할 전망이다.","물류·데이터센터 특화 리츠에 기관 투자자 자금 유입이 집중되고 있다.","금리 안정화 기대감에 배당 수익률 메리트가 부각되고 있다."]},
+    {id:2,tag:"오피스",source:"매일경제",time:"4시간 전",title:"서울 도심 프라임 오피스 공실률 3%대 진입… 임대료 상승 지속",url:"https://www.mk.co.kr",summary:["서울 도심 프라임 오피스 공실률이 3.2%로 하락하며 수급 타이트 국면이 이어지고 있다.","글로벌 IB 및 외국계 법인의 확장 이전 수요가 공실 감소를 주도하고 있다.","임대료는 전년 대비 7% 상승한 3.3만원/㎡ 수준이다."]},
+    {id:3,tag:"물류",source:"조선비즈",time:"6시간 전",title:"수도권 물류센터 투자, 이커머스 수요 둔화에도 견조",url:"https://biz.chosun.com",summary:["콜드체인·라스트마일 특화 물류시설에 대한 기관 매입 수요는 꾸준하다.","수도권 3기 신도시 인근 입지를 중심으로 신규 개발 딜이 활발히 구성되고 있다.","Cap Rate는 5.2~5.8% 수준으로 유지되고 있다."]},
+  ],
+  인프라:[
+    {id:4,tag:"에너지",source:"에너지경제",time:"1시간 전",title:"해상풍력 인프라 투자 확대… 기관 PF 구성 본격화",url:"https://www.energy-news.co.kr",summary:["서남해·동해 해상풍력 프로젝트에 연기금·공제회 자금이 유입되고 있다.","선순위 대출 금리는 CD+180~200bp 수준에서 결정되는 추세다.","해외 인프라 펀드와 국내 기관이 공동 GP로 참여하는 구조가 늘어나고 있다."]},
+    {id:5,tag:"교통",source:"파이낸셜뉴스",time:"3시간 전",title:"GTX-B 노선 민간투자 재구조화… 수익률 협상 막바지",url:"https://www.fnnews.com",summary:["GTX-B 민간사업자와 국토부 간 수익률 조정 협상이 최종 단계에 돌입했다.","IRR 목표치를 두고 5.5% vs 6.0% 수준에서 줄다리기가 이어지고 있다.","총 사업비 4.3조 원 규모의 딜이 본격 확정될 전망이다."]},
+    {id:6,tag:"디지털",source:"블로터",time:"5시간 전",title:"데이터센터 인프라, 대체투자 핵심 자산으로 급부상",url:"https://www.bloter.net",summary:["하이퍼스케일 데이터센터가 글로벌 인프라 펀드의 최우선 투자 대상으로 자리 잡았다.","경기 북부·인천 지역 중심으로 외국계 운용사의 그린필드 개발이 본격화되고 있다.","전력 인프라 확보 및 인허가 리스크가 주요 병목으로 꼽힌다."]},
+  ],
+  PE:[
+    {id:7,tag:"바이아웃",source:"딜사이트",time:"30분 전",title:"국내 대형 PE, 2.5조 원 규모 블라인드 펀드 결성 완료",url:"https://dealsite.co.kr",summary:["IMM프라이빗에쿼티가 국내 PE 역사상 최대 규모 바이아웃 블라인드 펀드를 클로징했다.","국민연금·사학연금 등 국내 연기금이 앵커 LP로 참여했다.","헬스케어·소비재·B2B 서비스 섹터 중심으로 포트폴리오 구성이 시작될 전망이다."]},
+    {id:8,tag:"엑시트",source:"더벨",time:"2시간 전",title:"PE 보유 제조 포트폴리오 IPO 재추진… 밸류에이션 관건",url:"https://thebell.co.kr",summary:["정밀부품 제조사의 코스피 IPO를 2025년 하반기 재추진한다.","EV/EBITDA 12~14배 밸류에이션을 목표로 한다.","수요예측 일정은 9월로 잠정 계획됐다."]},
+    {id:9,tag:"세컨더리",source:"한국경제",time:"7시간 전",title:"글로벌 세컨더리 시장 역대 최대… 국내 운용사도 진출 타진",url:"https://www.hankyung.com",summary:["글로벌 PE 세컨더리 거래 규모가 1,600억 달러를 돌파하며 사상 최고치를 경신했다.","GP-led 컨티뉴에이션 펀드 거래 비중이 전체의 45%까지 확대됐다.","국내 운용사들도 세컨더리 전략 펀드 결성을 준비 중이다."]},
+  ],
+  VC:[
+    {id:10,tag:"AI",source:"스타트업투데이",time:"1시간 전",title:"AI 스타트업 투자 열기 지속… 시드 밸류에이션 고평가 우려",url:"https://startuptoday.co.kr",summary:["국내 AI 스타트업 시드 라운드 평균 밸류에이션이 전년 대비 60% 상승했다.","일부 VC는 포트폴리오 쏠림에 대한 내부 경고를 발령하고 있다.","글로벌 헤지펀드의 브릿지 투자 참여 증가로 시장 과열 신호가 감지된다."]},
+    {id:11,tag:"펀드결성",source:"벤처스퀘어",time:"4시간 전",title:"모태펀드 출자 사업 공고… 총 5,200억 원 규모",url:"https://www.venturesquare.net",summary:["한국벤처투자가 총 5,200억 원 출자 계획을 밝혔다.","딥테크·바이오·소부장 분야 특화 GP에 가점을 부여하는 방식으로 선발 기준이 강화됐다.","출자 신청 마감은 5월 말이며 최종 선정 결과는 7월 중 공지될 예정이다."]},
+    {id:12,tag:"바이오",source:"바이오스펙테이터",time:"6시간 전",title:"K-바이오 스타트업, 글로벌 VC 후속 투자 유치 잇따라",url:"https://www.biospectator.com",summary:["항체·세포치료제 스타트업 3개사가 글로벌 헬스케어 VC로부터 시리즈B·C를 클로징했다.","M&A를 통한 글로벌 빅파마 엑시트 전략이 주목받고 있다.","FDA 임상 1상 승인 파이프라인 보유 기업에 프리미엄 밸류에이션이 집중되고 있다."]},
+  ],
+};
 
-    const NEWS_CATS = ["부동산","인프라","PE","VC"];
-
-    /* ── JSON → 카테고리별 구조로 변환 ─────────────────────── */
-    function groupByCategory(arr) {
-      const result = { 부동산:[], 인프라:[], PE:[], VC:[] };
-      arr.forEach(item => {
-        const cat = (item.category || "").trim();
-    if (result[cat] !== undefined) {
-      result[cat].push(item);
-    } else {
-      result["부동산"].push(item); // 분류 안되면 부동산에 넣기
-    }
+function groupByCategory(arr) {
+  const result = { 부동산:[], 인프라:[], PE:[], VC:[] };
+  arr.forEach(item => {
+    const cat = (item.category||"").trim();
+    if (result[cat] !== undefined) result[cat].push(item);
+    else result["부동산"].push(item);
   });
   return result;
 }
 
-    /* ── 뉴스 카드 ──────────────────────────────────────────── */
-    function NewsCard({ news, isScrapped, onToggle }) {
-      const tc = TAG_COLORS[news.tag] || { bg:"#F1EFE8", color:"#5F5E5A" };
-      return (
-        <div className="news-card" style={{ background:"#fff", border:"0.5px solid #e2e4e8", borderRadius:14, padding:"1rem 1.1rem 0.9rem", display:"flex", flexDirection:"column", gap:9 }}>
-          <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between" }}>
-            <span style={{ fontSize:11, fontWeight:600, background:tc.bg, color:tc.color, borderRadius:4, padding:"2px 8px" }}>{news.tag}</span>
-            <span style={{ fontSize:11, color:"#9ca3af" }}>{news.source} · {news.time}</span>
+// 의미없는 요약 필터링
+function cleanSummary(summary, title) {
+  if (!summary) return [];
+  return summary.filter(s =>
+    s && s.length > 10 &&
+    !s.includes("관한 기사입니다") &&
+    !s.includes("본문을 불러오지") &&
+    !s.includes("링크를 클릭해") &&
+    !s.includes("원문을 확인하세요") &&
+    !s.includes("자세한 내용은") &&
+    s !== title
+  );
+}
+
+/* ── 뉴스 카드 ── */
+function NewsCard({ news, isScrapped, onToggle }) {
+  const tagColor = TAG_COLORS[news.tag] || "#555";
+  const summary = cleanSummary(news.summary, news.title);
+
+  return (
+    <div style={{ borderTop:"1px solid #e8e8e8", padding:"2rem 0", cursor:"pointer" }}>
+      <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", marginBottom:"0.75rem" }}>
+        <span style={{ fontSize:11, fontWeight:500, color:tagColor, letterSpacing:"0.08em", textTransform:"uppercase", border:`1px solid ${tagColor}`, borderRadius:2, padding:"2px 8px" }}>{news.tag}</span>
+        <span style={{ fontSize:12, color:"#999", fontWeight:300 }}>{news.source} · {news.time}</span>
+      </div>
+
+      <a href={news.url} target="_blank" rel="noopener noreferrer">
+        <h3 className="serif" style={{ fontSize:"clamp(16px, 2.5vw, 20px)", fontWeight:600, color:"#111", lineHeight:1.6, marginBottom: summary.length ? "1rem" : 0, letterSpacing:"-0.02em" }}>
+          {news.title}
+        </h3>
+      </a>
+
+      {summary.length > 0 && (
+        <ul style={{ listStyle:"none", display:"flex", flexDirection:"column", gap:"0.4rem", marginBottom:"1.25rem" }}>
+          {summary.map((line, i) => (
+            <li key={i} style={{ display:"flex", gap:10, fontSize:13, color:"#555", lineHeight:1.7, fontWeight:300 }}>
+              <span style={{ flexShrink:0, marginTop:7, width:3, height:3, borderRadius:"50%", background:"#bbb", display:"inline-block" }}/>
+              <span>{line}</span>
+            </li>
+          ))}
+        </ul>
+      )}
+
+      <div style={{ display:"flex", justifyContent:"flex-end" }}>
+        <button onClick={() => onToggle(news.id)} style={{ display:"flex", alignItems:"center", gap:5, fontSize:12, fontWeight:400, padding:"5px 14px", borderRadius:2, border: isScrapped ? "1px solid #111" : "1px solid #ddd", background: isScrapped ? "#111" : "transparent", color: isScrapped ? "#fff" : "#999", cursor:"pointer", letterSpacing:"0.05em" }}>
+          <svg width="11" height="11" viewBox="0 0 12 12" fill={isScrapped?"white":"none"} stroke={isScrapped?"white":"#aaa"} strokeWidth="1.5"><path d="M2 2h8v9L6 8.5 2 11V2z" strokeLinecap="round" strokeLinejoin="round"/></svg>
+          {isScrapped ? "저장됨" : "저장"}
+        </button>
+      </div>
+    </div>
+  );
+}
+
+/* ── 설정 화면 ── */
+function SettingsScreen() {
+  const [notif, setNotif] = useState(true);
+  const Toggle = ({ on, onToggle }) => (
+    <div onClick={onToggle} style={{ width:40, height:22, borderRadius:11, background:on?"#111":"#ddd", cursor:"pointer", position:"relative", transition:"background 0.2s", flexShrink:0 }}>
+      <div style={{ position:"absolute", top:3, left:on?21:3, width:16, height:16, borderRadius:"50%", background:"white", transition:"left 0.2s" }}/>
+    </div>
+  );
+  const Row = ({ label, sub, children }) => (
+    <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", padding:"1.1rem 0", borderBottom:"1px solid #f0f0f0" }}>
+      <div>
+        <p style={{ fontSize:14, color:"#111", fontWeight:400 }}>{label}</p>
+        {sub && <p style={{ fontSize:12, color:"#aaa", marginTop:2, fontWeight:300 }}>{sub}</p>}
+      </div>
+      {children}
+    </div>
+  );
+  return (
+    <div style={{ maxWidth:480 }}>
+      <Row label="새 기사 알림" sub="매일 오전 7시 업데이트"><Toggle on={notif} onToggle={()=>setNotif(p=>!p)}/></Row>
+      <Row label="앱 버전" sub="v1.0.0 Beta"><span style={{fontSize:12,color:"#ccc"}}>→</span></Row>
+      <Row label="문의 / 피드백"><span style={{fontSize:12,color:"#ccc"}}>→</span></Row>
+      <p style={{ fontSize:12, color:"#ccc", marginTop:"2rem", fontWeight:300, letterSpacing:"0.05em" }}>ALT-IN · 대체투자 취준생을 위한 뉴스 큐레이션</p>
+    </div>
+  );
+}
+
+/* ── 메인 ── */
+function App() {
+  const [bottomTab, setBottomTab] = useState("home");
+  const [newsTab,   setNewsTab]   = useState("부동산");
+  const [scrapped,  setScrapped]  = useState({});
+  const [newsData,  setNewsData]  = useState(FALLBACK);
+  const [loading,   setLoading]   = useState(true);
+  const [isMobile,  setIsMobile]  = useState(window.innerWidth < 768);
+
+  useEffect(() => {
+    const fn = () => setIsMobile(window.innerWidth < 768);
+    window.addEventListener("resize", fn);
+    return () => window.removeEventListener("resize", fn);
+  }, []);
+
+  useEffect(() => {
+    fetch("alt_in_news.json")
+      .then(r => { if (!r.ok) throw new Error(); return r.json(); })
+      .then(arr => { if (arr.length > 0) setNewsData(groupByCategory(arr)); })
+      .catch(() => {})
+      .finally(() => setLoading(false));
+  }, []);
+
+  useEffect(() => {
+    if ("serviceWorker" in navigator)
+      navigator.serviceWorker.register("service-worker.js").catch(()=>{});
+  }, []);
+
+  const toggle = id => setScrapped(p => ({ ...p, [id]: !p[id] }));
+  const allFlat      = Object.values(newsData).flat();
+  const scrapCount   = Object.values(scrapped).filter(Boolean).length;
+  const scrappedNews = allFlat.filter(n => scrapped[n.id]);
+  const displayNews  = bottomTab === "bookmark" ? scrappedNews : (newsData[newsTab]||[]);
+
+  const TABS = [
+    { id:"home",     label:"홈" },
+    { id:"bookmark", label:"저장" },
+    { id:"settings", label:"설정" },
+  ];
+
+  const px = isMobile ? "1.25rem" : "3rem";
+
+  return (
+    <div style={{ minHeight:"100vh", background:"#fff" }}>
+
+      {/* 헤더 */}
+      <header style={{ borderBottom:"1px solid #111", position:"sticky", top:0, background:"#fff", zIndex:10 }}>
+        <div style={{ maxWidth:900, margin:"0 auto", padding:`0 ${px}`, display:"flex", alignItems:"center", justifyContent:"space-between", height:56 }}>
+          <div style={{ display:"flex", alignItems:"center", gap:10 }}>
+            <span className="serif" style={{ fontSize:20, fontWeight:600, letterSpacing:"-0.03em", color:"#111" }}>Alt-In</span>
+            <span style={{ fontSize:10, color:"#aaa", letterSpacing:"0.1em", fontWeight:300 }}>BETA</span>
           </div>
-          {news.url
-            ? <a href={news.url} target="_blank" rel="noopener noreferrer" style={{ fontSize:14, fontWeight:600, color:"#111827", lineHeight:1.55, textDecoration:"none" }}>{news.title}</a>
-            : <p style={{ fontSize:14, fontWeight:600, color:"#111827", lineHeight:1.55 }}>{news.title}</p>
-          }
-          <ul style={{ listStyle:"none", display:"flex", flexDirection:"column", gap:5 }}>
-            {(news.summary||[]).map((line,i) => (
-              <li key={i} style={{ display:"flex", gap:7, fontSize:12, color:"#6b7280", lineHeight:1.6 }}>
-                <span style={{ flexShrink:0, marginTop:6, width:4, height:4, borderRadius:"50%", background:"#378ADD", display:"inline-block" }}/>
-                <span>{line}</span>
-              </li>
-            ))}
-          </ul>
-          <div style={{ display:"flex", justifyContent:"flex-end", paddingTop:6, borderTop:"0.5px solid #e2e4e8" }}>
-            <button onClick={() => onToggle(news.id)} style={{ display:"flex", alignItems:"center", gap:5, fontSize:12, fontWeight:500, padding:"5px 14px", borderRadius:8, border: isScrapped ? "1.5px solid #185FA5" : "0.5px solid #d1d5db", background: isScrapped ? "#EBF2FB" : "transparent", color: isScrapped ? "#185FA5" : "#6b7280", cursor:"pointer" }}>
-              <svg width="12" height="12" viewBox="0 0 12 12" fill={isScrapped?"#185FA5":"none"} stroke={isScrapped?"#185FA5":"currentColor"} strokeWidth="1.5"><path d="M2 2h8v9L6 8.5 2 11V2z" strokeLinecap="round" strokeLinejoin="round"/></svg>
-              {isScrapped ? "스크랩됨" : "스크랩"}
-            </button>
-          </div>
-        </div>
-      );
-    }
-
-    /* ── 설정 화면 ──────────────────────────────────────────── */
-    function SettingsScreen() {
-      const [notif, setNotif] = useState(true);
-      const Toggle = ({ on, onToggle }) => (
-        <div onClick={onToggle} style={{ width:44, height:24, borderRadius:12, background:on?"#185FA5":"#d1d5db", cursor:"pointer", position:"relative", transition:"background 0.2s", flexShrink:0 }}>
-          <div style={{ position:"absolute", top:3, left:on?23:3, width:18, height:18, borderRadius:"50%", background:"white", transition:"left 0.2s" }}/>
-        </div>
-      );
-      const Row = ({ label, sub, children }) => (
-        <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", padding:"14px 0", borderBottom:"0.5px solid #e2e4e8" }}>
-          <div>
-            <p style={{ fontSize:14, fontWeight:500, color:"#111827" }}>{label}</p>
-            {sub && <p style={{ fontSize:12, color:"#9ca3af", marginTop:2 }}>{sub}</p>}
-          </div>
-          {children}
-        </div>
-      );
-      return (
-        <div style={{ padding:"0 1rem" }}>
-          <div style={{ background:"#fff", border:"0.5px solid #e2e4e8", borderRadius:14, padding:"0 1rem", marginBottom:"1rem" }}>
-            <Row label="새 기사 알림" sub="매일 오전 7시 업데이트 알림"><Toggle on={notif} onToggle={()=>setNotif(p=>!p)}/></Row>
-            <Row label="앱 버전" sub="v1.0.0 Beta"><span style={{fontSize:12,color:"#9ca3af"}}>→</span></Row>
-            <Row label="문의 / 피드백"><span style={{fontSize:12,color:"#9ca3af"}}>→</span></Row>
-          </div>
-          <p style={{ fontSize:12, color:"#9ca3af", textAlign:"center", marginTop:"1.5rem" }}>Alt-In · 대체투자 취준생을 위한 뉴스 큐레이션</p>
-        </div>
-      );
-    }
-
-    /* ── 메인 앱 ────────────────────────────────────────────── */
-    function App() {
-      const [bottomTab, setBottomTab] = useState("home");
-      const [newsTab,   setNewsTab]   = useState("부동산");
-      const [scrapped,  setScrapped]  = useState({});
-      const [newsData,  setNewsData]  = useState(FALLBACK_NEWS);
-      const [loading,   setLoading]   = useState(true);
-      const [isMobile,  setIsMobile]  = useState(window.innerWidth < 768);
-
-      /* 반응형 */
-      useEffect(() => {
-        const fn = () => setIsMobile(window.innerWidth < 768);
-        window.addEventListener("resize", fn);
-        return () => window.removeEventListener("resize", fn);
-      }, []);
-
-      /* JSON 불러오기 */
-      useEffect(() => {
-        fetch("alt_in_news.json")
-          .then(r => { if (!r.ok) throw new Error(); return r.json(); })
-          .then(arr => { setNewsData(groupByCategory(arr)); })
-          .catch(() => { /* 실패 시 FALLBACK_NEWS 유지 */ })
-          .finally(() => setLoading(false));
-      }, []);
-
-      /* 서비스 워커 등록 */
-      useEffect(() => {
-        if ("serviceWorker" in navigator)
-          navigator.serviceWorker.register("service-worker.js").catch(()=>{});
-      }, []);
-
-      const toggle = id => setScrapped(p => ({ ...p, [id]: !p[id] }));
-      const allFlat     = Object.values(newsData).flat();
-      const scrapCount  = Object.values(scrapped).filter(Boolean).length;
-      const scrappedNews= allFlat.filter(n => scrapped[n.id]);
-      const displayNews = bottomTab === "bookmark" ? scrappedNews : (newsData[newsTab]||[]);
-
-      const TABS = [
-        { id:"home",     label:"홈",
-          Icon: ({a}) => <svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke={a?"#185FA5":"#9ca3af"} strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M3 9.5L11 3l8 6.5V19a1 1 0 01-1 1H4a1 1 0 01-1-1V9.5z"/><path d="M8 20V12h6v8"/></svg> },
-        { id:"bookmark", label:"스크랩",
-          Icon: ({a}) => <svg width="22" height="22" viewBox="0 0 22 22" fill={a?"#185FA5":"none"} stroke={a?"#185FA5":"#9ca3af"} strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M5 3h12a1 1 0 011 1v15l-7-4-7 4V4a1 1 0 011-1z"/></svg> },
-        { id:"settings", label:"설정",
-          Icon: ({a}) => <svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke={a?"#185FA5":"#9ca3af"} strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="3"/><path d="M19.4 14a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06-.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg> },
-      ];
-
-      const headerTitle = { home:"Alt-In", bookmark:"스크랩", settings:"설정" }[bottomTab];
-
-      return (
-        <div style={{ minHeight:"100vh", background:"#f5f6f8", display:"flex", flexDirection:"column" }}>
-
-          {/* 헤더 */}
-          <div style={{ background:"#fff", borderBottom:"0.5px solid #e2e4e8", padding: isMobile?"0 1rem":"0 2rem", position:"sticky", top:0, zIndex:10 }}>
-            <div style={{ maxWidth:1100, margin:"0 auto" }}>
-              <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", height:52 }}>
-                <div style={{ display:"flex", alignItems:"center", gap:8 }}>
-                  <div style={{ width:26, height:26, borderRadius:6, background:"#185FA5", display:"flex", alignItems:"center", justifyContent:"center" }}>
-                    <svg width="13" height="13" viewBox="0 0 14 14" fill="none"><path d="M2 10L7 4l5 6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                  </div>
-                  <span style={{ fontSize:17, fontWeight:600, color:"#111827", letterSpacing:"-0.3px" }}>{headerTitle}</span>
-                  {bottomTab==="home" && <span style={{ fontSize:10, color:"#185FA5", background:"#EBF2FB", borderRadius:4, padding:"1px 6px", fontWeight:600 }}>Beta</span>}
-                </div>
-                {bottomTab==="bookmark" && <span style={{ fontSize:12, color:"#9ca3af" }}>총 {scrapCount}건</span>}
-                {loading && <span style={{ fontSize:12, color:"#9ca3af" }}>불러오는 중…</span>}
-              </div>
-              {bottomTab==="home" && (
-                <div className="tab-scroll">
-                  {NEWS_CATS.map(cat => (
-                    <button key={cat} onClick={()=>setNewsTab(cat)} style={{ padding: isMobile?"0.5rem 1rem":"0.6rem 1.5rem", fontSize:14, fontWeight:newsTab===cat?600:400, color:newsTab===cat?"#185FA5":"#6b7280", background:"none", border:"none", borderBottom:newsTab===cat?"2px solid #185FA5":"2px solid transparent", cursor:"pointer", whiteSpace:"nowrap", flexShrink:0 }}>{cat}</button>
-                  ))}
-                </div>
-              )}
-            </div>
-          </div>
-
-          {/* 본문 */}
-          <div style={{ flex:1, overflowY:"auto", paddingBottom: isMobile?72:0 }}>
-            <div style={{ maxWidth:1100, margin:"0 auto", padding: isMobile?"1rem":"1.5rem 2rem" }}>
-              {bottomTab==="settings" && <SettingsScreen/>}
-
-              {bottomTab!=="settings" && (
-                <>
-                  <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", marginBottom:"0.75rem" }}>
-                    <h2 style={{ fontSize:14, fontWeight:600, color:"#111827" }}>{bottomTab==="bookmark"?"스크랩한 기사":`${newsTab} 주요 뉴스`}</h2>
-                    <span style={{ fontSize:12, color:"#9ca3af" }}>{displayNews.length}건</span>
-                  </div>
-
-                  {bottomTab==="bookmark" && scrappedNews.length===0 && (
-                    <div style={{ display:"flex", flexDirection:"column", alignItems:"center", padding:"4rem 2rem", gap:12 }}>
-                      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="#d1d5db" strokeWidth="1.5"><path d="M8 6h20v26L18 24 8 32V6z" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                      <p style={{ fontSize:14, color:"#9ca3af", textAlign:"center" }}>스크랩한 기사가 없어요.<br/>뉴스 카드의 스크랩 버튼을 눌러보세요.</p>
-                    </div>
-                  )}
-
-                  <div style={{ display:"grid", gridTemplateColumns: isMobile?"1fr":"repeat(auto-fill, minmax(300px,1fr))", gap:12 }}>
-                    {displayNews.map(news => (
-                      <NewsCard key={news.id} news={news} isScrapped={!!scrapped[news.id]} onToggle={toggle}/>
-                    ))}
-                  </div>
-                </>
-              )}
-            </div>
-          </div>
-
-          {/* 하단 탭 바 */}
-          {isMobile ? (
-            <div className="bottom-bar" style={{ position:"fixed", bottom:0, left:0, right:0, background:"#fff", borderTop:"0.5px solid #e2e4e8", display:"flex", zIndex:20 }}>
-              {TABS.map(({ id, label, Icon }) => (
-                <button key={id} onClick={()=>setBottomTab(id)} style={{ flex:1, display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center", gap:3, padding:"10px 0 8px", background:"none", border:"none", cursor:"pointer", color: id===bottomTab?"#185FA5":"#9ca3af", position:"relative" }}>
-                  <div style={{ position:"relative" }}>
-                    <Icon a={id===bottomTab}/>
-                    {id==="bookmark" && scrapCount>0 && <span style={{ position:"absolute", top:-4, right:-6, fontSize:9, fontWeight:600, background:"#185FA5", color:"white", borderRadius:10, padding:"1px 4px", minWidth:14, textAlign:"center" }}>{scrapCount}</span>}
-                  </div>
-                  <span style={{ fontSize:10, fontWeight: id===bottomTab?600:400 }}>{label}</span>
+          {!isMobile && (
+            <nav style={{ display:"flex", gap:28 }}>
+              {TABS.map(t => (
+                <button key={t.id} onClick={()=>setBottomTab(t.id)} style={{ fontSize:13, fontWeight: bottomTab===t.id ? 500 : 300, color: bottomTab===t.id ? "#111" : "#aaa", background:"none", border:"none", cursor:"pointer", letterSpacing:"0.05em", position:"relative", paddingBottom:2, borderBottom: bottomTab===t.id ? "1px solid #111" : "none" }}>
+                  {t.label}{t.id==="bookmark" && scrapCount>0 && ` (${scrapCount})`}
                 </button>
               ))}
-            </div>
-          ) : (
-            <div style={{ background:"#fff", borderTop:"0.5px solid #e2e4e8", padding:"0.75rem 2rem", display:"flex", justifyContent:"center", gap:32 }}>
-              {TABS.map(({ id, label, Icon }) => (
-                <button key={id} onClick={()=>setBottomTab(id)} style={{ display:"flex", alignItems:"center", gap:6, fontSize:13, fontWeight: id===bottomTab?600:400, color: id===bottomTab?"#185FA5":"#6b7280", background:"none", border:"none", cursor:"pointer" }}>
-                  <Icon a={id===bottomTab}/>{label}
-                  {id==="bookmark" && scrapCount>0 && <span style={{ fontSize:10, fontWeight:600, background:"#185FA5", color:"white", borderRadius:10, padding:"1px 6px" }}>{scrapCount}</span>}
-                </button>
-              ))}
-            </div>
+            </nav>
           )}
+          {loading && <span style={{fontSize:11,color:"#ccc",fontWeight:300}}>업데이트 중…</span>}
         </div>
-      );
-    }
 
-    ReactDOM.createRoot(document.getElementById("root")).render(<App/>);
-  </script>
+        {/* 카테고리 탭 */}
+        {bottomTab==="home" && (
+          <div style={{ maxWidth:900, margin:"0 auto", padding:`0 ${px}` }}>
+            <div className="tab-scroll" style={{ gap:0 }}>
+              {NEWS_CATS.map(cat => (
+                <button key={cat} onClick={()=>setNewsTab(cat)} style={{ padding:"0.6rem 1.2rem 0.6rem 0", fontSize:13, fontWeight: newsTab===cat ? 500 : 300, color: newsTab===cat ? "#111" : "#bbb", background:"none", border:"none", borderBottom: newsTab===cat ? "2px solid #111" : "2px solid transparent", cursor:"pointer", whiteSpace:"nowrap", letterSpacing:"0.03em" }}>
+                  {cat}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+      </header>
+
+      {/* 본문 */}
+      <main style={{ maxWidth:900, margin:"0 auto", padding:`2rem ${px}`, paddingBottom: isMobile ? "80px" : "3rem" }}>
+
+        {bottomTab==="settings" && <SettingsScreen/>}
+
+        {bottomTab!=="settings" && (
+          <>
+            {/* 섹션 헤더 */}
+            <div style={{ display:"flex", alignItems:"baseline", justifyContent:"space-between", marginBottom:"0.5rem" }}>
+              <h2 className="serif" style={{ fontSize:"clamp(22px, 4vw, 32px)", fontWeight:600, color:"#111", letterSpacing:"-0.03em" }}>
+                {bottomTab==="bookmark" ? "저장한 기사" : `${newsTab}`}
+              </h2>
+              <span style={{ fontSize:12, color:"#bbb", fontWeight:300 }}>{displayNews.length}건</span>
+            </div>
+
+            {/* 북마크 빈 상태 */}
+            {bottomTab==="bookmark" && scrappedNews.length===0 && (
+              <div style={{ paddingTop:"4rem", textAlign:"center" }}>
+                <p style={{ fontSize:14, color:"#ccc", fontWeight:300, lineHeight:2 }}>저장한 기사가 없어요.<br/>기사 카드 우측 하단의 저장 버튼을 눌러보세요.</p>
+              </div>
+            )}
+
+            {/* 카드 목록 */}
+            <div>
+              {displayNews.map(news => (
+                <NewsCard key={news.id} news={news} isScrapped={!!scrapped[news.id]} onToggle={toggle}/>
+              ))}
+            </div>
+          </>
+        )}
+      </main>
+
+      {/* 모바일 하단 탭 */}
+      {isMobile && (
+        <div className="bottom-bar" style={{ position:"fixed", bottom:0, left:0, right:0, background:"#fff", borderTop:"1px solid #e8e8e8", display:"flex", zIndex:20 }}>
+          {TABS.map(({ id, label }) => (
+            <button key={id} onClick={()=>setBottomTab(id)} style={{ flex:1, display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center", gap:2, padding:"10px 0 8px", background:"none", border:"none", cursor:"pointer", color: id===bottomTab?"#111":"#bbb", fontSize:11, fontWeight: id===bottomTab?500:300, letterSpacing:"0.05em", position:"relative" }}>
+              {label}
+              {id==="bookmark" && scrapCount>0 && (
+                <span style={{ position:"absolute", top:6, right:"25%", fontSize:8, fontWeight:500, background:"#111", color:"white", borderRadius:10, padding:"1px 4px" }}>{scrapCount}</span>
+              )}
+              {id===bottomTab && <div style={{ width:4, height:4, borderRadius:"50%", background:"#111" }}/>}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App/>);
+</script>
 </body>
 </html>
