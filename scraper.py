@@ -16,14 +16,48 @@ log = logging.getLogger(__name__)
 KST = timezone(timedelta(hours=9))
 
 RSS_FEEDS = [
-    {"url": "https://news.google.com/rss/search?q=부동산+펀드+투자&hl=ko&gl=KR&ceid=KR:ko",            "category": "부동산"},
-    {"url": "https://news.google.com/rss/search?q=리츠+REITs+상장&hl=ko&gl=KR&ceid=KR:ko",             "category": "부동산"},
-    {"url": "https://news.google.com/rss/search?q=사모펀드+PEF+운용&hl=ko&gl=KR&ceid=KR:ko",           "category": "PE"},
-    {"url": "https://news.google.com/rss/search?q=바이아웃+인수합병+PE&hl=ko&gl=KR&ceid=KR:ko",        "category": "PE"},
-    {"url": "https://news.google.com/rss/search?q=인프라+펀드+투자&hl=ko&gl=KR&ceid=KR:ko",            "category": "인프라"},
-    {"url": "https://news.google.com/rss/search?q=신재생에너지+풍력+태양광+투자&hl=ko&gl=KR&ceid=KR:ko","category": "인프라"},
-    {"url": "https://news.google.com/rss/search?q=벤처캐피탈+스타트업+투자유치&hl=ko&gl=KR&ceid=KR:ko","category": "VC"},
-    {"url": "https://news.google.com/rss/search?q=모태펀드+창업투자&hl=ko&gl=KR&ceid=KR:ko",           "category": "VC"},
+    # ── 부동산 ──────────────────────────────────────────────────
+    {"url": "https://news.google.com/rss/search?q=부동산+펀드+투자&hl=ko&gl=KR&ceid=KR:ko",              "category": "부동산"},
+    {"url": "https://news.google.com/rss/search?q=리츠+REITs+상장&hl=ko&gl=KR&ceid=KR:ko",               "category": "부동산"},
+    {"url": "https://news.google.com/rss/search?q=오피스+물류센터+부동산투자&hl=ko&gl=KR&ceid=KR:ko",     "category": "부동산"},
+    {"url": "https://news.google.com/rss/search?q=해외부동산+투자&hl=ko&gl=KR&ceid=KR:ko",               "category": "부동산"},
+    # 한국경제 부동산
+    {"url": "https://rss.hankyung.com/realestate.xml",                                                  "category": "부동산"},
+    # 매일경제 부동산
+    {"url": "https://www.mk.co.kr/rss/30000041/",                                                       "category": "부동산"},
+    # 연합뉴스 부동산
+    {"url": "https://www.yna.co.kr/rss/real-estate.xml",                                               "category": "부동산"},
+
+    # ── 인프라 ──────────────────────────────────────────────────
+    {"url": "https://news.google.com/rss/search?q=인프라+펀드+투자&hl=ko&gl=KR&ceid=KR:ko",              "category": "인프라"},
+    {"url": "https://news.google.com/rss/search?q=신재생에너지+풍력+태양광+투자&hl=ko&gl=KR&ceid=KR:ko", "category": "인프라"},
+    {"url": "https://news.google.com/rss/search?q=데이터센터+인프라+투자&hl=ko&gl=KR&ceid=KR:ko",        "category": "인프라"},
+    {"url": "https://news.google.com/rss/search?q=수소+에너지+인프라+투자&hl=ko&gl=KR&ceid=KR:ko",       "category": "인프라"},
+    # 연합뉴스 에너지
+    {"url": "https://www.yna.co.kr/rss/economy.xml",                                                   "category": "인프라"},
+
+    # ── PE ──────────────────────────────────────────────────────
+    {"url": "https://news.google.com/rss/search?q=사모펀드+PEF+운용&hl=ko&gl=KR&ceid=KR:ko",            "category": "PE"},
+    {"url": "https://news.google.com/rss/search?q=바이아웃+인수합병+PE&hl=ko&gl=KR&ceid=KR:ko",          "category": "PE"},
+    {"url": "https://news.google.com/rss/search?q=세컨더리+블라인드펀드&hl=ko&gl=KR&ceid=KR:ko",         "category": "PE"},
+    {"url": "https://news.google.com/rss/search?q=딜사이트+사모펀드&hl=ko&gl=KR&ceid=KR:ko",            "category": "PE"},
+    {"url": "https://news.google.com/rss/search?q=더벨+PE+인수&hl=ko&gl=KR&ceid=KR:ko",                "category": "PE"},
+    {"url": "https://news.google.com/rss/search?q=seoulpi+사모펀드&hl=ko&gl=KR&ceid=KR:ko",            "category": "PE"},
+    {"url": "https://news.google.com/rss/search?q=dealbook+PEF+인수&hl=ko&gl=KR&ceid=KR:ko",          "category": "PE"},
+    # 한국경제 증권
+    {"url": "https://rss.hankyung.com/finance.xml",                                                    "category": "PE"},
+    # 매일경제 증권
+    {"url": "https://www.mk.co.kr/rss/40300001/",                                                      "category": "PE"},
+
+    # ── VC ──────────────────────────────────────────────────────
+    {"url": "https://news.google.com/rss/search?q=벤처캐피탈+스타트업+투자유치&hl=ko&gl=KR&ceid=KR:ko",  "category": "VC"},
+    {"url": "https://news.google.com/rss/search?q=모태펀드+창업투자&hl=ko&gl=KR&ceid=KR:ko",            "category": "VC"},
+    {"url": "https://news.google.com/rss/search?q=시리즈A+시리즈B+투자유치&hl=ko&gl=KR&ceid=KR:ko",     "category": "VC"},
+    {"url": "https://news.google.com/rss/search?q=AI+스타트업+투자&hl=ko&gl=KR&ceid=KR:ko",            "category": "VC"},
+    {"url": "https://news.google.com/rss/search?q=바이오+스타트업+임상+투자&hl=ko&gl=KR&ceid=KR:ko",    "category": "VC"},
+    {"url": "https://news.google.com/rss/search?q=seoulpi+VC+벤처&hl=ko&gl=KR&ceid=KR:ko",            "category": "VC"},
+    # 연합뉴스 벤처
+    {"url": "https://www.yna.co.kr/rss/economy.xml",                                                   "category": "VC"},
 ]
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
