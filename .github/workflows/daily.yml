@@ -3,6 +3,9 @@ name: 매일 뉴스 업데이트
 on:
   schedule:
     - cron: "0 22 * * *"  # 한국 시간 매일 오전 7시 (UTC 22:00)
+    - cron: "0 4 * * *"
+    - cron: "0 9 * * *"
+    - cron: "0 13 * * *"
   workflow_dispatch:       # 버튼으로 수동 실행도 가능
 
 jobs:
