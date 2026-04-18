@@ -23,6 +23,8 @@ FILTER_KEYWORDS = [
     "에너지저장", "ESS", "SMR", "벤처캐피탈", "스타트업", "투자유치",
     "시리즈A", "시리즈B", "모태펀드", "IPO", "M&A", "인수합병",
     "펀드결성", "LP", "GP", "카브아웃", "그린수소", "전력망",
+    "인프라 투자", "대체투자", "KIC", "국부펀드", "연기금", "공제회",
+    "북미 인프라", "해외 인프라", "글로벌 인프라", "투자 전략",
 ]
 
 def is_relevant(title: str) -> bool:
@@ -30,32 +32,35 @@ def is_relevant(title: str) -> bool:
 
 # ── RSS 피드 목록 ─────────────────────────────────────────────
 RSS_FEEDS = [
-    # 부동산
+    # ── 부동산 ──────────────────────────────────────────────────
     {"url": "https://news.google.com/rss/search?q=물류센터%20(매각%20OR%20투자%20OR%20PF%20OR%20임대)&hl=ko&gl=KR&ceid=KR:ko",              "category": "부동산"},
     {"url": "https://news.google.com/rss/search?q=데이터센터%20(개발%20OR%20착공%20OR%20인프라%20OR%20전력망)&hl=ko&gl=KR&ceid=KR:ko",      "category": "부동산"},
     {"url": "https://news.google.com/rss/search?q=오피스빌딩%20(공실률%20OR%20매각%20OR%20프라임오피스)&hl=ko&gl=KR&ceid=KR:ko",           "category": "부동산"},
     {"url": "https://news.google.com/rss/search?q=리츠%20(REITs%20OR%20상장%20OR%20유상증자%20OR%20배당)&hl=ko&gl=KR&ceid=KR:ko",          "category": "부동산"},
     {"url": "https://news.google.com/rss/search?q=부동산PF%20(브릿지론%20OR%20본PF%20OR%20EOD%20OR%20경공매)&hl=ko&gl=KR&ceid=KR:ko",     "category": "부동산"},
-    # 한국경제·매일경제·연합뉴스 직접 RSS (키워드 필터 적용)
-    {"url": "https://rss.hankyung.com/realestate.xml",   "category": "부동산", "filter": True},
-    {"url": "https://www.mk.co.kr/rss/30000041/",        "category": "부동산", "filter": True},
-    {"url": "https://www.yna.co.kr/rss/real-estate.xml", "category": "부동산", "filter": True},
+    {"url": "https://news.google.com/rss/search?q=site:hankyung.com%20(리츠%20OR%20물류센터%20OR%20오피스%20OR%20부동산펀드%20OR%20부동산PF)&hl=ko&gl=KR&ceid=KR:ko", "category": "부동산"},
+    {"url": "https://news.google.com/rss/search?q=site:mk.co.kr%20(리츠%20OR%20물류센터%20OR%20오피스%20OR%20부동산펀드%20OR%20부동산PF)&hl=ko&gl=KR&ceid=KR:ko",    "category": "부동산"},
+    {"url": "https://news.google.com/rss/search?q=site:yna.co.kr%20(리츠%20OR%20물류센터%20OR%20오피스%20OR%20부동산펀드)&hl=ko&gl=KR&ceid=KR:ko",                   "category": "부동산"},
 
-    # 인프라
+    # ── 인프라 ──────────────────────────────────────────────────
     {"url": "https://news.google.com/rss/search?q=신재생에너지%20(태양광%20OR%20해상풍력%20OR%20수소%20OR%20그린수소)&hl=ko&gl=KR&ceid=KR:ko", "category": "인프라"},
     {"url": "https://news.google.com/rss/search?q=SMR%20(소형모듈원전%20OR%20핵융합%20OR%20원전수출)&hl=ko&gl=KR&ceid=KR:ko",               "category": "인프라"},
     {"url": "https://news.google.com/rss/search?q=폐기물%20(M%26A%20OR%20인수%20OR%20환경인프라%20OR%20수처리)&hl=ko&gl=KR&ceid=KR:ko",     "category": "인프라"},
     {"url": "https://news.google.com/rss/search?q=전력망%20(송전선로%20OR%20ESS%20OR%20에너지저장장치%20OR%20VPP)&hl=ko&gl=KR&ceid=KR:ko",  "category": "인프라"},
-    {"url": "https://www.yna.co.kr/rss/economy.xml",     "category": "인프라", "filter": True},
+    {"url": "https://news.google.com/rss/search?q=인프라%20투자%20(연기금%20OR%20공제회%20OR%20국부펀드%20OR%20KIC%20OR%20PF)&hl=ko&gl=KR&ceid=KR:ko", "category": "인프라"},
+    {"url": "https://news.google.com/rss/search?q=site:hankyung.com%20(인프라%20OR%20풍력%20OR%20태양광%20OR%20수소%20OR%20ESS%20OR%20SMR)&hl=ko&gl=KR&ceid=KR:ko",  "category": "인프라"},
+    {"url": "https://news.google.com/rss/search?q=site:mk.co.kr%20(인프라%20OR%20풍력%20OR%20태양광%20OR%20수소%20OR%20ESS%20OR%20SMR)&hl=ko&gl=KR&ceid=KR:ko",     "category": "인프라"},
+    {"url": "https://news.google.com/rss/search?q=site:yna.co.kr%20(인프라%20OR%20풍력%20OR%20태양광%20OR%20수소%20OR%20전력망)&hl=ko&gl=KR&ceid=KR:ko",            "category": "인프라"},
 
-    # PE
+    # ── PE ──────────────────────────────────────────────────────
     {"url": "https://news.google.com/rss/search?q=사모펀드%20(PEF%20OR%20바이아웃%20OR%20경영권인수%20OR%20카브아웃)&hl=ko&gl=KR&ceid=KR:ko",  "category": "PE"},
     {"url": "https://news.google.com/rss/search?q=블라인드펀드%20(출자사업%20OR%20LP콘테스트%20OR%20펀드결성)&hl=ko&gl=KR&ceid=KR:ko",         "category": "PE"},
     {"url": "https://news.google.com/rss/search?q=기업매각%20(엑시트%20OR%20구주매각%20OR%20세컨더리%20OR%20IPO)&hl=ko&gl=KR&ceid=KR:ko",     "category": "PE"},
-    {"url": "https://rss.hankyung.com/finance.xml",      "category": "PE",   "filter": True},
-    {"url": "https://www.mk.co.kr/rss/40300001/",        "category": "PE",   "filter": True},
+    {"url": "https://news.google.com/rss/search?q=site:hankyung.com%20(사모펀드%20OR%20PEF%20OR%20바이아웃%20OR%20세컨더리%20OR%20펀드결성)&hl=ko&gl=KR&ceid=KR:ko", "category": "PE"},
+    {"url": "https://news.google.com/rss/search?q=site:mk.co.kr%20(사모펀드%20OR%20PEF%20OR%20바이아웃%20OR%20세컨더리%20OR%20펀드결성)&hl=ko&gl=KR&ceid=KR:ko",    "category": "PE"},
+    {"url": "https://news.google.com/rss/search?q=site:yna.co.kr%20(사모펀드%20OR%20PEF%20OR%20M%26A%20OR%20인수합병)&hl=ko&gl=KR&ceid=KR:ko",                      "category": "PE"},
 
-    # VC
+    # ── VC ──────────────────────────────────────────────────────
     {"url": "https://news.google.com/rss/search?q=반도체%20(팹리스%20OR%20HBM%20OR%20NPU%20OR%20CXL)%20투자&hl=ko&gl=KR&ceid=KR:ko",                      "category": "VC"},
     {"url": "https://news.google.com/rss/search?q=(신약개발%20OR%20바이오테크%20OR%20합성생물학%20OR%20디지털치료제)%20투자&hl=ko&gl=KR&ceid=KR:ko",        "category": "VC"},
     {"url": "https://news.google.com/rss/search?q=(AI에이전트%20OR%20LLM%20OR%20추론인프라%20OR%20생성형AI)%20투자&hl=ko&gl=KR&ceid=KR:ko",               "category": "VC"},
@@ -63,6 +68,8 @@ RSS_FEEDS = [
     {"url": "https://news.google.com/rss/search?q=(핀테크%20OR%20RWA%20OR%20스테이블코인%20OR%20토큰증권)%20투자&hl=ko&gl=KR&ceid=KR:ko",                "category": "VC"},
     {"url": "https://news.google.com/rss/search?q=(기후테크%20OR%20탄소포집%20OR%20폐배터리%20OR%20그리드)%20투자&hl=ko&gl=KR&ceid=KR:ko",               "category": "VC"},
     {"url": "https://news.google.com/rss/search?q=스타트업%20(시리즈A%20OR%20시리즈B%20OR%20팁스%20OR%20브릿지투자)&hl=ko&gl=KR&ceid=KR:ko",             "category": "VC"},
+    {"url": "https://news.google.com/rss/search?q=site:hankyung.com%20(벤처캐피탈%20OR%20스타트업%20OR%20투자유치%20OR%20시리즈)&hl=ko&gl=KR&ceid=KR:ko", "category": "VC"},
+    {"url": "https://news.google.com/rss/search?q=site:mk.co.kr%20(벤처캐피탈%20OR%20스타트업%20OR%20투자유치%20OR%20시리즈)&hl=ko&gl=KR&ceid=KR:ko",    "category": "VC"},
 ]
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
@@ -184,7 +191,7 @@ def scrape_dealbook() -> list[dict]:
 
         seen.add(href)
 
-        cat = "부동산"
+        cat = "PE"
         if any(kw in title for kw in ["리츠", "오피스", "물류", "부동산", "PF"]):
             cat = "부동산"
         elif any(kw in title for kw in ["인프라", "에너지", "풍력", "수소", "ESS", "전력"]):
@@ -233,7 +240,7 @@ def scrape_spi() -> list[dict]:
 
         seen.add(href)
 
-        cat = "부동"
+        cat = "PE"
         if any(kw in title for kw in ["리츠", "오피스", "물류", "부동산", "PF"]):
             cat = "부동산"
         elif any(kw in title for kw in ["인프라", "에너지", "풍력", "수소", "ESS", "전력"]):
