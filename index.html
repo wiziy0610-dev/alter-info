@@ -147,7 +147,7 @@ function KeywordBar({articles}){
   const max=kws[0].count;
   return(
     <div style={{marginBottom:"2rem",padding:"1.1rem 1.4rem",background:"#f7f7f7",borderRadius:4}}>
-      <p style={{fontSize:10,fontWeight:500,color:"#aaa",letterSpacing:"0.12em",marginBottom:"0.8rem"}}>최근 2주 주요 키워드</p>
+      <p style={{fontSize:10,fontWeight:500,color:"#aaa",letterSpacing:"0.12em",marginBottom:"0.8rem"}}>최근 한 달 주요 키워드</p>
       <div style={{display:"flex",flexWrap:"wrap",gap:"0.45rem"}}>
         {kws.map(({word,count})=>{
           const r=count/max;
