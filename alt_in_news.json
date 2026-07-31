@@ -1,5 +1,545 @@
 [
   {
+    "id": 13,
+    "title": "구글, 앤트로픽에 초대형 금융 보증...\"21조 데이터센터 세운다\"",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zenh2OVE2OEo3ZFYzeG1LdE14dzNBdHNvUXJINFF1SF8zMmx1NS1YaVRLYjZ0WUdLVWUxekF6WVJJRkdDMUVaNllha3ZlUFRBempTVld1elNkSFFrRERzdExKZ2g2TmJYdnc?oc=5",
+    "source": "",
+    "category": "부동산",
+    "tag": "디지털",
+    "summary": [],
+    "time": "방금 전",
+    "pub_date": "2026-07-31T15:39:13+09:00",
+    "scraped_at": "2026-07-31T15:42:43.653333+09:00"
+  },
+  {
+    "id": 246,
+    "title": "SKT, 로봇 스타트업 손잡고 피지컬 AI 키운다",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE56TjRxRjdIQXo0UDc2c01tSDcyR1BqdXBCWHIwTVBDa215Y1hvMENVc3FSd3RDaFZseGMyZFNySDVZdGdTRmpMT2t4SWFZUQ?oc=5",
+    "source": "",
+    "category": "VC",
+    "tag": "AI",
+    "summary": [],
+    "time": "방금 전",
+    "pub_date": "2026-07-31T15:30:40+09:00",
+    "scraped_at": "2026-07-31T15:48:10.836502+09:00"
+  },
+  {
+    "id": 91,
+    "title": "국내 K배터리 3사, 7분기 만에 흑자…향후 전망은?",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBkdjJWNlIwUTlZbXJlYmVDVmtpYVVpN2JVSDI4anZodldEWkg0dkFoaEFSajEwSFJsTU0zVmdYVElqQzRsUEdkSEx4TlpsSzFwbGphNWxMSmk0eHY2NlUzbHJBVE43UkVWdDl3NGNBMA?oc=5",
+    "source": "",
+    "category": "인프라",
+    "tag": "대체투자",
+    "summary": [],
+    "time": "방금 전",
+    "pub_date": "2026-07-31T15:30:34+09:00",
+    "scraped_at": "2026-07-31T15:44:33.340766+09:00"
+  },
+  {
+    "id": 11,
+    "title": "피플바이오, AI 데이터센터 전력인입 최종 단계 진입",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1HZEs2c1NObW8wRl9DSmxacVpUMDNkTm83cHQ1cU0wYm1PZEJnRkZoVm1VZ0RDaHVBcnBwSHVIbS03NHlTNHF0aDlvXzE0NUt6NGlraWZYOHF3NXdX?oc=5",
+    "source": "",
+    "category": "부동산",
+    "tag": "디지털",
+    "summary": [],
+    "time": "방금 전",
+    "pub_date": "2026-07-31T15:20:00+09:00",
+    "scraped_at": "2026-07-31T15:42:40.933091+09:00"
+  },
+  {
+    "id": 166,
+    "title": "[단독] 한국펀드파트너스 인수 우협에 프리미어 선정",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ObWRLYVJONWR6T29WX0xQdV9Yb3lhekFTRldFekNaeFVTZGZTQU13YlRGMV9LYmhDekdkenltY3hicTc0a3ZPM0lfTXk5M0FHWGc?oc=5",
+    "source": "",
+    "category": "PE",
+    "tag": "바이아웃",
+    "summary": [],
+    "time": "방금 전",
+    "pub_date": "2026-07-31T15:08:43+09:00",
+    "scraped_at": "2026-07-31T15:46:18.365564+09:00"
+  },
+  {
+    "id": 185,
+    "title": "리베이트 족쇄 풀었지만…높아진 R&D 문턱에 울상인 바이오텍",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5iRkFVRXhGdnNUVmlTRTEzVWhscFI2dURGSDFuODU3TlZGZjZ5b0l2MlJ0R2hiZUxURHRYcmE5RXphS2JNc2s3UDZvU0liSmk1aUI4?oc=5",
+    "source": "",
+    "category": "VC",
+    "tag": "바이오",
+    "summary": [],
+    "time": "방금 전",
+    "pub_date": "2026-07-31T15:04:00+09:00",
+    "scraped_at": "2026-07-31T15:46:45.191957+09:00"
+  },
+  {
+    "id": 121,
+    "title": "\"농사에 햇빛 얹어서 더블로 가！\"…안성시, 영농형 태양광 시범사업 본격 시동",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Ub2tfMzViOExoeFM0bFN5RWRCa2I1QjB4MnBnTlRJRmJpMUtKUjNFelFZc1JkXzdHQ25qcnlrMkhuZDQwZHlUb0RnMmU1ekEtbjlnUldpbUtFWDQ?oc=5",
+    "source": "",
+    "category": "인프라",
+    "tag": "에너지",
+    "summary": [],
+    "time": "1시간 전",
+    "pub_date": "2026-07-31T14:44:35+09:00",
+    "scraped_at": "2026-07-31T15:45:15.774474+09:00"
+  },
+  {
+    "id": 105,
+    "title": "삼성에스디에스(018260) AI 인프라, 플랫폼 성장 모멘텀 가시적",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1xUGJxUmRxcWdfTDVlVk9na1NicVh0eXJYb3ZOUUJodkpkSlhIQUFBWUFFOXVkVkVWLXFtcHpEd1NOcWNJaEtEUmJ6TUFfOVJHLUhnMlZPVHN5TzZUc0dz?oc=5",
+    "source": "",
+    "category": "인프라",
+    "tag": "AI",
+    "summary": [],
+    "time": "1시간 전",
+    "pub_date": "2026-07-31T14:32:26+09:00",
+    "scraped_at": "2026-07-31T15:44:53.108470+09:00"
+  },
+  {
+    "id": 226,
+    "title": "VC협회, 스케일업 팁스 기업 투자유치 지원…‘딜 데이’ 첫 가동 - 조선비즈",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdmhXVy1xMGMwQVR3NndQekJmdm9Vb21pLXNxZ1ZVQ2NOYWZ6WjJ2VGdwZmlhZV9rSi13d1ltRTFrTmNrVjFTQjVNWk9pUWJuMHNnZnNjODVCSnEtSndPeW9aSnhuTkRZSWNqN0NlMUpwaGFrcDN3bTk3V2Z4cUp5UU51YjBYYTVUVHVzb2pNNHHSAaQBQVVfeXFMT0RzQm5TSmFZSWJ4MV9YcWU2VUNTRHViMmM5b3Myc1RjQmRhWHlaVjdUbVIyU1dVWUkxb0k0aDU1ZHpyV2VRWElWeE5PRFVmWnpjQVRjMzZaNHdIWmMtNE1UcUNxYTI1NUhQZ0VBSHkyYlZPUU9qM18tZFNHa1l3MTZJN0RTZElCSlBaSDB4cVJ3Q1hpSWlWN3dmbVVzbWNvRl9PZms?oc=5",
+    "source": "",
+    "category": "VC",
+    "tag": "대체투자",
+    "summary": [],
+    "time": "1시간 전",
+    "pub_date": "2026-07-31T14:09:00+09:00",
+    "scraped_at": "2026-07-31T15:47:42.811509+09:00"
+  },
+  {
+    "id": 219,
+    "title": "불확실성에 갇힌 기후테크, '보험'이 자본 빗장 푼다",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5qXzJnLVE5a25TYTdLSVFwdDVVTThFSUFBXzdNN2J0Y0dsNmp1QmNHajRMTy1sZVNMeTNibC0yOGdMc090VGFfYnk2UnZDekZJNDg4?oc=5",
+    "source": "",
+    "category": "VC",
+    "tag": "기후테크",
+    "summary": [],
+    "time": "1시간 전",
+    "pub_date": "2026-07-31T14:01:00+09:00",
+    "scraped_at": "2026-07-31T15:47:32.828363+09:00"
+  },
+  {
+    "id": 117,
+    "title": "AI 인프라 디벨로퍼…‘뉴 마이웨이’ 개척자 [CEO 라운지]",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zNUZPUXFLZ290Z2FSNi1CUm5TSUJwd245Y2N0UVY3TExDbjBvUkNCbkdCUWRId1c3bkxyZkItLVNQbDlCY05Cc0VJM3p3a28tUUtpSQ?oc=5",
+    "source": "",
+    "category": "인프라",
+    "tag": "AI",
+    "summary": [],
+    "time": "1시간 전",
+    "pub_date": "2026-07-31T13:59:13+09:00",
+    "scraped_at": "2026-07-31T15:45:09.825007+09:00"
+  },
+  {
+    "id": 67,
+    "title": "[에너지이슈] 갈 곳 잃은 공공 태양광 645GWh의 반전...ESS 연계로 ‘분산에너지 신시장’ 가능",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11NmFZc1l5THZUU1o2a1R3REF5T2RHWmFJTzFFYkpBRGR2eTl0WW5KWWxWeE41VnJ3OEtfYVNDV2ozRjlOdVlZN0JhVF81TE50SkVqcGhCZGx0eEJYX2xKWUdyU1o5WTQ?oc=5",
+    "source": "",
+    "category": "인프라",
+    "tag": "에너지",
+    "summary": [],
+    "time": "1시간 전",
+    "pub_date": "2026-07-31T13:57:42+09:00",
+    "scraped_at": "2026-07-31T15:43:59.800042+09:00"
+  },
+  {
+    "id": 153,
+    "title": "디지스트기술지주, 20억 원 규모 첫 펀드 결성",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1BUTkwX0duclVPR1dGOHZ0R2JFQmpkVjk4Q0VqMEpJVXFNd19qSE1FU0I0YUNrdk04VGdGcl9wLUVCdERGS2xpcTlMTzF2c29ZTWF6M2dkRXdXUQ?oc=5",
+    "source": "",
+    "category": "PE",
+    "tag": "펀드결성",
+    "summary": [],
+    "time": "1시간 전",
+    "pub_date": "2026-07-31T13:50:21+09:00",
+    "scraped_at": "2026-07-31T15:46:00.480057+09:00"
+  },
+  {
+    "id": 137,
+    "title": "군인공제회, 올해 PE·VC 블라인드펀드 출자사업 공고…3000억원 배정",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdnZYOUpBbE1SM3dOZmhqZ2dGYVBraTJDa1Q3X1p4c2NqTFQ3bDRydTJQTWl2SzhQSGtMN0pyUEExS1Q5ZEVUYzVaT0xiSUViLTVqQWp4QWV6MmtqaXFYcFF0b0d0OUprck9GLVBOSldRUjUyZFgwMl8wc1BzWnlUNmtpZw?oc=5",
+    "source": "",
+    "category": "PE",
+    "tag": "펀드결성",
+    "summary": [],
+    "time": "2시간 전",
+    "pub_date": "2026-07-31T13:43:00+09:00",
+    "scraped_at": "2026-07-31T15:45:38.146331+09:00"
+  },
+  {
+    "id": 15,
+    "title": "피플바이오, AI 데이터센터 전력인입 최종 단계 진입…한전 추가 시설부담금 납부 착수",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE82OVFRZEtDWUZIelpIby1JTmZ6cEg1UzRKc3IwM3g5NjQwR0hqUFlFLXFBbmw3cXBNTk50aUFWcVV1ZE05NVdVVkZDVkkzQWxZMU11S2Z2dV9YUQ?oc=5",
+    "source": "",
+    "category": "부동산",
+    "tag": "디지털",
+    "summary": [],
+    "time": "2시간 전",
+    "pub_date": "2026-07-31T13:32:45+09:00",
+    "scraped_at": "2026-07-31T15:42:46.354182+09:00"
+  },
+  {
+    "id": 73,
+    "title": "경남도, 소형모듈원전(SMR) 제조혁신 3개 핵심과제 모두 선정",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5FUFRkRXJTMlFNVDNaZUEyWXgwdnNEQmlxNXgwWUN0RnZ2cU83THZGMkQ1SjZGUERyUVBjbE15NXNuUlBJSkctNk9NZTJtNnFiMUFCMDg2c3BzUQ?oc=5",
+    "source": "",
+    "category": "인프라",
+    "tag": "에너지",
+    "summary": [],
+    "time": "2시간 전",
+    "pub_date": "2026-07-31T13:16:00+09:00",
+    "scraped_at": "2026-07-31T15:44:08.254272+09:00"
+  },
+  {
+    "id": 89,
+    "title": "LG에너지솔루션, 2026년 2분기 실적 매출 7조5602억 원, 영업이익 1133억 원 각각 기록",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBBUHBGeC1TUlhFTXppdFNObktNRTVyY1poUkJVWnFUNGJ6Rk1ac1c1UkhxV3RLV3pPOGlLMzhMNkRxYXNKRDExYm9JTjVmY0lEcVVqclhXV083elRzeE9HM1haOXR2RngwaWsxOdIBbEFVX3lxTFBBUHBGeC1TUlhFTXppdFNObktNRTVyY1poUkJVWnFUNGJ6Rk1ac1c1UkhxV3RLV3pPOGlLMzhMNkRxYXNKRDExYm9JTjVmY0lEcVVqclhXV083elRzeE9HM1haOXR2RngwaWsxOQ?oc=5",
+    "source": "",
+    "category": "인프라",
+    "tag": "에너지",
+    "summary": [],
+    "time": "2시간 전",
+    "pub_date": "2026-07-31T12:48:22+09:00",
+    "scraped_at": "2026-07-31T15:44:30.644875+09:00"
+  },
+  {
+    "id": 217,
+    "title": "“배출권 사느니 감축에 투자한다”…배출권 2만6천원 시대, 기후테크 주목[이슈분석]",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XNkx0cnlCRXFvd3ZJZ21MYVdaVjAta0FSUVZweXNDYjU2VmdpWmZvZk54TkM0dTlfcXNjV19kVVpVNFU1Wk1ZM09icnNWU3lnOEV4SmNMSjRwSUJVZ0E?oc=5",
+    "source": "",
+    "category": "VC",
+    "tag": "기후테크",
+    "summary": [],
+    "time": "3시간 전",
+    "pub_date": "2026-07-31T12:10:03+09:00",
+    "scraped_at": "2026-07-31T15:47:30.052366+09:00"
+  },
+  {
+    "id": 225,
+    "title": "VC협회, 스케일업 팁스 '딜 데이' 전국 순회 시작 - 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4yYnR0WWZTSGZ1SjlzU3NWZVI5NWVrYnQ0a0U1dHZQYXhQOTR2cEU1dFc3SkxUTy12VW5XeFJrMS1WTDl0aFQzQmo1VUNLTEFyazNSNWxJM1M2NGJvZWhwMkJYYV9obG4wUGh1VVVWRdIBb0FVX3lxTE4yYnR0WWZTSGZ1SjlzU3NWZVI5NWVrYnQ0a0U1dHZQYXhQOTR2cEU1dFc3SkxUTy12VW5XeFJrMS1WTDl0aFQzQmo1VUNLTEFyazNSNWxJM1M2NGJvZWhwMkJYYV9obG4wUGh1VVVWRQ?oc=5",
+    "source": "",
+    "category": "VC",
+    "tag": "대체투자",
+    "summary": [],
+    "time": "3시간 전",
+    "pub_date": "2026-07-31T12:00:00+09:00",
+    "scraped_at": "2026-07-31T15:47:41.445426+09:00"
+  },
+  {
+    "id": 241,
+    "title": "“댄서들의 월드컵”…원밀리언→잼 리퍼블릭, ‘IDL’ 서울 시리즈 격돌 [현장 LIVE]",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1fV3dFS3hueEVoN1dvd3A5dm1wUEVBcF9LbDA3TUR0OEpxaWFBM3lycjlTVFozU19nY0IyS0l0SGNoMFNmQVE?oc=5",
+    "source": "",
+    "category": "VC",
+    "tag": "대체투자",
+    "summary": [],
+    "time": "4시간 전",
+    "pub_date": "2026-07-31T11:28:11+09:00",
+    "scraped_at": "2026-07-31T15:48:04.108596+09:00"
+  },
+  {
+    "id": 69,
+    "title": "전력 대란 구원투수로 뜬 '태양광'… 관련주 주성엔지니어링 원익IPS LS ELECTRIC 신성이엔지 '불기둥'",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5RUUhPR0pWQjh6emRpXzlLVlB4bi11bWVOWjNsMWlqMC1OLXZMWE92MDNyWS02OTZ3NllYNXk5MXZhZ2VsSmdSbGxtWXN4OXJpMGg4UlBCbndOOHppS3FnRzJTYW5fLUdrWURBNVh1RzNHcUHSAXdBVV95cUxPLVRZc0VHeWlrc3hCTEFvUkNxTGk2TTlhOFk3NWFwclNOS2JJSGhRbnVRc1VrVmZNVy1Ub0I4NDJhei0ySjBFU1VyNUt0dERiZFdyb3ZFWUZ1d1RYcnNrQmpSbS1MQ2ViMThLenJBcm1sWEV4enNzSQ?oc=5",
+    "source": "",
+    "category": "인프라",
+    "tag": "에너지",
+    "summary": [],
+    "time": "4시간 전",
+    "pub_date": "2026-07-31T11:18:30+09:00",
+    "scraped_at": "2026-07-31T15:44:02.487064+09:00"
+  },
+  {
+    "id": 162,
+    "title": "ETF 급성장에 펀드시장 1700조 돌파…공모, 10년 만에 사모 ‘재역전’",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1IelhXUXRPYV9OaGVVNURfTmNVamdaUWVPZmZsbERGOFlPV0o2cWUta3pINktLbi04dkVYUFNtVkNaQTRCSkx4eXg3TXpWQ0RybEE?oc=5",
+    "source": "",
+    "category": "PE",
+    "tag": "대체투자",
+    "summary": [],
+    "time": "4시간 전",
+    "pub_date": "2026-07-31T11:17:57+09:00",
+    "scraped_at": "2026-07-31T15:46:12.950005+09:00"
+  },
+  {
+    "id": 139,
+    "title": "혹한기 뚫은 테스투자·허니팟, 205억 펀드 결성…'6개 섹터' 집중 투자",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5fQ3ZaeGZhaEZiYXNpZ0FJSGxvdG1kdjVINEpQUmpVQWJPZTdBTGZjZjd6bkUzaUxrUUlMbmNPcVJtNVF0aUJHODF2cGU3Nm9V?oc=5",
+    "source": "",
+    "category": "PE",
+    "tag": "펀드결성",
+    "summary": [],
+    "time": "4시간 전",
+    "pub_date": "2026-07-31T11:15:00+09:00",
+    "scraped_at": "2026-07-31T15:45:40.839837+09:00"
+  },
+  {
+    "id": 138,
+    "title": "군인공제회, 국내 PE·VC 블라인드펀드 3000억 출자",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1NY2dUZl8wQWVLcmtSVXZwcE5pclRJMWpkTmdKTjM0R0pqY3JRSzdQN29HZm9IY29IUWNaNDB2Uk5QcDZ3QWotODMyR0MtUEJvTWIzY3lDeENsbEZmeHZHOVd3dU9UWWdxeXNFTjNWNA?oc=5",
+    "source": "",
+    "category": "PE",
+    "tag": "펀드결성",
+    "summary": [],
+    "time": "4시간 전",
+    "pub_date": "2026-07-31T11:13:20+09:00",
+    "scraped_at": "2026-07-31T15:45:39.496804+09:00"
+  },
+  {
+    "id": 242,
+    "title": "“뭉칠수록 강하다”…1차·2차 순차 분양하는 시리즈 아파트 ‘인기’",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBGaHlBRTRRUzBGT1ZkTlFtU0lQOW1vbVN5STJsVV9nSjdsdWxwM3ZtMHhZU2ZydzlHakJUeVZDdm1Xdk1uaHc?oc=5",
+    "source": "",
+    "category": "VC",
+    "tag": "대체투자",
+    "summary": [],
+    "time": "4시간 전",
+    "pub_date": "2026-07-31T11:10:57+09:00",
+    "scraped_at": "2026-07-31T15:48:05.469803+09:00"
+  },
+  {
+    "id": 65,
+    "title": "국립군산대, 재생에너지 실무교육으로 미래 에너지 인재 양성",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBGZjZHQzF5WGlhbGpHQld4ZUp0c2l4SFBlVE4wd2wzM2ljNGNMbDMxTko4OHRraHVqVUFfbWc5VV94QkxYZzYwd2lFc0xRZDVWTUJtQUZLdnFyTENKcVNwOGstNEMtV2xv?oc=5",
+    "source": "",
+    "category": "인프라",
+    "tag": "에너지",
+    "summary": [],
+    "time": "4시간 전",
+    "pub_date": "2026-07-31T11:08:45+09:00",
+    "scraped_at": "2026-07-31T15:43:57.134160+09:00"
+  },
+  {
+    "id": 236,
+    "title": "광양경자청 하동사무소, 남해안 미래산업 중심지 '하동지구' 투자유치 나서",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBEeHZWVWNveW1tU0EyNXpSYkRNbVY2eGh6anhOM3JTOXZZQ0hhNmd1V1lyanQtUk1hbTRPWUVyNzRMc1ptdzZuTWZiX0lMbmRxcHdXMnBmYWdQQQ?oc=5",
+    "source": "",
+    "category": "VC",
+    "tag": "오피스",
+    "summary": [],
+    "time": "4시간 전",
+    "pub_date": "2026-07-31T11:00:24+09:00",
+    "scraped_at": "2026-07-31T15:47:56.839163+09:00"
+  },
+  {
+    "id": 218,
+    "title": "연산력 높이고 에너지는 줄인다…기후테크 투자자들, 양자컴에 베팅",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE11YzJrMjZkMUhreDBfRFZzRi1XRGtEZXZsMTJxcXUwaktSZU1CYmNzQ3I5czNzUTJpSW10enduZ2hraXM3QUt4UzhJbF85cTlSaXVrN3o1VDdFQ3VXNVhBNlY5LVoyU2xpdjBWWQ?oc=5",
+    "source": "",
+    "category": "VC",
+    "tag": "에너지",
+    "summary": [],
+    "time": "4시간 전",
+    "pub_date": "2026-07-31T10:57:53+09:00",
+    "scraped_at": "2026-07-31T15:47:31.481391+09:00"
+  },
+  {
+    "id": 10,
+    "title": "AI 데이터센터도 '빅테크 보증' 시대…구글, 앤트로픽 21.5조원 조달 지원",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBZWnVVV0lYOVIzRXAtOGZJWUM2R1NoMmx0TEJINC1KRFhlbWw4WFk1RkIxU0pveExERndsRTE0Zi01ZVNlNGdWS1RDNEFKNFlWal82aDdMLTc4MFcwTFB1RdIBeEFVX3lxTFBjSExvZDB0cmZNY01TYmJ2UnhrRkxOU3FJX1hRNjVTSzFWZHJmb0tkM00tYkdrUWVDRkVIb3p2YUJkYWlpckZGSlBuVWJaalhrbmpqUXZwRGlPT094bEtFYXlJTzVyb1BiaXpyMVRnT25uMGhRRWdTVg?oc=5",
+    "source": "",
+    "category": "부동산",
+    "tag": "디지털",
+    "summary": [],
+    "time": "4시간 전",
+    "pub_date": "2026-07-31T10:55:32+09:00",
+    "scraped_at": "2026-07-31T15:42:39.469264+09:00"
+  },
+  {
+    "id": 9,
+    "title": "진시스템, 경보전기 지분 100% 인수..AI 데이터센터 전력 인프라 시장 진출",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84Z0lrWG9JWm5wRVF5aDNLZWZEVGlpN014eXJUc3JwNl9VTjZoc0cxalJFZ1dIU29RMkxWYnFULXRzOWkzYkZKcGswc2xMY3BlNjdNQXVmMmozdEpQbFlNLTRMTXhaUnZXWnc?oc=5",
+    "source": "",
+    "category": "부동산",
+    "tag": "디지털",
+    "summary": [],
+    "time": "4시간 전",
+    "pub_date": "2026-07-31T10:48:00+09:00",
+    "scraped_at": "2026-07-31T15:42:38.035387+09:00"
+  },
+  {
+    "id": 54,
+    "title": "“장사하려면 서울말곤 답 없나요”…상업용부동산 명동·강남 ‘웃고’ 지방 ‘울고’",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9IanZvMVpHdWtiVEdfclNVSklYLWgzRlZFRDlYdnlVbHlLdXA1SXNJc19oM3JGSlZIQWxhd2FXQXZwaWNhWWc?oc=5",
+    "source": "",
+    "category": "부동산",
+    "tag": "대체투자",
+    "summary": [],
+    "time": "4시간 전",
+    "pub_date": "2026-07-31T10:44:29+09:00",
+    "scraped_at": "2026-07-31T15:43:41.427511+09:00"
+  },
+  {
+    "id": 169,
+    "title": "상반기 펀드 순자산 1천735조원…주식형 펀드 비중↑",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9IUm9qUDZ6U29VWk91Um5XaXVhWVE3SUpLcmI2bDdZNlJlMlpiR0x1aFlKaTRoUU1zN19hLWVXSWtTNUNKTVc0LVJUYTVUanNnV3JkZGI0SUE1Znd5TzItadIBYEFVX3lxTE9IUm9qUDZ6U29VWk91Um5XaXVhWVE3SUpLcmI2bDdZNlJlMlpiR0x1aFlKaTRoUU1zN19hLWVXSWtTNUNKTVc0LVJUYTVUanNnV3JkZGI0SUE1Znd5TzItaQ?oc=5",
+    "source": "",
+    "category": "PE",
+    "tag": "대체투자",
+    "summary": [],
+    "time": "5시간 전",
+    "pub_date": "2026-07-31T10:42:16+09:00",
+    "scraped_at": "2026-07-31T15:46:22.838678+09:00"
+  },
+  {
+    "id": 12,
+    "title": "中 딥시크, 네이멍구에 1GW급 AI 데이터센터 짓는다",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBqbkFlMFRrRGlKOW10bzI0YzlVRVlIMDlNOUttQUt4U3N1ZjkwQ0FFQklMWHhnbzROSFNld210TnBYUklwWHA5OWdleU5WZ1RNdzVxUmRFZGhCb2MwV2FFc3pSRnVhc3QzY0M3OVkteTnSAXRBVV95cUxNeHg4WDlTYVFXTXkyckFyYks0T3R2eE5xV0FkTVFpR2U0UXJndGFuNDBPODBGZjFJYlNDX3pWbmRQcXVPS2dUOUx0RHRHSFd0VmVHSVNmaVdwRVNISTYtYlhWa1pkQzNSUGRDRllDUkoyUlFiUg?oc=5",
+    "source": "",
+    "category": "부동산",
+    "tag": "디지털",
+    "summary": [],
+    "time": "5시간 전",
+    "pub_date": "2026-07-31T10:41:55+09:00",
+    "scraped_at": "2026-07-31T15:42:42.305666+09:00"
+  },
+  {
+    "id": 113,
+    "title": "공포의 7월 폭락장, 중심엔 이 남자…AI인프라 ‘투자의 신’도 월가에 당했다",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4xcTV6OTZOSVNiNDNzcjBMWG1HN1VvbWJfdi1FRWFld2lWT1RBWjRoMU9lZ3lXQng1NXlheUVCMUJVS2FBTzF6VWlGSFZzY0RxblE?oc=5",
+    "source": "",
+    "category": "인프라",
+    "tag": "AI",
+    "summary": [],
+    "time": "5시간 전",
+    "pub_date": "2026-07-31T10:35:55+09:00",
+    "scraped_at": "2026-07-31T15:45:04.397818+09:00"
+  },
+  {
+    "id": 227,
+    "title": "VC협회, 스케일업팁스 기업 투자 유치 지원 확대",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0wTmdHRUdLZXAxSGZiWDNfZnllS2JxRlM5ZmZnZVE0TWFqVXl6SktYZnBUcGRoMDd0aXU1TWJDbWlZU3dXTGVPWk51ektqNmdLcWxXZjdJbzFQWXRRVDNjbnVodWZ4Tkk1WmhTNW16RQ?oc=5",
+    "source": "",
+    "category": "VC",
+    "tag": "대체투자",
+    "summary": [],
+    "time": "5시간 전",
+    "pub_date": "2026-07-31T10:14:20+09:00",
+    "scraped_at": "2026-07-31T15:47:44.143699+09:00"
+  },
+  {
+    "id": 114,
+    "title": "특징주, 혜인-태양광에너지 테마 상승세에 3.33% ↑",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBxQnI2UnRkeFViT3VRR19iUjdvVC1pblV5bDZmVkNvQks3SjJuMkduTlBKM2lHdllTcTFZRVhZdXJCTWxKWlJqMm5BOXQ1Yk5QTGc?oc=5",
+    "source": "",
+    "category": "인프라",
+    "tag": "에너지",
+    "summary": [],
+    "time": "5시간 전",
+    "pub_date": "2026-07-31T10:09:11+09:00",
+    "scraped_at": "2026-07-31T15:45:05.749225+09:00"
+  },
+  {
+    "id": 115,
+    "title": "특징주, KCC-태양광에너지 테마 상승세에 5.63% ↑",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1kUFA2M01JMUt1RTgwZ0JQeWlBaUwtUFQwWXFLeVlLNVR6NzRWRWgzU0tveGJfOE03Rl9KdkhxUTJVV19ROGhaMzViN0JZTzE1cmc?oc=5",
+    "source": "",
+    "category": "인프라",
+    "tag": "에너지",
+    "summary": [],
+    "time": "5시간 전",
+    "pub_date": "2026-07-31T10:09:01+09:00",
+    "scraped_at": "2026-07-31T15:45:07.112181+09:00"
+  },
+  {
+    "id": 92,
+    "title": "CATL의 야심, AI 데이터센터·전력망까지 노린다!",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9wQzN0QVpIeU0tS2dVR1lTNVV3a3VsNVNLWXVfal9fS0VtY1gtYTFVOWVINjhKSWtXOXBLbG00SHA5Z2FUTlYxdmgtVDljWllwaWZKdnEwTEZXTmdSbjNZODhqbVRkdzV5bkhxYjRvWmRQVG9KMHc?oc=5",
+    "source": "",
+    "category": "인프라",
+    "tag": "디지털",
+    "summary": [],
+    "time": "5시간 전",
+    "pub_date": "2026-07-31T09:57:12+09:00",
+    "scraped_at": "2026-07-31T15:44:34.681354+09:00"
+  },
+  {
+    "id": 118,
+    "title": "‘AI 인프라’ 래블업, 올해 최단 기간 코스닥 예심 승인",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1MQWQ5MHRtMHAycVREaVBjU3ZZVHlKWXViXzdUMG1kYmhxSUZRM3V2b0JFWjVBSEhXMmZZNkZLZTJlSFVXa3c?oc=5",
+    "source": "",
+    "category": "인프라",
+    "tag": "AI",
+    "summary": [],
+    "time": "5시간 전",
+    "pub_date": "2026-07-31T09:50:38+09:00",
+    "scraped_at": "2026-07-31T15:45:11.162153+09:00"
+  },
+  {
+    "id": 122,
+    "title": "토스페이먼츠, 예금토큰 결제 인프라 구축 참여",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE53MnVqcWRTdFpHSUdaQ2dUdjEwVTJPZGZFdENKY0tQeEs4dUdJejF5LXhvYXBpRGQxQkFMaVlicUZLSC1pZF9jRThMdGtXTlZZX0JidURqYXhSeFnSAWBBVV95cUxPcUI0WnV6T04yTlliVEZRT1NWQXZlejRpd1FnMEQyaW5mUm0xeExMXzhoSTdKdnNPcmhZbUFiZ2pwS21HdHdQT2JQUjlHaDBzd0xBcmVvbFMtb0NFZ01IVkM?oc=5",
+    "source": "",
+    "category": "인프라",
+    "tag": "핀테크",
+    "summary": [],
+    "time": "6시간 전",
+    "pub_date": "2026-07-31T09:34:35+09:00",
+    "scraped_at": "2026-07-31T15:45:17.117346+09:00"
+  },
+  {
+    "id": 66,
+    "title": "풍력·태양광 집중투자 중국, 석탄발전 비중 사상 첫 50% 하회",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5qWXBLazN0U2xyYjVlWndJMjVyS3IxUWJBV0M5Y0s4WDB5bEhDNXg2NDA3cnJlWC1GZW1EWFRSYm4zbWU0YUg4TE5qbUQ4dUs1UTJzdUJTZ3BBd9IBWEFVX3lxTE1IZnNPZHNkRHk0LURWWlRacVc0VjVVcW5wcnlBTF93Yzgta1RGRF9VOFpNQ3VZREVDU29vVWFXT1plRUd1OWhGV1A0TVVDNC1ZS3pEX1R2eDQ?oc=5",
+    "source": "",
+    "category": "인프라",
+    "tag": "에너지",
+    "summary": [],
+    "time": "6시간 전",
+    "pub_date": "2026-07-31T09:33:14+09:00",
+    "scraped_at": "2026-07-31T15:43:58.482662+09:00"
+  },
+  {
+    "id": 123,
+    "title": "기아, 알바니아·짐바브웨서 인프라 지원 사업 마무리",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OZ1pRMXVGR1hybm5mZmphUC1HT3VPLWZoYmlsNGJwRFBaeF9BWUgwWUlWUGxzeU05WkRzWDlzN1FmVDBhOV9TVUViczBoZVQ2NDFjSzFsckxDM0tKTGprbNIBYEFVX3lxTE9OZ1pRMXVGR1hybm5mZmphUC1HT3VPLWZoYmlsNGJwRFBaeF9BWUgwWUlWUGxzeU05WkRzWDlzN1FmVDBhOV9TVUViczBoZVQ2NDFjSzFsckxDM0tKTGprbA?oc=5",
+    "source": "",
+    "category": "인프라",
+    "tag": "대체투자",
+    "summary": [],
+    "time": "6시간 전",
+    "pub_date": "2026-07-31T09:25:36+09:00",
+    "scraped_at": "2026-07-31T15:45:18.481757+09:00"
+  },
+  {
+    "id": 1,
+    "title": "GIC, 화도 이어 ‘롯데 덕평 물류센터’도 매각 추진 - SPI",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nd3F1b2t6V3ZnWHIzVWhwZjZCTGZ6RUtVdFJhemhGT2syejhUeURqMU40eG45VXhyRVl6UDlvcDFFNUMyZFdUNzJGdFEzOTBtdTJaci1rc1ZqNTQ?oc=5",
+    "source": "",
+    "category": "부동산",
+    "tag": "물류",
+    "summary": [],
+    "time": "6시간 전",
+    "pub_date": "2026-07-31T09:10:10+09:00",
+    "scraped_at": "2026-07-31T15:42:26.625265+09:00"
+  },
+  {
+    "id": 90,
+    "title": "CATL, 전기차 넘어 AI·전력망 배터리 승부수",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5jU3NPWXBHODI2d3dqX1V1VHF2dXE0bVJULVItM083SkNuOFMybmVuZUZpVnNzNDBreHZwZVpYazdnaXNKSW9YdnMyT2R1UzIzX05HcjltSzhrUQ?oc=5",
+    "source": "",
+    "category": "인프라",
+    "tag": "AI",
+    "summary": [],
+    "time": "7시간 전",
+    "pub_date": "2026-07-31T08:31:56+09:00",
+    "scraped_at": "2026-07-31T15:44:32.003525+09:00"
+  },
+  {
+    "id": 116,
+    "title": "키움증권 \"LG엔솔, ESS 마진 불확실성 지속될듯…목표가 하향\"",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE44VHRURHRYRTMtUTh0ZkVwQjhoOWp2NFlLSmVrMHdKWDhKMExISXZfaXF4c19YMmJGZHJxSTR6dUxCdU4xUURqWjZETktGUUFVRHc?oc=5",
+    "source": "",
+    "category": "인프라",
+    "tag": "대체투자",
+    "summary": [],
+    "time": "7시간 전",
+    "pub_date": "2026-07-31T08:12:28+09:00",
+    "scraped_at": "2026-07-31T15:45:08.467149+09:00"
+  },
+  {
     "id": 107,
     "title": "‘2차전지 대장’ LG엔솔…“ESS 출하량 50% 증가 여부가 핵심 변수”",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBpcmpaOWgyRHotRWNoMFRvZ2lKYVFBeGM4dV8ySDF2U19PR0RvcFFjbVZhYXRuYjR1N3JSYklyUjI1dktiNG1WRTJzajhEVUt0aHZidXJyM0cwZw?oc=5",
@@ -7,45 +547,57 @@
     "category": "인프라",
     "tag": "대체투자",
     "summary": [],
-    "time": "방금 전",
+    "time": "7시간 전",
     "pub_date": "2026-07-31T08:00:12+09:00",
-    "scraped_at": "2026-07-31T08:14:01.975799+09:00"
+    "scraped_at": "2026-07-31T15:44:55.820483+09:00"
   },
   {
-    "id": 176,
+    "id": 14,
+    "title": "앤트로픽이 사용할 데이터센터, 21조원 대출 협상…구글이 또 보증 - 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAwSlRWTm1YM3Q2eGo3NTdobDFLZWNoZ1FVUTVURXRORUI0SGljNk8tSlRDQzdKV0JFWWlkelp4aUVZNC0yTmtQSVBSTlREVUFIbW1hNHNNZEtLWGtRM0xRc01zSXlxNkZ60gFuQVVfeXFMUC04VjFIcTVtNEpRTUgzNE50dXgwT2NzcU9mZjdUWTRmazNOY1NhYmVvUHRNeWl1c19rT0dKOWYtRWgzZzkxVnQtZGVzYkx0YVNxb1N0QTdnV0xWN0JuaUh5ZGpoOXFnRFl1ODdSZXc?oc=5",
+    "source": "",
+    "category": "부동산",
+    "tag": "디지털",
+    "summary": [],
+    "time": "7시간 전",
+    "pub_date": "2026-07-31T07:48:32+09:00",
+    "scraped_at": "2026-07-31T15:42:45.012173+09:00"
+  },
+  {
+    "id": 177,
     "title": "中 CXMT, K-반도체 ‘HBM 올인’ 틈타 ‘범용 메모리’ 강자 부상",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBvd2JBT2xlVWFkOWlEQnFUQmM4eE9qMHl3NVl5Z0J3Zm5FRTRoUy1yS2lJTlVLR1NKREFYVTdnN3RiMFB2WWV4bS1FNThuSGs?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9sMmpNUmpYV05sNGZ5Sjhab0lWa1lUMDB6eVFFQnZoWGN6S084UVJMRUZzZXJ6ZXBPdkNFcFlxelFTcVJPRXpUcU5kLUFkc3M3bU1BYTMtTURqWllZWGtlZUJxRE0?oc=5",
     "source": "",
     "category": "VC",
     "tag": "AI",
     "summary": [],
-    "time": "1시간 전",
-    "pub_date": "2026-07-31T07:02:42+09:00",
-    "scraped_at": "2026-07-31T08:15:42.437051+09:00"
+    "time": "8시간 전",
+    "pub_date": "2026-07-31T07:00:01+09:00",
+    "scraped_at": "2026-07-31T15:46:33.973309+09:00"
   },
   {
-    "id": 110,
+    "id": 111,
     "title": "하나금융, 에너지 인프라 금융 확대…고탄소 11개 업종 전환금융 지원[2026 녹색금융]",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBBQTRTMEVheWJiRVNncWRTZERXWmNYVS1XZnZvdHJkYzdZazNJLUlsSHd5TjFLSGVLOGVYMXN0eGd4blFYMjluQWhLQUxwMnBwMm16bFQ0U3puc0Z6ejNiY1FrSnRtXzdlcWZHeg?oc=5",
     "source": "",
     "category": "인프라",
     "tag": "에너지",
     "summary": [],
-    "time": "1시간 전",
+    "time": "8시간 전",
     "pub_date": "2026-07-31T07:00:00+09:00",
-    "scraped_at": "2026-07-31T08:14:06.114076+09:00"
+    "scraped_at": "2026-07-31T15:45:01.228324+09:00"
   },
   {
-    "id": 91,
+    "id": 93,
     "title": "LG에너지솔루션 2분기 흑자… AI 전력망·46배터리로 승부수",
     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE01dXU2SnN1OGRaZTRHbnZ0X3hnYnRLSnh5TzN3N0FtS3lkQVh3eHRsd1F0TDB2WDFnMEl2RS1GYkFQUEhidERPNw?oc=5",
     "source": "",
     "category": "인프라",
     "tag": "에너지",
     "summary": [],
-    "time": "1시간 전",
+    "time": "8시간 전",
     "pub_date": "2026-07-31T06:51:55+09:00",
-    "scraped_at": "2026-07-31T08:13:38.563435+09:00"
+    "scraped_at": "2026-07-31T15:44:36.042027+09:00"
   },
   {
     "id": 158,
@@ -55,93 +607,45 @@
     "category": "PE",
     "tag": "대체투자",
     "summary": [],
-    "time": "1시간 전",
+    "time": "9시간 전",
     "pub_date": "2026-07-31T06:42:46+09:00",
-    "scraped_at": "2026-07-31T08:15:16.047598+09:00"
+    "scraped_at": "2026-07-31T15:46:07.152021+09:00"
   },
   {
-    "id": 113,
+    "id": 119,
     "title": "아메렌, 2분기 EPS 1.13달러로 12% 성장··인프라 투자 확대 기여",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5iaVVoQ2tQVnlBMVNORWl6azZIUU5tZDZuWG04cVNMQWptMDgtX09Hb19uUDJxUTNDVjVzMEhDWlNBTjVBRVdGVGRVNFNaRWt5b1E?oc=5",
     "source": "",
     "category": "인프라",
     "tag": "대체투자",
     "summary": [],
-    "time": "1시간 전",
+    "time": "9시간 전",
     "pub_date": "2026-07-31T06:19:26+09:00",
-    "scraped_at": "2026-07-31T08:14:10.704409+09:00"
+    "scraped_at": "2026-07-31T15:45:12.502302+09:00"
   },
   {
-    "id": 185,
-    "title": "K바이오, 1조원 메가펀드 윤곽…신약개발 ‘돈맥’ 뚫는다",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5DVDJJc3c3MUpUUTdzSTBUV2ppc2xRMlRDS29RUkRFV01iYkR1SEFZQ0xhQmwzY0FBd2hRdlMxQkluTktpWk5WT2VSRldYU05tay1fWg?oc=5",
-    "source": "",
-    "category": "VC",
-    "tag": "바이오",
-    "summary": [],
-    "time": "3시간 전",
-    "pub_date": "2026-07-31T05:00:00+09:00",
-    "scraped_at": "2026-07-31T08:15:55.454147+09:00"
-  },
-  {
-    "id": 118,
-    "title": "파워뱅크, 노바스코샤 태양광 컨설팅 수주 및 중장기 흑자전환 기대감에 급등",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9qY09FazBZTXhlc21IUncxZi1HNklxLWRpZk1DakdibmRhTjhBTGFGYTlWVjdpU0JEbUV4ZXJSR2h6NE10VnFieWpLWkNtb1oyclE?oc=5",
-    "source": "",
-    "category": "인프라",
-    "tag": "에너지",
-    "summary": [],
-    "time": "3시간 전",
-    "pub_date": "2026-07-31T04:50:21+09:00",
-    "scraped_at": "2026-07-31T08:14:17.596282+09:00"
-  },
-  {
-    "id": 9,
-    "title": "앤스로픽, 구글 보증 받아 데이터센터 건설에 150억달러 조달",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1vWlQ4Z3NfV3JQaXg3Q3AzZmF6T2dKVExWajh4NjRDSEY0VWw3MlJGLTdjaE9nb0JHdVh0a1pvWVNMVHhfLU8xeVQ5VUZGM1E?oc=5",
+    "id": 16,
+    "title": "구글, 앤스로픽 데이터센터에 금융보증…AI '순환금융' 확대",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBWRkZ0SXFCVzljZTZFWi02LXFkMEtLbzNwSnF4M1F1V05nb0VzbS11cFlUTEFaamc4cUxzNFNNdFJ2VFFwbEc0TDdPUHpCNUJQUXhQaXNHaHM5WDk5ZFM4Vw?oc=5",
     "source": "",
     "category": "부동산",
     "tag": "디지털",
     "summary": [],
-    "time": "3시간 전",
-    "pub_date": "2026-07-31T04:40:41+09:00",
-    "scraped_at": "2026-07-31T08:11:38.129214+09:00"
+    "time": "11시간 전",
+    "pub_date": "2026-07-31T04:38:36+09:00",
+    "scraped_at": "2026-07-31T15:42:47.719285+09:00"
   },
   {
-    "id": 10,
-    "title": "구글, 앤트로픽 텍사스 데이터센터에 150억 달러 대출 지원",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1peW9JLU1rdVJfV1RUQ19LVUJWbFFaTmFCSnNad0VSMHNnWmpfM3BwcHcxSktQbXVodnF4WTN3RTVUZTNLdUs3Tm5PcGoyb2dBV0lSSkExN0FGbFZDTllpSmIySEI2U3F6SmhRZ0NURnk?oc=5",
-    "source": "",
-    "category": "부동산",
-    "tag": "디지털",
-    "summary": [],
-    "time": "4시간 전",
-    "pub_date": "2026-07-31T03:36:00+09:00",
-    "scraped_at": "2026-07-31T08:11:39.515779+09:00"
-  },
-  {
-    "id": 11,
-    "title": "WSJ \"앤스로픽 데이터센터에 150억 달러 조달 추진…구글이 보증\"",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1XZEF0SmdCX2JibVhXaE9tZ2l2QzNFc1Y0b2JqbUo3Ml9VUk1ZZHo4b0p3SEk4QXBmM3Q5bVNpYkxoNVJITExtSk1pVnViT2xtc1V0dGlXZG1hcHli?oc=5",
-    "source": "",
-    "category": "부동산",
-    "tag": "디지털",
-    "summary": [],
-    "time": "4시간 전",
-    "pub_date": "2026-07-31T03:35:00+09:00",
-    "scraped_at": "2026-07-31T08:11:40.956303+09:00"
-  },
-  {
-    "id": 2,
+    "id": 4,
     "title": "해진공, 미 에너지·물류 인프라 2100억 투자…“공급망 강화”",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5SZ2g1YWI3WWtBdVdUeVlkc2pRbXlCRXZvcEJCUFMxeDF3QTRKMWdTTmtSTkhDWTUxX1J3cVZwc3RVcjVNeTZnTXRmWkFJUkJoN3JFOW9n?oc=5",
     "source": "",
     "category": "부동산",
     "tag": "물류",
     "summary": [],
-    "time": "8시간 전",
+    "time": "15시간 전",
     "pub_date": "2026-07-31T00:01:01+09:00",
-    "scraped_at": "2026-07-31T08:11:27.684418+09:00"
+    "scraped_at": "2026-07-31T15:42:30.688227+09:00"
   },
   {
     "id": 195,
@@ -151,69 +655,69 @@
     "category": "VC",
     "tag": "AI",
     "summary": [],
-    "time": "10시간 전",
+    "time": "17시간 전",
     "pub_date": "2026-07-30T22:08:07+09:00",
-    "scraped_at": "2026-07-31T08:16:09.992987+09:00"
+    "scraped_at": "2026-07-31T15:46:59.054264+09:00"
   },
   {
-    "id": 153,
+    "id": 154,
     "title": "서울창조경제혁신센터, 미래 전략 산업 분야 딥테크 5개사 선보여 \"제16회 ‘S Lounge 세컨더리 투자 Private IR’성료\"",
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9yUG9TODFFLUUxMUN3OGxFWm1EWndzMk53dmJoOEhRUGdXVmM2TVNDNG0tZ3RESWpmSnhaQURSVlVsLWJMNUJzUkNwaDA0Q1pJZGlGZURVZUVfTVhFQmNkX1NUZENaQQ?oc=5",
     "source": "",
     "category": "PE",
     "tag": "세컨더리",
     "summary": [],
-    "time": "10시간 전",
+    "time": "18시간 전",
     "pub_date": "2026-07-30T21:20:31+09:00",
-    "scraped_at": "2026-07-31T08:15:09.128507+09:00"
+    "scraped_at": "2026-07-31T15:46:01.808255+09:00"
   },
   {
-    "id": 241,
+    "id": 244,
     "title": "후반기 첫 위닝시리즈 신고했다!…‘송찬의 역전 결승 3점포+임찬규 10승’ LG, 키움 3연전 2승 1패로 마감",
     "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5mNDF5dzZMVDJlaFFzaXZTQzk2cm5vWmV3a3l6ckJ2NXRNQkJQd0FUdTF6SU9vV0djckU1Z3NjWEZrUms3Qnc?oc=5",
     "source": "",
     "category": "VC",
     "tag": "대체투자",
     "summary": [],
-    "time": "10시간 전",
+    "time": "18시간 전",
     "pub_date": "2026-07-30T21:20:20+09:00",
-    "scraped_at": "2026-07-31T08:17:18.727285+09:00"
+    "scraped_at": "2026-07-31T15:48:08.146957+09:00"
   },
   {
-    "id": 240,
+    "id": 243,
     "title": "“건강 비상” 임수정, 고열로 스케줄 조정…청룡시리즈어워즈 참석 ‘불투명’",
     "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBPd3p0S3c3c0cySkJicHU1S0pTTE1WR0ROQmkxeTZrMDNzRmo0MlBUcURJdHhhUUdoUjVqRTU2SEU5dFpuWXc?oc=5",
     "source": "",
     "category": "VC",
     "tag": "대체투자",
     "summary": [],
-    "time": "11시간 전",
+    "time": "18시간 전",
     "pub_date": "2026-07-30T21:04:31+09:00",
-    "scraped_at": "2026-07-31T08:17:17.306622+09:00"
+    "scraped_at": "2026-07-31T15:48:06.806036+09:00"
   },
   {
-    "id": 57,
+    "id": 58,
     "title": "경찰, 인천 쿠팡물류센터 화재 관련 밤까지 압수수색(종합)",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1zdU9XNkJCS1N3OGRpZG9pVEtRSWFqSFo4OER1QldsOUkzLVlXWG94MHhKaDlmQVdFRGhRVlI2OEdaZDNEblowOUptS1NNVXZjYU9rQWdjYUFleTjSAWBBVV95cUxNV3kwaW9ibEVoZUpyblNoajkyVmQ5MUpUZ2lVRUlEVXQwencwV0FoZGZWU1JZdHU1c05kaXZTT0FXcU1QR1FnRWp0ZC1zNHg3UkQ4bXhLdWp6b2xDVjRUQ0w?oc=5",
     "source": "",
     "category": "부동산",
     "tag": "물류",
     "summary": [],
-    "time": "11시간 전",
+    "time": "19시간 전",
     "pub_date": "2026-07-30T20:23:36+09:00",
-    "scraped_at": "2026-07-31T08:12:48.565286+09:00"
+    "scraped_at": "2026-07-31T15:43:47.253734+09:00"
   },
   {
-    "id": 115,
+    "id": 120,
     "title": "브룩필드 인프라스트럭쳐, 2분기 FFO 10% 증가..AI 인프라 투자 본격화",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE13YVRLZldZeXBtLVhjakVGd2JJS2JkM2xod0ZsYXR3MGJlTThZTnNKYUtyc051OHYyWG91R0RzNGY4alU2VGNjR0lDdmdZX1FCNVE?oc=5",
     "source": "",
     "category": "인프라",
     "tag": "AI",
     "summary": [],
-    "time": "11시간 전",
+    "time": "19시간 전",
     "pub_date": "2026-07-30T20:18:11+09:00",
-    "scraped_at": "2026-07-31T08:14:13.459845+09:00"
+    "scraped_at": "2026-07-31T15:45:13.844152+09:00"
   },
   {
     "id": 62,
@@ -223,81 +727,69 @@
     "category": "부동산",
     "tag": "오피스",
     "summary": [],
-    "time": "12시간 전",
+    "time": "19시간 전",
     "pub_date": "2026-07-30T20:06:52+09:00",
-    "scraped_at": "2026-07-31T08:12:55.645627+09:00"
+    "scraped_at": "2026-07-31T15:43:52.676841+09:00"
   },
   {
-    "id": 116,
-    "title": "T1 에너지, 1억2000만 달러 전환사채 발행..텍사스 태양전지 공장 건설",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBsWXhCWDZlamRUWjJLNGxqTmxVQXY5Z2VMRW1Pa2RsTTVVaDhUODZoN1dCX2psZ283Sy0xYmFRWEZXN09DLWJVSmZEbktvVHpkWGc?oc=5",
-    "source": "",
-    "category": "인프라",
-    "tag": "에너지",
-    "summary": [],
-    "time": "12시간 전",
-    "pub_date": "2026-07-30T19:44:53+09:00",
-    "scraped_at": "2026-07-31T08:14:14.833767+09:00"
-  },
-  {
-    "id": 192,
+    "id": 193,
     "title": "라이너, 투자 판단 돕는 AI 에이전트 ‘라이너 파이낸스’ 출시 - 조선비즈",
     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdlMwUnY0VUpBXzV1ZnhUdmMxSWF2QW9CUDdvZnFqOXNJZzhEMmw1NFdBcmg3VE94ZHJ1SlppS0hMa05TaUFPODlHaTBOcTJaODZWRUl1M21iU3N5ZHlRQ0pseTB4OGZQcktXbGpuSlQ2WGV3WFMtcjdGT2NiS0RFNE1B0gGWAUFVX3lxTE5uX3E5dDU0WWUyY2lBb3VVNi00NnN2aURtRGd1NWwzc01GR1VQYVd1UDFfZm9Nb0Fnc3RuRi11ajZYSVk5UmE3X3pqU3BpbDVMVlh0MVNjMEx0cjFQelNmY0t0ME9EQUd5R19UZkJLRW9PMGw3Rkpjd2FvaUhLaVppZjBTT2NLXzNxa1l2OHhKM2dqd3ljdw?oc=5",
     "source": "",
     "category": "VC",
     "tag": "AI",
     "summary": [],
-    "time": "13시간 전",
+    "time": "20시간 전",
     "pub_date": "2026-07-30T19:13:00+09:00",
-    "scraped_at": "2026-07-31T08:16:05.885841+09:00"
+    "scraped_at": "2026-07-31T15:46:56.356540+09:00"
   },
   {
-    "id": 130,
+    "id": 131,
     "title": "금융당국, 사모펀드 ‘기간산업 무분별 인수’ 막는다… 입법·규제 검토 착수",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42dTc1X3J4RGY3WXlFU3Q4aHB3ekNqRkR0eG1kUHZCRGlmcEViVW1xMkh6M0Z5VVF1YjNucFh1Q0Vrc3ZiVHI2STd4UERoQzgwWjNEcmU5ME9RUzNORm8tVHA3SmFuWC1pbFZuRA?oc=5",
     "source": "",
     "category": "PE",
     "tag": "바이아웃",
     "summary": [],
-    "time": "13시간 전",
+    "time": "21시간 전",
     "pub_date": "2026-07-30T18:30:14+09:00",
-    "scraped_at": "2026-07-31T08:14:35.471995+09:00"
+    "scraped_at": "2026-07-31T15:45:29.674052+09:00"
   },
   {
-    "id": 134,
+    "id": 136,
     "title": "고려아연 놓고 사모펀드 규제론 재점화…금융위 \"보호 취지 공감\"",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jOXZSZDRjS2k1Q0RQYlMwNGFNc0pFcXRqOW15cHJ2TEI2TktDMVFnV29FV3dIQ2Q0cFhZcnhucTh3NHBUUjVtbmlQS0xoUm9ZMEs5cU5hazMyQmVRU0dPN1RGMkFGd1hsVExHeDZpbkk?oc=5",
     "source": "",
     "category": "PE",
     "tag": "대체투자",
     "summary": [],
-    "time": "13시간 전",
+    "time": "21시간 전",
     "pub_date": "2026-07-30T18:25:00+09:00",
-    "scraped_at": "2026-07-31T08:14:41.192106+09:00"
+    "scraped_at": "2026-07-31T15:45:36.385065+09:00"
   },
   {
-    "id": 202,
+    "id": 206,
     "title": "HL만도, 2분기 영업익 1070억원 … 휴머노이드 액추에이터 투자 가속",
     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4zQnlNeFR6SDlNZU02Z2FkcDV2VmV1NVZOSDVaSElRRUFiSGswUkZQN0huUW5wdEJHdlVKVXhOd0luVjFuLWxzMktLZFRoTGJrYVdMWHV6dWVJYWNxOG9OaDJBT1hsY0dNY2JnRWJ1LTlWR0NYaUxYWVU3SdIBgAFBVV95cUxNRnlQam1jeXFZQlJhWmgwdGtuU0hVTWg3N08yOWdDcU9vUGhlWW5CS3NveDFpNzYyTWprV19mbldpUEN4LWdyWVV6WWQzd3dfS3NjcHdyVkNBX1A0V1dtaERLblFnUi1pUkhxQllhQ2tkWml1N0owLS1QOXFWa2p1Wg?oc=5",
     "source": "",
     "category": "VC",
     "tag": "로봇",
     "summary": [],
-    "time": "13시간 전",
+    "time": "21시간 전",
     "pub_date": "2026-07-30T18:19:04+09:00",
-    "scraped_at": "2026-07-31T08:16:20.241919+09:00"
+    "scraped_at": "2026-07-31T15:47:14.289855+09:00"
   },
   {
-    "id": 232,
+    "id": 233,
     "title": "반년 새 몸값 15배 급등…로봇·AI 스타트업 후끈",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9zR19FejFBYnlOWTZfSElhR2x6MWZBNmF0cnVQMFh2bVE4dnFMalNQWEtJcVJrLUtweXNHZG1WbUxFMlVIYnJyNGJmdFB4STBqUGt1ZDZPMy11Zw?oc=5",
     "source": "",
     "category": "VC",
     "tag": "AI",
     "summary": [],
-    "time": "14시간 전",
+    "time": "21시간 전",
     "pub_date": "2026-07-30T18:11:59+09:00",
-    "scraped_at": "2026-07-31T08:17:05.313006+09:00"
+    "scraped_at": "2026-07-31T15:47:52.812409+09:00"
   },
   {
     "id": 51,
@@ -307,45 +799,45 @@
     "category": "부동산",
     "tag": "리츠",
     "summary": [],
-    "time": "14시간 전",
+    "time": "21시간 전",
     "pub_date": "2026-07-30T18:05:00+09:00",
-    "scraped_at": "2026-07-31T08:12:39.707162+09:00"
+    "scraped_at": "2026-07-31T15:43:37.370525+09:00"
   },
   {
-    "id": 1,
+    "id": 2,
     "title": "코람코자산신탁, 수도권 도심형 안양물류센터 매각 추진…매각가 2000억대 중후반 추산 - 조선비즈",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNd29IYmFzeThNN2t6ajBCUXBPaDJjSF9rYmd1X3Rvb3ZDQzFvNXljV3llem5kUGJReXdiZ0sybTRtMGl1ZnloU0JXNFJZeDFvVkxVTEN3d1FmaWxDR01GM0ZxdnowbWtPYmNSeDZUZHpTSjVGU2VkQWIwQW1ueWVxME1nTEZKSHVi0gGcAUFVX3lxTE1JaU9NT0FHU3pmWWZGWXBGajJWNzJidVRyM1JwUktwQTRYM0gzR3Voa0gxTmhqbDFaQ0FtVHJrbG9IcF94cURCVjBDcUtsS2M1X1lJZ0YxTGkyUE1pdWNSbDJZMW1LU0ZlczJOc1ppWWJYYTlxN2p3QnZLa0pLU21HcWtRRFlyZXBCSXlWMGE3NlFnXzVzZkdnb2lGYQ?oc=5",
     "source": "",
     "category": "부동산",
     "tag": "물류",
     "summary": [],
-    "time": "14시간 전",
+    "time": "21시간 전",
     "pub_date": "2026-07-30T18:04:00+09:00",
-    "scraped_at": "2026-07-31T08:11:26.227720+09:00"
+    "scraped_at": "2026-07-31T15:42:27.970356+09:00"
   },
   {
-    "id": 60,
+    "id": 57,
     "title": "인천 물류센터 화재 관련 쿠팡 사무실 압수수색 마친 경찰",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1URGJ5NFp0TTJzNXl0VktyYnJwaUNtVjhMUWdBLVZmVTM1b2c0emMtaWxoREdfQ3NjS1RHNHlDc3lyT0M5b3RyUWJpMlRZOTA5TEhZMktBSE1ibHVjaThTV9IBYEFVX3lxTE1URGJ5NFp0TTJzNXl0VktyYnJwaUNtVjhMUWdBLVZmVTM1b2c0emMtaWxoREdfQ3NjS1RHNHlDc3lyT0M5b3RyUWJpMlRZOTA5TEhZMktBSE1ibHVjaThTVw?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41b2NHLUgyLWFsdU1tNGlJbEhjRTJNU0tfb2hlSGVkWkhyX245ZTJjN01iYWhXS1hzdGZHa2RsY09VdzljeXFZLTVOcU05UWxBR054NlA0NE1LczFDRFA1LdIBYEFVX3lxTE41b2NHLUgyLWFsdU1tNGlJbEhjRTJNU0tfb2hlSGVkWkhyX245ZTJjN01iYWhXS1hzdGZHa2RsY09VdzljeXFZLTVOcU05UWxBR054NlA0NE1LczFDRFA1LQ?oc=5",
     "source": "",
     "category": "부동산",
     "tag": "오피스",
     "summary": [],
-    "time": "14시간 전",
-    "pub_date": "2026-07-30T17:51:22+09:00",
-    "scraped_at": "2026-07-31T08:12:52.723578+09:00"
+    "time": "21시간 전",
+    "pub_date": "2026-07-30T17:51:34+09:00",
+    "scraped_at": "2026-07-31T15:43:45.910592+09:00"
   },
   {
-    "id": 236,
+    "id": 237,
     "title": "\"송아지가 소보다 비싸\"…코스닥 폭락에 날벼락 맞은 곳",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1EWk9vSXlERkR0UVJZc25ka1pseDZfVVcxTktrV195eVVqcWJxelluanI2alFHQ2RNcmZfWC0xVWV5WEh1SDBjbU5penp4ZktjU0pqTVlzZE03QQ?oc=5",
     "source": "",
     "category": "VC",
     "tag": "대체투자",
     "summary": [],
-    "time": "14시간 전",
+    "time": "21시간 전",
     "pub_date": "2026-07-30T17:49:27+09:00",
-    "scraped_at": "2026-07-31T08:17:11.138460+09:00"
+    "scraped_at": "2026-07-31T15:47:58.175993+09:00"
   },
   {
     "id": 239,
@@ -355,177 +847,153 @@
     "category": "VC",
     "tag": "대체투자",
     "summary": [],
-    "time": "14시간 전",
+    "time": "22시간 전",
     "pub_date": "2026-07-30T17:46:18+09:00",
-    "scraped_at": "2026-07-31T08:17:15.440115+09:00"
+    "scraped_at": "2026-07-31T15:48:00.967986+09:00"
   },
   {
-    "id": 58,
+    "id": 59,
     "title": "신한금융, 자회사 신한자산신탁·신한리츠운용 흡수합병 결의",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9nLUdIeTRDZzlRLW51ejRLWU1FYkFnRHUwNWxwRVJUeGNKZFBoRi1JTlNTVERudjRUYm92bkVoQlEzVzdKWHAtUDU1VWFJLVhraHM4aWtYU285WGvSAWBBVV95cUxOQW9EUDFZSU5maUpJMHVwSXB6SnpRWGZOc2F2OTgtRm1TLVNPXzlRWkR5cC1GSHB6dDJReEJSbEphTHNUaWVCRlV2T244aUgyOEo5cnJLd29nbUlHN21neHU?oc=5",
     "source": "",
     "category": "부동산",
     "tag": "리츠",
     "summary": [],
-    "time": "14시간 전",
+    "time": "21시간 전",
     "pub_date": "2026-07-30T17:45:48+09:00",
-    "scraped_at": "2026-07-31T08:12:49.949603+09:00"
+    "scraped_at": "2026-07-31T15:43:48.589226+09:00"
   },
   {
-    "id": 227,
+    "id": 232,
     "title": "오더인, 중소벤처기업부 기술창업 지원 프로그램 ‘팁스(TIPS)’ 선정",
     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE83ck84T3UzV0pPQy1GS0J4WHU1NlVod2ZaZmNzXzRiWHd4NTRGeEs4QUNDSVlpTUtIbjRxYjhzTkVRZ3djbzVWSjBVT1dRSzFzTk9PMXdyRWk5QVd2SU11elg4M1otV3RnZmVhS1hERTRVYTJKWlZF?oc=5",
     "source": "",
     "category": "VC",
     "tag": "대체투자",
     "summary": [],
-    "time": "14시간 전",
+    "time": "22시간 전",
     "pub_date": "2026-07-30T17:42:00+09:00",
-    "scraped_at": "2026-07-31T08:16:57.788818+09:00"
+    "scraped_at": "2026-07-31T15:47:50.985002+09:00"
   },
   {
-    "id": 233,
+    "id": 234,
     "title": "삼성전자, 반도체 스타트업 투자·기술 확보에 8000억 출자",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBZU2M4M1dvdGJhS3JmOEw0cFNLZjFmdFptVURVSHIycDVtcGpoOFlBdlZsV0JKd2lKendZSU5HN1JwSTNXWHMzcUxQcDBpYzRKanF0dThkWHVVQQ?oc=5",
     "source": "",
     "category": "VC",
     "tag": "펀드결성",
     "summary": [],
-    "time": "14시간 전",
+    "time": "22시간 전",
     "pub_date": "2026-07-30T17:26:05+09:00",
-    "scraped_at": "2026-07-31T08:17:06.716336+09:00"
+    "scraped_at": "2026-07-31T15:47:54.149539+09:00"
   },
   {
-    "id": 129,
-    "title": "\"안정적 수수료에 판매망까지\"…美 자산관리회사 베팅하는 글로벌 PEF",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5nTmNreVBMcXI4Z0IyT0V4X0hmclE4WWlmQXhXd2F0bnZ6T1RZWFpiZjlFZDV6NFVzbEZDU2JFRkVpeEdRUzE1ZDdyS0FIUnV5amZmdkhQV0xTSFlQbkdZYlZHRGFzZkNTWDFzWE9MaEF0UQ?oc=5",
-    "source": "",
-    "category": "PE",
-    "tag": "대체투자",
-    "summary": [],
-    "time": "14시간 전",
-    "pub_date": "2026-07-30T17:25:50+09:00",
-    "scraped_at": "2026-07-31T08:14:34.123048+09:00"
-  },
-  {
-    "id": 181,
-    "title": "국민성장펀드, LGD·테크윙 설비투자 지원…OLED·HBM 공급망 강화",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4wQ0xGUmQxRTB1YTFjeGJLSi1wNk45UWJRblhuNWhyUjJhUmdWemMwUV9NMEJ1dzJyUE96T1FBWm5EX1ZNZTBGMU5WZnVpbVlVdkNKamVxV0sybWZlY2NEYUtyMDNPcTV3T0ZiTk9B?oc=5",
-    "source": "",
-    "category": "VC",
-    "tag": "대체투자",
-    "summary": [],
-    "time": "14시간 전",
-    "pub_date": "2026-07-30T17:20:00+09:00",
-    "scraped_at": "2026-07-31T08:15:49.445963+09:00"
-  },
-  {
-    "id": 89,
+    "id": 94,
     "title": "국내 생산세액공제 한계 부딪힌 LG엔솔, 美 ESS서 돌파구 찾는다",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE03bFBhMENwSWRvVkRSZ09ZTXpBQmRsZGo3U211WjBxMUx6WG1hVXZCdlhPYTRYQVJ1d3pYMWhjYTk2MkJSSG9Ib0NzRk55bTlPMmJ2dkpKRzZncG80ZVRmZGM5dURNaldmMlBtSGh2LWlRbnBvbWVCadIBeEFVX3lxTE03bFBhMENwSWRvVkRSZ09ZTXpBQmRsZGo3U211WjBxMUx6WG1hVXZCdlhPYTRYQVJ1d3pYMWhjYTk2MkJSSG9Ib0NzRk55bTlPMmJ2dkpKRzZncG80ZVRmZGM5dURNaldmMlBtSGh2LWlRbnBvbWVCaQ?oc=5",
     "source": "",
     "category": "인프라",
     "tag": "대체투자",
     "summary": [],
-    "time": "14시간 전",
+    "time": "22시간 전",
     "pub_date": "2026-07-30T17:15:19+09:00",
-    "scraped_at": "2026-07-31T08:13:35.779404+09:00"
+    "scraped_at": "2026-07-31T15:44:37.383566+09:00"
   },
   {
-    "id": 76,
+    "id": 78,
     "title": "경남도, 소형모듈원전(SMR) 제조혁신 3개 핵심과제 모두 선정",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5uUXFhdjREaWhUakVHSnZzN0xvNjcwNDJDTEJOQ0Q0RDVPakZLbGowVElfMlVFMmNwOE0yTVhVT3VqeEh0c0s1SlpiZmhfdDRrMzZJTlpJaEdTRW1weTQ3M0xtLURxQ0V5bHZSNGVyYXBTZw?oc=5",
     "source": "",
     "category": "인프라",
     "tag": "에너지",
     "summary": [],
-    "time": "15시간 전",
+    "time": "22시간 전",
     "pub_date": "2026-07-30T17:09:19+09:00",
-    "scraped_at": "2026-07-31T08:13:16.526512+09:00"
+    "scraped_at": "2026-07-31T15:44:14.988546+09:00"
   },
   {
-    "id": 197,
+    "id": 200,
     "title": "저커버그 \"5년 안에 수십억명 개인 AI 에이전트 갖게 될 것\"",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCMTcxQzI1QXNQR3kwMUR0Z0JMc1BoeXI1bTBIbXBuQlFGNmc2LXpkSTNSZl84ZW9KemdDV0xIQ19TOUxZaUdOZWtZN3hIcm1EdzMxMWd3?oc=5",
     "source": "",
     "category": "VC",
     "tag": "AI",
     "summary": [],
-    "time": "15시간 전",
+    "time": "22시간 전",
     "pub_date": "2026-07-30T17:03:43+09:00",
-    "scraped_at": "2026-07-31T08:16:12.817427+09:00"
+    "scraped_at": "2026-07-31T15:47:05.792775+09:00"
   },
   {
-    "id": 65,
+    "id": 68,
     "title": "소규모 태양광 전용시장 신설… 햇빛소득마을은 1000kW까지",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hbGxwSm9CVmNULTdneXRDek1qX1JaZFpEa1NXSm9KOHJjWWNET3daLXZQdFVhbVdCUVhid0ZackJkQ1E4VDNUNmdKRWJkZWhFMUpJekFHdG84VTg?oc=5",
     "source": "",
     "category": "인프라",
     "tag": "에너지",
     "summary": [],
-    "time": "15시간 전",
+    "time": "22시간 전",
     "pub_date": "2026-07-30T17:00:00+09:00",
-    "scraped_at": "2026-07-31T08:13:00.283202+09:00"
+    "scraped_at": "2026-07-31T15:44:01.140240+09:00"
   },
   {
-    "id": 244,
+    "id": 247,
     "title": "AI 크리에이터 개발사 ‘언엑스’, 시드 투자 유치",
     "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBRR05oZHdUQmlfaENRZWpzejRacGI4b2EtcU0xcElLS1R1WGJmaThGZi1wT3lISUpFaE10SEN6YmVCNmpjSUE?oc=5",
     "source": "",
     "category": "VC",
     "tag": "AI",
     "summary": [],
-    "time": "15시간 전",
+    "time": "22시간 전",
     "pub_date": "2026-07-30T16:59:28+09:00",
-    "scraped_at": "2026-07-31T08:17:22.982408+09:00"
+    "scraped_at": "2026-07-31T15:48:12.174066+09:00"
   },
   {
-    "id": 136,
-    "title": "강준현 “기간산업 PEF 인수 제한해야”…이억원 “입법 방식 검토”",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xYVdYaFlDZlhhSmpfM1RNMjZuZTFua1AwMzViMlIyRUhZbVVLTG9LMmpVU0NsUHZXV01JRFA1dTZVbjlIOFBDSzcyZVdnY2NZTVFOOTdVSHNkQ1QtSzh3dG45MTk0VUZNSzdDZg?oc=5",
-    "source": "",
-    "category": "PE",
-    "tag": "바이아웃",
-    "summary": [],
-    "time": "15시간 전",
-    "pub_date": "2026-07-30T16:59:06+09:00",
-    "scraped_at": "2026-07-31T08:14:43.967127+09:00"
-  },
-  {
-    "id": 200,
+    "id": 201,
     "title": "몸보다 손·귀…휴머노이드 투자도 감각 경쟁",
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9FQWRhR2VPUC1KbWtnaFZZT3BvTE1tdmlhX01LaVBUWklYS2dXX3JYc05HSHNVV0E2b1V1djJsWDVPYjFpM3hKbm5kYzl0RklCSlVQRVJCRjjSAVhBVV95cUxPRUFkYUdlT1AtSm1rZ2hWWU9wb0xNbXZpYV9NS2lQVFpJWEtnV19yWHNOR0hzVVdBNm9VdXYybFg1T2IxaTN4Sm5uZGM5dEZJQkpVUEVSQkY4?oc=5",
     "source": "",
     "category": "VC",
     "tag": "로봇",
     "summary": [],
-    "time": "15시간 전",
+    "time": "22시간 전",
     "pub_date": "2026-07-30T16:52:07+09:00",
-    "scraped_at": "2026-07-31T08:16:17.427222+09:00"
+    "scraped_at": "2026-07-31T15:47:07.549434+09:00"
   },
   {
-    "id": 132,
+    "id": 202,
+    "title": "몸보다 '손·귀'…휴머노이드 투자도 감각 경쟁",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1iWlhHMGRpQjBabFV2VFI4akxqTEJsZ0lNeFo4R3BFZTFZQUkyRFM4Y20xWFpjMlRJeV95ajlaMEI2QmlfMXJJUzFCbzBBYm9TYU5wYg?oc=5",
+    "source": "",
+    "category": "VC",
+    "tag": "로봇",
+    "summary": [],
+    "time": "22시간 전",
+    "pub_date": "2026-07-30T16:52:00+09:00",
+    "scraped_at": "2026-07-31T15:47:08.890988+09:00"
+  },
+  {
+    "id": 133,
     "title": "강준현 \"고려아연, 사모펀드에 맡길 국가기간산업 아냐\"…금융당국 \"보호 취지 공감\"",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1OdWpqYUk0VDJiTkFrcVZZSFM1UmViMDV4VVlGSDVKMnBpdENocFRCdzJway03RzkteFRyVDVLQ0ZOSU82LUFXSjJieDM3NnR4ajAzM0pUb1ZBdlk?oc=5",
     "source": "",
     "category": "PE",
     "tag": "대체투자",
     "summary": [],
-    "time": "15시간 전",
+    "time": "23시간 전",
     "pub_date": "2026-07-30T16:43:27+09:00",
-    "scraped_at": "2026-07-31T08:14:38.257616+09:00"
+    "scraped_at": "2026-07-31T15:45:32.381480+09:00"
   },
   {
-    "id": 126,
+    "id": 128,
     "title": "포스코홀딩스 2분기 영업익 34%↑…이차전지·인프라 수익 개선(종합)",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RTDY1amdDQWRzU1Y2V24yT2pLSDhzRlplaHQwZXpGVGhvWkZUajhUX3MwVGhEVFJvamRid2EyX2YwLTMxU0NDN3ppM0lUYk11Y3JPYzhsdl82VGPSAWBBVV95cUxOWjdURmFIRjl6Zl90cHFWWHJxOHJhQjVVZXpFWjZmaEVsbVJ2SnN2YVBISnhGdHdYQ2c2VURPd0s0bDJZUnJKVFNRYnRBM05ONkhMbWN6enRNald3NlBkUE4?oc=5",
     "source": "",
     "category": "인프라",
     "tag": "대체투자",
     "summary": [],
-    "time": "15시간 전",
+    "time": "23시간 전",
     "pub_date": "2026-07-30T16:40:36+09:00",
-    "scraped_at": "2026-07-31T08:14:29.354102+09:00"
+    "scraped_at": "2026-07-31T15:45:25.220529+09:00"
   },
   {
     "id": 41,
@@ -535,177 +1003,117 @@
     "category": "부동산",
     "tag": "오피스",
     "summary": [],
-    "time": "15시간 전",
+    "time": "23시간 전",
     "pub_date": "2026-07-30T16:31:08+09:00",
-    "scraped_at": "2026-07-31T08:12:25.089531+09:00"
+    "scraped_at": "2026-07-31T15:43:23.246999+09:00"
   },
   {
-    "id": 131,
+    "id": 134,
     "title": "강준현 “MBK, ‘홈플 사태’에도 고려아연 경영권 확보 혈안…사모펀드 기간산업 약탈 방치할 건가”",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5CSWZLOHpydWtndURzSm5aR01MMVlIbHVXV0hSbjNwdkVyMGlsZlZxd1ZyeFMyc1FqNW9WbldnQ3BGMURXTHh0R3FxSmQ0TFBWVWViVVlWX2lEV2M?oc=5",
     "source": "",
     "category": "PE",
     "tag": "대체투자",
     "summary": [],
-    "time": "15시간 전",
+    "time": "23시간 전",
     "pub_date": "2026-07-30T16:30:14+09:00",
-    "scraped_at": "2026-07-31T08:14:36.864147+09:00"
+    "scraped_at": "2026-07-31T15:45:33.703507+09:00"
   },
   {
-    "id": 12,
-    "title": "아주대, ‘AI 데이터센터 열관리 연구’ 정부사업 주관한다",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE81OTF3ZmxnRXBiNjAyYy1UOG1saVFvZFBEZUN0cWpWMzBlNlNFcXFmRUxVRXdUR1lqaHZzYU9pMG5ldl91NHN3c2k5WENXcjFBV1M0NWFB?oc=5",
-    "source": "",
-    "category": "부동산",
-    "tag": "디지털",
-    "summary": [],
-    "time": "15시간 전",
-    "pub_date": "2026-07-30T16:30:00+09:00",
-    "scraped_at": "2026-07-31T08:11:42.372942+09:00"
-  },
-  {
-    "id": 70,
-    "title": "석탄발전 추월 눈앞인데… 中, 태양광 제동 건 이유는",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA1NUo4SHhoSklTSXFsb1Y1UHozcmxXSWQ2WHJYNVVpZ1ZXRVNpdFlYWXQyc1ZRc2RnWHZYU1E5MEhLak90elo2ZDdnUWltbVlsOHc?oc=5",
-    "source": "",
-    "category": "인프라",
-    "tag": "에너지",
-    "summary": [],
-    "time": "15시간 전",
-    "pub_date": "2026-07-30T16:23:00+09:00",
-    "scraped_at": "2026-07-31T08:13:07.366563+09:00"
-  },
-  {
-    "id": 194,
+    "id": 196,
     "title": "라이너, 투자 리서치 AI 에이전트 ‘라이너 파이낸스’ 출시",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5vYkdUeXVrQnk2Y2pUeDA4c19OLTQ0SDk4cWNuTTVIcm5fMERacWZkYmtMNVVFZ1MxOU5VaTlSWEhhQmh6WEd0Wkhvb0pQQTB0ck8tVlhJenZSZ0FQRnN5ODE0Yko5R0d0?oc=5",
     "source": "",
     "category": "VC",
     "tag": "AI",
     "summary": [],
-    "time": "15시간 전",
+    "time": "23시간 전",
     "pub_date": "2026-07-30T16:22:38+09:00",
-    "scraped_at": "2026-07-31T08:16:08.619484+09:00"
+    "scraped_at": "2026-07-31T15:47:00.398564+09:00"
   },
   {
-    "id": 242,
+    "id": 245,
     "title": "KBO, 세계 월드시리즈 출전하는 韓 리틀야구 대표팀에 1000만 원 상당 야구 용품 전달",
     "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE94OXllYlVaTkd6ZDhwY3Myc01Ud0ZNRXdlMW4wTlJNSW5Dc0plOGFCeDFTQ2xPYll2VmRGVHdaNmE3SEZLZmc?oc=5",
     "source": "",
     "category": "VC",
     "tag": "대체투자",
     "summary": [],
-    "time": "16시간 전",
+    "time": "23시간 전",
     "pub_date": "2026-07-30T16:15:00+09:00",
-    "scraped_at": "2026-07-31T08:17:20.143769+09:00"
+    "scraped_at": "2026-07-31T15:48:09.494115+09:00"
   },
   {
-    "id": 178,
+    "id": 184,
     "title": "국민성장펀드, LGD·테크윙 지원…OLED·HBM 공급망 강화",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FVnBHLUFNMkRzRXJWMnp1TU5yMW82WFc1S3B0N3pCU3hoSTUzZjQ0aGJOWDhpQlEzQ2ZjdUpXR1Nnb2E2eEJwLTVjY1R2ODIwbjBkMUJFSVhQNHdDdU0xNHZFYmw?oc=5",
     "source": "",
     "category": "VC",
     "tag": "대체투자",
     "summary": [],
-    "time": "16시간 전",
+    "time": "23시간 전",
     "pub_date": "2026-07-30T16:13:16+09:00",
-    "scraped_at": "2026-07-31T08:15:45.221944+09:00"
+    "scraped_at": "2026-07-31T15:46:43.457649+09:00"
   },
   {
-    "id": 73,
+    "id": 75,
     "title": "경남도, 소형모듈원전(SMR) 제조혁신 3개 핵심과제 모두 선정",
     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE01UVlMMGh0WWJaY2FYemxfbEhDRTFUeHBURlQwTEw5ZVcwWk94RklobUh4eWFkY1pZNE5nRklldTlGdktUOXZYSkp6bmloYzR6TkF4czV3UTBNaVoyUktj?oc=5",
     "source": "",
     "category": "인프라",
     "tag": "에너지",
     "summary": [],
-    "time": "16시간 전",
+    "time": "23시간 전",
     "pub_date": "2026-07-30T16:10:04+09:00",
-    "scraped_at": "2026-07-31T08:13:12.226867+09:00"
+    "scraped_at": "2026-07-31T15:44:10.946331+09:00"
   },
   {
-    "id": 13,
-    "title": "AI 열 식히는 아주대…388억원 들여 데이터센터 전력 잡기",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5nNm92U29vbWpaYUt1bjFCekFYcUFXamgwOWJ5TFlLTkUwaGU1b3JrRXllU1lpb2R3bk14U2NTMXQ3eW9iX3dSQUwxMmxyQQ?oc=5",
-    "source": "",
-    "category": "부동산",
-    "tag": "디지털",
-    "summary": [],
-    "time": "16시간 전",
-    "pub_date": "2026-07-30T16:01:42+09:00",
-    "scraped_at": "2026-07-31T08:11:43.788874+09:00"
-  },
-  {
-    "id": 201,
+    "id": 203,
     "title": "삼성 '19조 투자' 끌어낸 구미…휴머노이드 로봇 혁신 이끈다",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ydXZqTjlJQUIwUE1IeFVXczJsX1QxOUZJSDRjUkxTUEUzVkJTVEgxbGZ1bWExbm1ZOE82UVNHbFQwOGYzYllDNEtnV043Nkl0T0JvQUViVXFSZw?oc=5",
     "source": "",
     "category": "VC",
     "tag": "로봇",
     "summary": [],
-    "time": "16시간 전",
+    "time": "23시간 전",
     "pub_date": "2026-07-30T16:01:37+09:00",
-    "scraped_at": "2026-07-31T08:16:18.810997+09:00"
+    "scraped_at": "2026-07-31T15:47:10.247136+09:00"
   },
   {
-    "id": 209,
+    "id": 215,
     "title": "[컨콜] 삼성SDS \"두나무 지분투자는 스테이블코인·AI 등 디지털 인프라 전략적 제휴\"",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVVVlbFEzTDVkRV9leFFwZWlrYi1mUlJiNG9ZMkcwdTlCbFZkb2xpVXpHMVQxSC11NkYwV3VTOEZCVUlfY2xOeXpFZFBnOVNwWjNvbnFRVjlzazc2dkpNNTFPamtBUzhnYTRSZTgyTXNDWVBPTEd4N25WR3BVZlZvTdIBgAFBVV95cUxOVVVlbFEzTDVkRV9leFFwZWlrYi1mUlJiNG9ZMkcwdTlCbFZkb2xpVXpHMVQxSC11NkYwV3VTOEZCVUlfY2xOeXpFZFBnOVNwWjNvbnFRVjlzazc2dkpNNTFPamtBUzhnYTRSZTgyTXNDWVBPTEd4N25WR3BVZlZvTQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9kTzZnc0dWMmhOY05KTklGQTFIWW1fbTZPRWQ0bnlaTXhGQWhJakpUVWh0eklGclM5RmRKcnY1UmVSRHBqMktsVEVKMjNLTk1tVVdlaEZnMzRkdDNZWkdHRGpQcVV3TnFKT2t6YkZVcUxuMDVUd2ZRUVJTUdIBgAFBVV95cUxOVVVlbFEzTDVkRV9leFFwZWlrYi1mUlJiNG9ZMkcwdTlCbFZkb2xpVXpHMVQxSC11NkYwV3VTOEZCVUlfY2xOeXpFZFBnOVNwWjNvbnFRVjlzazc2dkpNNTFPamtBUzhnYTRSZTgyTXNDWVBPTEd4N25WR3BVZlZvTQ?oc=5",
     "source": "",
     "category": "VC",
     "tag": "AI",
     "summary": [],
-    "time": "16시간 전",
+    "time": "23시간 전",
     "pub_date": "2026-07-30T15:56:33+09:00",
-    "scraped_at": "2026-07-31T08:16:30.844460+09:00"
+    "scraped_at": "2026-07-31T15:47:26.934370+09:00"
   },
   {
-    "id": 193,
+    "id": 194,
     "title": "\"AI가 주식 투자 코치해준다\"...라이너, 투자 리서치 AI 에이전트 출시",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE40cjZmRUxwMDlqeGNQVDZKNGFxVGVWRzNYR1JSZ3NDTndYRDd0MFZSM0hKM2xzc2tUbVVISzdHdkpNbmlqaERrcnZGbGhfMzlIbXg2S25KRzlxdlpJSGxYLVN0ZGFSbmNIdHc?oc=5",
     "source": "",
     "category": "VC",
     "tag": "AI",
     "summary": [],
-    "time": "16시간 전",
+    "time": "1일 전",
     "pub_date": "2026-07-30T15:43:20+09:00",
-    "scraped_at": "2026-07-31T08:16:07.250153+09:00"
+    "scraped_at": "2026-07-31T15:46:57.709686+09:00"
   },
   {
-    "id": 184,
-    "title": "AUC '90%'의 함정...AI 신약개발 투자 시 '성능의 오류' 피하려면",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1fNDlZUkdkR0N3eFl6UDJJcDBRdUtkc1l4bHpicC11Ym1saFp4blFFbFFKNkduajlDb21YZVc1cDIyUC1NWUtSMEJWTElKQVpPNjdFQWJhamN3ajRLbnhZQVYxd2oxaWZf?oc=5",
-    "source": "",
-    "category": "VC",
-    "tag": "바이오",
-    "summary": [],
-    "time": "16시간 전",
-    "pub_date": "2026-07-30T15:16:59+09:00",
-    "scraped_at": "2026-07-31T08:15:54.079426+09:00"
-  },
-  {
-    "id": 92,
-    "title": "영종 전력망 보강사업 현장 점검…해저 송전선로 2030년 완공 목표",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0tYlZUbGJBMUQyUHVRZnZfUHhjakpDRk85bzVjS2Y0YWVaQ191emlTQ3RqYWVxZUg4M0dMVUN6cmxCclJiaEwyaHhCa2VuRFQ5TGxyVkRyeVlDRm5r?oc=5",
+    "id": 112,
+    "title": "정청래 '지역인프라 확충'·김민석 '메가성장'·송영길 '주택공급'",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBxU25QT3FvWjBkdVBCbnE5ZWdWVXpONTl5d3dPeGxmNldzMkJmbFdrTEdESGNTUlNEUFdhbDNwaTlvRGlOTm5xVGRZMGRDWXp6cUFydUczRVY4Zw?oc=5",
     "source": "",
     "category": "인프라",
     "tag": "대체투자",
     "summary": [],
-    "time": "17시간 전",
-    "pub_date": "2026-07-30T15:08:37+09:00",
-    "scraped_at": "2026-07-31T08:13:39.961105+09:00"
-  },
-  {
-    "id": 198,
-    "title": "이지자산평가, LLM으로 해외 투자 리스크 실시간 분석…AI 브리핑 서비스 출시",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lRU5USWx3V1paZlg0QnE2UmI5MlMyX0xrRk5rQU1QU3dxSms2QkN3WHNBZkoxV05DbERPOVBGX0dEZ1d5Yl9GUVZqM1JiNjZOaXRBVkpGOUlQQQ?oc=5",
-    "source": "",
-    "category": "VC",
-    "tag": "AI",
-    "summary": [],
-    "time": "17시간 전",
-    "pub_date": "2026-07-30T15:01:31+09:00",
-    "scraped_at": "2026-07-31T08:16:14.233827+09:00"
+    "time": "1일 전",
+    "pub_date": "2026-07-30T15:40:14+09:00",
+    "scraped_at": "2026-07-31T15:45:02.587440+09:00"
   },
   {
     "id": 17,
@@ -715,105 +1123,57 @@
     "category": "부동산",
     "tag": "오피스",
     "summary": [],
-    "time": "17시간 전",
+    "time": "1일 전",
     "pub_date": "2026-07-30T14:29:00+09:00",
-    "scraped_at": "2026-07-31T08:11:49.813748+09:00"
+    "scraped_at": "2026-07-31T15:42:49.564717+09:00"
   },
   {
-    "id": 72,
-    "title": "인천시, 공공주도 해상풍력 680MW 발전사업 허가 신청…ABC+E '에너지' 본격화",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1GNlR0TWtGaTMtNDlZYkdqRTdJc2k5bjhpTTBoSC1leDJYdDhWOWlQdm45R1VDUjFaOXFvRHl2RDAyNjRLOEVhb0FqX3F4SXd6UnRRWk44MTJxNVE?oc=5",
-    "source": "",
-    "category": "인프라",
-    "tag": "에너지",
-    "summary": [],
-    "time": "17시간 전",
-    "pub_date": "2026-07-30T14:28:13+09:00",
-    "scraped_at": "2026-07-31T08:13:10.230700+09:00"
-  },
-  {
-    "id": 66,
-    "title": "“재생에너지 100GW 시대, 수소는 선택 아닌 필수 전략자산이다”",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1KRzJWYnFRWkJ5RTc1QUd3VDBjWTlrcGdOaFgyTkxzLVIzY2hOZWZuM1F2dmJidzRjb29uNUNxbjFDWTNuTXNpd2ZhVHJVYWZ6TWxkdDRaV3RlajBEUm4zTElxaDd2bUtkazRHbEo5Z2taUQ?oc=5",
-    "source": "",
-    "category": "인프라",
-    "tag": "에너지",
-    "summary": [],
-    "time": "17시간 전",
-    "pub_date": "2026-07-30T14:26:50+09:00",
-    "scraped_at": "2026-07-31T08:13:01.698006+09:00"
-  },
-  {
-    "id": 212,
-    "title": "코나아이 “지역화폐에 스테이블코인·STO 결합”",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1EajhGdHc5ME5JdXIzQzZnM3VSNmdzdWtQZGRadDN2T2MtQWNPTTZQVmxnOE9nZ0M0LWJNLWxYTkw0OHc3cWhVMDNBUVJKR0VHelHSAVNBVV95cUxQNmFJVjRUU1QzcVJ2NEJlVllqaC1JTzFuUGFZeVpmTWpiZGhIdXRfZlI2VmlYdEw1NzlhVExLMHVmcF9pY3NNRk5LNEk3dUxnTm1Ubw?oc=5",
-    "source": "",
-    "category": "VC",
-    "tag": "핀테크",
-    "summary": [],
-    "time": "17시간 전",
-    "pub_date": "2026-07-30T14:25:56+09:00",
-    "scraped_at": "2026-07-31T08:16:35.241677+09:00"
-  },
-  {
-    "id": 97,
+    "id": 98,
     "title": "CFS, 10억달러 추가 투자 유치…“핵융합 상용화 승부수”",
     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4zR0VfRGNoR0o4d2xVV1hFVnZyYUdkZU9OekxpblhnZEdzamd0amFhRF94dHJ1a2EwZkM3ck44UWd5bmF6TDZhSlNCUkVmQQ?oc=5",
     "source": "",
     "category": "인프라",
     "tag": "대체투자",
     "summary": [],
-    "time": "17시간 전",
+    "time": "1일 전",
     "pub_date": "2026-07-30T14:24:09+09:00",
-    "scraped_at": "2026-07-31T08:13:47.320764+09:00"
+    "scraped_at": "2026-07-31T15:44:43.159254+09:00"
   },
   {
-    "id": 114,
+    "id": 161,
     "title": "신한운용, 3300억 규모 BTL 펀드 조성…지역 인프라 투자 나선다",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5RSkZLMW15em5ONDBiaEFWQmtWMnBnc1RUSmp2LV9HTElGWlFYME10Q3F4akhXMmR6YlNyY1RpZEZEYWpxRm1pbnFnVVlQQWNpSWc?oc=5",
     "source": "",
-    "category": "인프라",
+    "category": "PE",
     "tag": "대체투자",
     "summary": [],
-    "time": "17시간 전",
+    "time": "1일 전",
     "pub_date": "2026-07-30T14:16:53+09:00",
-    "scraped_at": "2026-07-31T08:14:12.083315+09:00"
+    "scraped_at": "2026-07-31T15:46:11.604740+09:00"
   },
   {
-    "id": 69,
-    "title": "美 현지 생산 통했다…한화솔루션, 태양광 앞세워 2개 분기 연속 흑자",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5La1hRQWNEVlg1clRHb0F0UHNORVNtRDRjREd2VVJnLUlnU2RJSml2VUpUdGJvMUF3ZzN6VnVMbUVwWmg4dDN0WkZ3Y3pkT28tdDJlUThVS3RhQTEwdk9zNFlFQlFkam0zYWRwNTByOA?oc=5",
-    "source": "",
-    "category": "인프라",
-    "tag": "에너지",
-    "summary": [],
-    "time": "18시간 전",
-    "pub_date": "2026-07-30T14:09:27+09:00",
-    "scraped_at": "2026-07-31T08:13:05.963329+09:00"
-  },
-  {
-    "id": 122,
+    "id": 124,
     "title": "농식품부, 안성서 주민참여형 영농태양광 착공…전국 확산 추진",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9MR25QajVSOE1uck94NklWZUgyelMwT0FrOWplQ3hTMTM3cHoxVVU0OTRPaF95eHhXVTdmZVhlZ1lGYUQzbXdjSzltd2ZHaTMtelVQemxBRzJIWG9mVHdVbdIBYEFVX3lxTE9MR25QajVSOE1uck94NklWZUgyelMwT0FrOWplQ3hTMTM3cHoxVVU0OTRPaF95eHhXVTdmZVhlZ1lGYUQzbXdjSzltd2ZHaTMtelVQemxBRzJIWG9mVHdVbQ?oc=5",
     "source": "",
     "category": "인프라",
     "tag": "에너지",
     "summary": [],
-    "time": "18시간 전",
+    "time": "1일 전",
     "pub_date": "2026-07-30T14:00:04+09:00",
-    "scraped_at": "2026-07-31T08:14:23.773597+09:00"
+    "scraped_at": "2026-07-31T15:45:19.823982+09:00"
   },
   {
-    "id": 59,
+    "id": 60,
     "title": "2분기 오피스 임대료 오르고 상가는 내려…투자수익률 모두 ↑",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5PV2ptZm9NSU05TFRXNmo0bUxYcEhwdVZiMDg1c2MxSE52UVB0ZkYtWlNEcUFQaVFfV283TmVSTDloTTB1YWFkYlJnb3lzaDFHbWZZSUxsZDZiUk3SAWBBVV95cUxPQWs3cENRbFZlaGY0YkVzNXJEdzBRS3dCd0lTcjlCb0sxR2RDS3RDUzVNOFZERDd3X254NFBHU1RXTWxLTGdNS2hiblpTLUFrZnFuQk1PWUZfR2JzRlNWajU?oc=5",
     "source": "",
     "category": "부동산",
     "tag": "오피스",
     "summary": [],
-    "time": "18시간 전",
+    "time": "1일 전",
     "pub_date": "2026-07-30T14:00:01+09:00",
-    "scraped_at": "2026-07-31T08:12:51.327515+09:00"
+    "scraped_at": "2026-07-31T15:43:49.958535+09:00"
   },
   {
     "id": 63,
@@ -823,117 +1183,57 @@
     "category": "부동산",
     "tag": "오피스",
     "summary": [],
-    "time": "18시간 전",
+    "time": "1일 전",
     "pub_date": "2026-07-30T13:34:11+09:00",
-    "scraped_at": "2026-07-31T08:12:57.021705+09:00"
+    "scraped_at": "2026-07-31T15:43:54.033620+09:00"
   },
   {
-    "id": 204,
-    "title": "삼성전자,B2B 먼저, B2C는 나중에…휴머노이드 3단계 로드맵",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HaGNaNnNYdnV0NUVrRDFCbXdhNVloWkpLc0NyQy10V0JIX0R3TzFLdEZjemlHclBLQjh2dWZRUkVGSmNrdUlKRnRyMUJrUDVmRWg4ZE5RZS1Bc1MxMHlVQ2hoUVVYTmxqd2Jvb2hB?oc=5",
-    "source": "",
-    "category": "VC",
-    "tag": "로봇",
-    "summary": [],
-    "time": "18시간 전",
-    "pub_date": "2026-07-30T13:32:22+09:00",
-    "scraped_at": "2026-07-31T08:16:23.165767+09:00"
-  },
-  {
-    "id": 90,
+    "id": 96,
     "title": "LG엔솔, 2분기 흑자 돌아서…'AI 전력망' 타깃 ESS 비중 20%대 상향",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHVk9QSkhZZ1F3cW9FVWdadVlqTmlURWV2VTJVVUZyMFktanhGSWRnOWZmX0NXWjhiOXJpSHk5WDUxb3pkOFkxVm9iREJ0MHB0QkdTaTFDUGtSNUJtZ0psV3FZSUdLcThldXc?oc=5",
     "source": "",
     "category": "인프라",
     "tag": "AI",
     "summary": [],
-    "time": "19시간 전",
+    "time": "1일 전",
     "pub_date": "2026-07-30T13:11:12+09:00",
-    "scraped_at": "2026-07-31T08:13:37.169701+09:00"
+    "scraped_at": "2026-07-31T15:44:40.079878+09:00"
   },
   {
-    "id": 14,
-    "title": "제주도, ‘소형 데이터센터 기반 AI 성장 지원 사업’ 최종 선정",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1nTXYwYXN5TkRYU3VLbHhKZkExbXZXR21zT0xObmdOVVR5bWlENERwOFJBa0I3eUh1ZTBnbXJ2STlvM0p5d3JFb2gyNnoxU29tc0JNckFlY2pSRU0?oc=5",
-    "source": "",
-    "category": "부동산",
-    "tag": "디지털",
-    "summary": [],
-    "time": "19시간 전",
-    "pub_date": "2026-07-30T12:38:09+09:00",
-    "scraped_at": "2026-07-31T08:11:45.181160+09:00"
-  },
-  {
-    "id": 199,
-    "title": "라이너, 투자 리서치 AI 에이전트 ‘라이너 파이낸스’ 출시…기업 분석 지원",
-    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5nTlNBZ2c1RE12b1U3M0JITlhHRWVYMnBLT2drNm5OdjlnQWp1MURGNnVkWGgyVjRJbl9jQjY0YzU5RjR3a1E?oc=5",
-    "source": "",
-    "category": "VC",
-    "tag": "AI",
-    "summary": [],
-    "time": "20시간 전",
-    "pub_date": "2026-07-30T12:09:20+09:00",
-    "scraped_at": "2026-07-31T08:16:15.614296+09:00"
-  },
-  {
-    "id": 196,
+    "id": 198,
     "title": "라이너, 워런 버핏 의견 포함 투자 AI 에이전트 '파이낸스' 출시",
     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1hRW42OVJTVkJoc1JiTmtSVmVobTZOVUdsclpxUUNlTl9jajdGdnlIUDlFVmFaMVFJaFV0a1g5cU1fZ1o4U3VDWnA5R1V5UQ?oc=5",
     "source": "",
     "category": "VC",
     "tag": "AI",
     "summary": [],
-    "time": "20시간 전",
+    "time": "1일 전",
     "pub_date": "2026-07-30T11:43:50+09:00",
-    "scraped_at": "2026-07-31T08:16:11.442556+09:00"
+    "scraped_at": "2026-07-31T15:47:03.104056+09:00"
   },
   {
-    "id": 119,
-    "title": "가평군, 조종면에 1㎿ 규모 태양광 시설 추진",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94WkNhT0dhc2pnTXBmcUlLME1qOF9YYVBwSTlaQ3M5cGQ2dDZLWFYxUTBjQVl5SWh0cXBTLWwzcjdBbTRob2h6b3FPV2hUOTJFeXc?oc=5",
-    "source": "",
-    "category": "인프라",
-    "tag": "에너지",
-    "summary": [],
-    "time": "20시간 전",
-    "pub_date": "2026-07-30T11:26:38+09:00",
-    "scraped_at": "2026-07-31T08:14:18.992995+09:00"
-  },
-  {
-    "id": 125,
+    "id": 126,
     "title": "가평군, 조종면에 1㎿ 규모 태양광 시설 추진",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UckdjeXlDVE9fOFJWOEZzNTYyVXRrbU1DSXRadHRua2pkbjJiM0o1aERDS2VKOFh4c2ZOWGt6c3hLQWEzQ3JydDdwNjd4bHNaVHVCUW5RYmxWZkQ1eXJJbtIBYEFVX3lxTE9UckdjeXlDVE9fOFJWOEZzNTYyVXRrbU1DSXRadHRua2pkbjJiM0o1aERDS2VKOFh4c2ZOWGt6c3hLQWEzQ3JydDdwNjd4bHNaVHVCUW5RYmxWZkQ1eXJJbg?oc=5",
     "source": "",
     "category": "인프라",
     "tag": "에너지",
     "summary": [],
-    "time": "20시간 전",
+    "time": "1일 전",
     "pub_date": "2026-07-30T11:26:38+09:00",
-    "scraped_at": "2026-07-31T08:14:27.962945+09:00"
+    "scraped_at": "2026-07-31T15:45:22.513273+09:00"
   },
   {
-    "id": 234,
+    "id": 235,
     "title": "메디큐스타, 프리 시리즈B 투자 유치…'마이코스캔' 해외 사업화 추진",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1OUS1iZ0FEWTI1cnBNTkdRRVJXTG9NZGhuaTY2bktGSU92b0tyYWFxXzVsc3QzTFkyVlNnd3AweUZYa0pFSDdiSTBQQURKYnhjaXNqbzhMbkMtQQ?oc=5",
     "source": "",
     "category": "VC",
     "tag": "대체투자",
     "summary": [],
-    "time": "20시간 전",
+    "time": "1일 전",
     "pub_date": "2026-07-30T11:26:33+09:00",
-    "scraped_at": "2026-07-31T08:17:08.158453+09:00"
-  },
-  {
-    "id": 64,
-    "title": "경찰, 인천 물류센터 화재 관련 쿠팡 사무실 압수수색",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1qOWlja05RSXRORWZKcFNxUnFJVjJ3WFFvc3Y2U0dVcWhNbmVFeGJpOFV0cUNYYUg0aVoxdDhaT0szRnMyUEJYS2RPa2ZYZ29qeWQ3Q05pcFFERTjSAWBBVV95cUxNb1d1bWFCVHkyczJfR21odE5jaXY1UVFJeFk5bW56VHZ6VnA3VkZuaE15T21nMmc3V29uSU1tZ0U2N2VpVXdsZFRKOV9UOHpLODhqYlVyN3daQ0lXalc2RGk?oc=5",
-    "source": "",
-    "category": "부동산",
-    "tag": "오피스",
-    "summary": [],
-    "time": "20시간 전",
-    "pub_date": "2026-07-30T11:20:20+09:00",
-    "scraped_at": "2026-07-31T08:12:58.387502+09:00"
+    "scraped_at": "2026-07-31T15:47:55.478908+09:00"
   },
   {
     "id": 109,
@@ -943,57 +1243,45 @@
     "category": "인프라",
     "tag": "에너지",
     "summary": [],
-    "time": "21시간 전",
+    "time": "1일 전",
     "pub_date": "2026-07-30T11:09:00+09:00",
-    "scraped_at": "2026-07-31T08:14:04.725487+09:00"
+    "scraped_at": "2026-07-31T15:44:58.512329+09:00"
   },
   {
-    "id": 106,
-    "title": "한화솔루션(009830) 미국/중국 태양광 업체들 대비 과도한 저평가",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ieFFpbzJ4Um5HYnNzRWtrMER6SXU4UkNlV19KUXhTaE5HX29Yajd3VjI4MlBwVTE3VTc5cURVZDc0NHNyMHBicVFvanlaVnNYR0ljdm1UMFdfcU96cE9j?oc=5",
+    "id": 64,
+    "title": "스파이더맨 개봉 첫날 68만…박스오피스 1위",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tVC1rS3FWdFN2a0hOYVRkMmpGYXd2VUtheGRrNjYzWkdUSlNnaEZjWkJ6VmlOSjJldUh6Y2lTeDJHcjd0MTdiVzBtV2ZOTVJRSUZzZEsxcVlpYl9EbXhpN9IBYEFVX3lxTE0tVC1rS3FWdFN2a0hOYVRkMmpGYXd2VUtheGRrNjYzWkdUSlNnaEZjWkJ6VmlOSjJldUh6Y2lTeDJHcjd0MTdiVzBtV2ZOTVJRSUZzZEsxcVlpYl9EbXhpNw?oc=5",
     "source": "",
-    "category": "인프라",
-    "tag": "에너지",
+    "category": "부동산",
+    "tag": "오피스",
     "summary": [],
-    "time": "21시간 전",
-    "pub_date": "2026-07-30T11:05:51+09:00",
-    "scraped_at": "2026-07-31T08:14:00.457702+09:00"
+    "time": "1일 전",
+    "pub_date": "2026-07-30T11:06:15+09:00",
+    "scraped_at": "2026-07-31T15:43:55.370877+09:00"
   },
   {
-    "id": 121,
+    "id": 125,
     "title": "인천시, 공공주도 해상풍력 집적화단지 발전사업 허가 신청",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5wdkZ2Q1F3U19PajNHU21ZRTFCRjd3QllGMHZtMzBqMkhzRXpoTExSTV9PZEpoTW1uU3NiWlJEWi1hU1VLNWNVTTBhek4tTEZ3M1YtQjZTbG9FWkHSAWBBVV95cUxONFZXazZoMHhXX0dENnVOcXFxSEdIMGstY295cUV3eldsNUF2SFpLT2RoRTYyZ1JqSllRdUdMLUJIWWduaGRqdndIUWg2WlpvYTRVZDZ2QzRlMGozX25CdUs?oc=5",
     "source": "",
     "category": "인프라",
     "tag": "에너지",
     "summary": [],
-    "time": "21시간 전",
+    "time": "1일 전",
     "pub_date": "2026-07-30T11:03:29+09:00",
-    "scraped_at": "2026-07-31T08:14:22.406560+09:00"
+    "scraped_at": "2026-07-31T15:45:21.176807+09:00"
   },
   {
-    "id": 124,
+    "id": 127,
     "title": "풍력터빈 핵심 구성품 KS 인증 도입…중복심사 줄이고 기간 단축",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBVdUN6dFJTRmZUQ0QyQzJMNkxIeWE0c1gxVU9ER1hOMk1hNnUzRFlGSklydWRyeDY2a1pyY1o1bUZZOGpFWW9pYURwZVlINHFqdEJXUXl6dmUwV0ZTM0hkdNIBYEFVX3lxTFBVdUN6dFJTRmZUQ0QyQzJMNkxIeWE0c1gxVU9ER1hOMk1hNnUzRFlGSklydWRyeDY2a1pyY1o1bUZZOGpFWW9pYURwZVlINHFqdEJXUXl6dmUwV0ZTM0hkdA?oc=5",
     "source": "",
     "category": "인프라",
     "tag": "에너지",
     "summary": [],
-    "time": "21시간 전",
+    "time": "1일 전",
     "pub_date": "2026-07-30T11:00:05+09:00",
-    "scraped_at": "2026-07-31T08:14:26.522326+09:00"
-  },
-  {
-    "id": 94,
-    "title": "LG엔솔, 2분기 북미 보조금 힘입어 흑자 전환…ESS 매출 4.6배 '폭풍 성장'",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE96R04xMUJBUzVhVUM1WGlxeS13VFBTbDZ5RUlMZ01CV3Z3OG5Kbk5CdmQ2SVZheFZOdTRMQm1JR2E1ejItVDd5bzRnRnMwUDFCa3pBOGF5TTNkSWI1bXI1NFppNkZLS0E?oc=5",
-    "source": "",
-    "category": "인프라",
-    "tag": "대체투자",
-    "summary": [],
-    "time": "21시간 전",
-    "pub_date": "2026-07-30T10:35:09+09:00",
-    "scraped_at": "2026-07-31T08:13:42.739345+09:00"
+    "scraped_at": "2026-07-31T15:45:23.868169+09:00"
   },
   {
     "id": 108,
@@ -1003,81 +1291,33 @@
     "category": "인프라",
     "tag": "대체투자",
     "summary": [],
-    "time": "21시간 전",
+    "time": "1일 전",
     "pub_date": "2026-07-30T10:35:00+09:00",
-    "scraped_at": "2026-07-31T08:14:03.348546+09:00"
+    "scraped_at": "2026-07-31T15:44:57.170337+09:00"
   },
   {
-    "id": 117,
-    "title": "한화솔루션, '태양광 실적 회복 사이클 진입' 증권사 발표에 강세",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBlOTRhelhIOElVZTZELUVVUTJDYzQ5TXFGTHluWmV3OUtiMnR1ajNUamhqZDdpTEFtYm9seWR1ZF92ZXRvTXlWaWMtWmJNM0pQZWc?oc=5",
-    "source": "",
-    "category": "인프라",
-    "tag": "에너지",
-    "summary": [],
-    "time": "21시간 전",
-    "pub_date": "2026-07-30T10:34:41+09:00",
-    "scraped_at": "2026-07-31T08:14:16.214540+09:00"
-  },
-  {
-    "id": 15,
-    "title": "美 에너지부, 켄터키주에 1000억 달러 AI 데이터센터 허브 조성…전력 인프라도 동시 구축",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9jR3M0cVJEZEljVl9mQVdYUjRwQkZ3VHkwazM5VWx5RTdBcGcwbUNfd2JSX2daVGRjX1NMVXpFYmZubXNfZ1ZDZzBIckJCUEtOUGczUnBhUk5IWS1RNnFyeEpJcw?oc=5",
-    "source": "",
-    "category": "부동산",
-    "tag": "에너지",
-    "summary": [],
-    "time": "21시간 전",
-    "pub_date": "2026-07-30T10:33:03+09:00",
-    "scraped_at": "2026-07-31T08:11:46.567088+09:00"
-  },
-  {
-    "id": 170,
+    "id": 171,
     "title": "한앤코, '매각' 케이카 임직원에 '새출발 격려금'",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04Z2lMc0NWSzMzckZ4OE9HQ1hpdGJyQVdPTGN5Ul9YeWwyZ25qRUVNOEZNOU9hS2N0M3NTbmZ2TGl0MUNCSmJPR0k4T0pIMkZDa3pYcFhrOGVreHBzd2duUNIBYEFVX3lxTE04Z2lMc0NWSzMzckZ4OE9HQ1hpdGJyQVdPTGN5Ul9YeWwyZ25qRUVNOEZNOU9hS2N0M3NTbmZ2TGl0MUNCSmJPR0k4T0pIMkZDa3pYcFhrOGVreHBzd2duUA?oc=5",
     "source": "",
     "category": "PE",
     "tag": "엑시트",
     "summary": [],
-    "time": "22시간 전",
+    "time": "1일 전",
     "pub_date": "2026-07-30T10:02:55+09:00",
-    "scraped_at": "2026-07-31T08:15:33.623130+09:00"
+    "scraped_at": "2026-07-31T15:46:25.508513+09:00"
   },
   {
-    "id": 120,
-    "title": "경찰차도 친환경 전환…2035년까지 신규 차량 전기·수소차로",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Cbl9IRVUwMDBoN3J2MlU2THBpRzhLa3FGdThVbXlvaEhIeWlZY0pFMFRtc2tEVUpZSnBIQzMzeE9qTzdfaVA2ZlBHRERObXVxU0E?oc=5",
-    "source": "",
-    "category": "인프라",
-    "tag": "에너지",
-    "summary": [],
-    "time": "22시간 전",
-    "pub_date": "2026-07-30T10:00:04+09:00",
-    "scraped_at": "2026-07-31T08:14:20.514544+09:00"
-  },
-  {
-    "id": 123,
-    "title": "경찰차도 친환경 전환…2035년까지 신규 차량 전기·수소차로",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1VcWpoNF8wdThaYl9BanVXa2VDMF9DWHZFWjhkRTd3Mm4xcE5PV3JSWUNNRzZJWU0xeFVWZndCbnc2UndxeWlnME5SU3FCYUlwZUZnYkkzZ0NySWJiRFJiLdIBYEFVX3lxTE1VcWpoNF8wdThaYl9BanVXa2VDMF9DWHZFWjhkRTd3Mm4xcE5PV3JSWUNNRzZJWU0xeFVWZndCbnc2UndxeWlnME5SU3FCYUlwZUZnYkkzZ0NySWJiRFJiLQ?oc=5",
-    "source": "",
-    "category": "인프라",
-    "tag": "에너지",
-    "summary": [],
-    "time": "22시간 전",
-    "pub_date": "2026-07-30T10:00:04+09:00",
-    "scraped_at": "2026-07-31T08:14:25.159233+09:00"
-  },
-  {
-    "id": 162,
+    "id": 163,
     "title": "美 사모펀드 운용사 CEO \"AI 데이터센터 투자 열풍 지속…자본시장 경색이 최대 위험\" | 더구루",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaVWRuS1g2dkloeVNaWEVXeHRsLUNNSmFMQXltTTVXMVZLLUFYUzY3akhuMHhFWkZ0NFpPS0RqZ25EbVlOQ2d4OFlROU5qVGdFc3prazFGdmhVQdIBX0FVX3lxTFBuWGxqcG5vUG8xNFQzZ1FMWmpmMHZMbjNabGJkOURKcy03UVV2dWZ3YU8tNzBuLTB1T09Eb3dDa1RqemJhenkxNWFxVkNYazJtVVBQVzdTcWtCdncwVnNj?oc=5",
     "source": "",
     "category": "PE",
     "tag": "디지털",
     "summary": [],
-    "time": "22시간 전",
+    "time": "1일 전",
     "pub_date": "2026-07-30T09:54:36+09:00",
-    "scraped_at": "2026-07-31T08:15:22.079768+09:00"
+    "scraped_at": "2026-07-31T15:46:14.297909+09:00"
   },
   {
     "id": 42,
@@ -1087,9 +1327,9 @@
     "category": "부동산",
     "tag": "물류",
     "summary": [],
-    "time": "22시간 전",
+    "time": "1일 전",
     "pub_date": "2026-07-30T09:51:51+09:00",
-    "scraped_at": "2026-07-31T08:12:26.475215+09:00"
+    "scraped_at": "2026-07-31T15:43:24.599848+09:00"
   },
   {
     "id": 50,
@@ -1099,24 +1339,24 @@
     "category": "부동산",
     "tag": "오피스",
     "summary": [],
-    "time": "23시간 전",
+    "time": "1일 전",
     "pub_date": "2026-07-30T08:46:49+09:00",
-    "scraped_at": "2026-07-31T08:12:38.334361+09:00"
+    "scraped_at": "2026-07-31T15:43:36.043594+09:00"
   },
   {
-    "id": 175,
-    "title": "키움증권 2분기 영업이익 7천890억원…작년 동기 대비 93%↑(종합)",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03RFQ0S0tPRHQ0LUlSU2VQMWNiUkVOZnNpOW4wV3QwMVhqalRlbXR5Z3Q5SVpIaENYclFYUF9RRnlQTG1ZY0lxeXBaZklFOVo5eW11Wm84OGNseWPSAWBBVV95cUxPT2dKRFQtQnBUWEpIVGFIbThsY1BIU09NTFdoQ2dyRTViT0JQeFhKM2hkTWZyREc5TzBNclN5dzluODJKV0JhSVY5aFhWS1ZkMGFJSVdHZFRiTlhIUC1WN0U?oc=5",
+    "id": 199,
+    "title": "라이너, 투자 시장 리서치 AI 에이전트 ‘라이너 파이낸스’ 출시",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAwTks5aUxNQWduUWdUWU9kNW1CVmxsNXV1bjZNcXB0ekNyUzFTOVNFQlo0TTNaeXV6c19rWnRGdUowemdzTkM5TkpGWXJPaTZDdFpwMg?oc=5",
     "source": "",
-    "category": "PE",
-    "tag": "대체투자",
+    "category": "VC",
+    "tag": "AI",
     "summary": [],
-    "time": "23시간 전",
-    "pub_date": "2026-07-30T08:17:32+09:00",
-    "scraped_at": "2026-07-31T08:15:40.576834+09:00"
+    "time": "1일 전",
+    "pub_date": "2026-07-30T08:36:00+09:00",
+    "scraped_at": "2026-07-31T15:47:04.460160+09:00"
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "[핀포인트] [HL디앤아이] 매각 타이밍 미스…후유증 시달리는 물류업",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBLYTYxbGRGaTZnTTFJb2ZsYmV4T0UyYnkwN0pjbmFfY1RCeG5XWmJUTHZMMVhxOWFzR1FLOW0waFk1a2pmMGVCanFOdnNMMDFUQkVodnNn?oc=5",
     "source": "",
@@ -1125,7 +1365,7 @@
     "summary": [],
     "time": "1일 전",
     "pub_date": "2026-07-30T08:00:26+09:00",
-    "scraped_at": "2026-07-31T08:11:34.816585+09:00"
+    "scraped_at": "2026-07-31T15:42:36.144562+09:00"
   },
   {
     "id": 49,
@@ -1137,7 +1377,7 @@
     "summary": [],
     "time": "1일 전",
     "pub_date": "2026-07-30T08:00:04+09:00",
-    "scraped_at": "2026-07-31T08:12:36.807739+09:00"
+    "scraped_at": "2026-07-31T15:43:34.574737+09:00"
   },
   {
     "id": 187,
@@ -1149,7 +1389,7 @@
     "summary": [],
     "time": "1일 전",
     "pub_date": "2026-07-30T08:00:04+09:00",
-    "scraped_at": "2026-07-31T08:15:58.414447+09:00"
+    "scraped_at": "2026-07-31T15:46:47.885100+09:00"
   },
   {
     "id": 74,
@@ -1161,7 +1401,7 @@
     "summary": [],
     "time": "1일 전",
     "pub_date": "2026-07-30T05:37:43+09:00",
-    "scraped_at": "2026-07-31T08:13:13.747918+09:00"
+    "scraped_at": "2026-07-31T15:44:09.593234+09:00"
   },
   {
     "id": 3,
@@ -1173,19 +1413,19 @@
     "summary": [],
     "time": "1일 전",
     "pub_date": "2026-07-30T05:33:03+09:00",
-    "scraped_at": "2026-07-31T08:11:29.181514+09:00"
+    "scraped_at": "2026-07-31T15:42:29.341119+09:00"
   },
   {
     "id": 210,
     "title": "IPO 신주 유입 자금 2450억, 스테이블코인-AI 인프라 투자",
-    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9mME5lZWlaTm93QS1CbFBBZ1dRNFAxU01xYTBaZERMdzZPb04xcFRmeklLSno2S2VNV29lbDFqOTUta0M4Zmc?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0zbXI3a25Xb0VITmlmX2lfVC1wU1dkd3BrbWtXMFpwaTlGSUpYdFQxaThJVlNNOVFQM0pmeTVaT2dQeHlhVmx0SnpWYXhia3R0OWRJWGVHMVRLYjZTZnE2UnBCRmdUeEY1SFNGM3VRTE8zOXlSU2fSAWZBVV95cUxONXJKQ1ZSLUtGYVltT3hJa3FCUVA4dUNlVTkzcWhmdDBoeU1mOHpfMC12N28tVU83TXpVNjc2R0N0c0lrcURFQTI1NFYwWTYzNzdqQjJwRVNaUGNJTnY2Yzg5MXJBdVE?oc=5",
     "source": "",
     "category": "VC",
     "tag": "엑시트",
     "summary": [],
     "time": "1일 전",
-    "pub_date": "2026-07-30T04:33:02+09:00",
-    "scraped_at": "2026-07-31T08:16:32.299332+09:00"
+    "pub_date": "2026-07-30T04:30:00+09:00",
+    "scraped_at": "2026-07-31T15:47:20.175888+09:00"
   },
   {
     "id": 52,
@@ -1197,31 +1437,7 @@
     "summary": [],
     "time": "1일 전",
     "pub_date": "2026-07-29T23:51:00+09:00",
-    "scraped_at": "2026-07-31T08:12:41.097687+09:00"
-  },
-  {
-    "id": 217,
-    "title": "제트AI, 175만달러로 앨버타 스트랫그리드 지분 26% 확보",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5KR21aZGN4VUljS1BHQXRNMFB3UEZoU3hLZU5xVnRNVGZDWVhvN1g5SEhkak85TkJMNnZoS1lRNGNlb2RWMnI2d2JPU21TYllObzN4OEJR?oc=5",
-    "source": "",
-    "category": "VC",
-    "tag": "AI",
-    "summary": [],
-    "time": "1일 전",
-    "pub_date": "2026-07-29T23:35:00+09:00",
-    "scraped_at": "2026-07-31T08:16:42.859297+09:00"
-  },
-  {
-    "id": 246,
-    "title": "비보파워, 5000만 달러 PIPE 투자 유치..주당 7.5달러 전환가",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxeTBEOWlFbFB4RDZQTHIxN0lqY1BaZnJPSlBVSk1Jc2ppSVNRcXZuRHB4X2lwS3pIVHZELV80aU5aaWc2RzUxaEU4ZmthWlJGWXc?oc=5",
-    "source": "",
-    "category": "VC",
-    "tag": "대체투자",
-    "summary": [],
-    "time": "1일 전",
-    "pub_date": "2026-07-29T23:14:56+09:00",
-    "scraped_at": "2026-07-31T08:17:25.778605+09:00"
+    "scraped_at": "2026-07-31T15:43:38.728376+09:00"
   },
   {
     "id": 179,
@@ -1233,19 +1449,7 @@
     "summary": [],
     "time": "1일 전",
     "pub_date": "2026-07-29T23:05:51+09:00",
-    "scraped_at": "2026-07-31T08:15:46.605540+09:00"
-  },
-  {
-    "id": 245,
-    "title": "LB 파마슈티컬스, 1억5000만 달러 사모 투자 유치 성공",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5pc3JPQkRNQTMtTWp6a3Mwc2xIWWlLYnQyR0ZOOHpLNENpaXJZVmZZbjB6QUtMTE8yT1NEd2ktaVdDZEJmNlo5ckhqR055RWw0d1E?oc=5",
-    "source": "",
-    "category": "VC",
-    "tag": "대체투자",
-    "summary": [],
-    "time": "1일 전",
-    "pub_date": "2026-07-29T21:07:34+09:00",
-    "scraped_at": "2026-07-31T08:17:24.401951+09:00"
+    "scraped_at": "2026-07-31T15:46:36.673842+09:00"
   },
   {
     "id": 188,
@@ -1257,58 +1461,10 @@
     "summary": [],
     "time": "1일 전",
     "pub_date": "2026-07-29T18:35:12+09:00",
-    "scraped_at": "2026-07-31T08:15:59.799951+09:00"
+    "scraped_at": "2026-07-31T15:46:49.228670+09:00"
   },
   {
-    "id": 226,
-    "title": "VC협회·삼일PwC, '2026 스케일업 팁스 그로우스랩' 1기 출범 - 머니투데이",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zU1BtLVlYOHhIenBYakVOcVc3ck94REZGM1F1bGpTNWN3NHZXTGNuRlhRU01XU3A4Ty02dlVTSllxaVlYdllTOU5OU2VPdXVmSzdzbUdnSmlvU2EtdFJlZE5JQ1VNT0FIalHSAW9BVV95cUxQa3M5ZXRkYWtVWmNfUjdqdVdoUlBzdVJ2QXlBYWtyWUprbmg3eEVPakoySW5YY1hJNFpReWZuWkpjS1FXOWhzZXNGcjV2UlJVNnVTTC1KNTZYdlBEQVc5OVhfUnpnM3lHSmhrR2ZBbzg?oc=5",
-    "source": "",
-    "category": "VC",
-    "tag": "대체투자",
-    "summary": [],
-    "time": "1일 전",
-    "pub_date": "2026-07-29T18:30:00+09:00",
-    "scraped_at": "2026-07-31T08:16:56.417908+09:00"
-  },
-  {
-    "id": 142,
-    "title": "5000억 실탄 모은다…코람코, 공무원연금 부동산펀드 연내 투자 '시동'",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xa3JfeU5ITWZXTU1oelAtYjBmMjZpclNPNVRSVy1tbnRHWkU5bFVzLU03Y1NDSEpqamx0XzY2bUU3M3dtZkp0eUJGblVwS3BWZ1FB?oc=5",
-    "source": "",
-    "category": "PE",
-    "tag": "대체투자",
-    "summary": [],
-    "time": "1일 전",
-    "pub_date": "2026-07-29T18:08:00+09:00",
-    "scraped_at": "2026-07-31T08:14:52.960198+09:00"
-  },
-  {
-    "id": 44,
-    "title": "기관 압박나선 제이알리츠 소액주주",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1McGxfTnhPb1VDaTZxV25TRmNIcVpENHRXRG1ZNzA4YnBITGs1M1IxUnQ2OXFZakpHVGdJWEwxZXQwQVNlblRkdnUzWkllTFBxSUtpU1dmN2pYdw?oc=5",
-    "source": "",
-    "category": "부동산",
-    "tag": "리츠",
-    "summary": [],
-    "time": "1일 전",
-    "pub_date": "2026-07-29T18:03:15+09:00",
-    "scraped_at": "2026-07-31T08:12:29.266701+09:00"
-  },
-  {
-    "id": 95,
-    "title": "‘분산형 전력망’과 ESS가 대한민국 에너지 미래 바꾼다",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0xWU5aYlEwT0E1Q0pOTFd4NnBEMGJLbVlFWGpIaUdLOXpYaDB1YmtKS3N5dDI4SXR1RUR3RGZIV2VZNXdsVE5NU0NUSjRqTE5ReWZ0cXEzcXgtSk1DNGtGYTRHLUdwUEtEMHJQTDdn?oc=5",
-    "source": "",
-    "category": "인프라",
-    "tag": "에너지",
-    "summary": [],
-    "time": "1일 전",
-    "pub_date": "2026-07-29T17:45:40+09:00",
-    "scraped_at": "2026-07-31T08:13:44.129463+09:00"
-  },
-  {
-    "id": 235,
+    "id": 240,
     "title": "\"FIFA, 민간법인 세워 외부 투자 유치\"",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiaWdMTXZJaVdwMVZ4WXNRU3FPVjQzeFhQa2VBX3JTVHNKSmQ4WGZGYUE2TGIzeW1zZ0pleHJ2TXZ6QmtoVTdmX29GTW5UcmxzNEFTTG5fZm5mUQ?oc=5",
     "source": "",
@@ -1317,10 +1473,10 @@
     "summary": [],
     "time": "1일 전",
     "pub_date": "2026-07-29T17:33:57+09:00",
-    "scraped_at": "2026-07-31T08:17:09.605912+09:00"
+    "scraped_at": "2026-07-31T15:48:02.343238+09:00"
   },
   {
-    "id": 105,
+    "id": 106,
     "title": "[단독] 빌 게이츠 방한…韓기업과 SMR 공급망 논의",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02NkNrSkZkSnlTcW5OQlUxUE5DUjN5Z2Qycl9YekR4UWpIaVFTdlZYQUlzVmRnREh2cjlOUkNZX214a3BOWHVoY3dnaU9VakJiUTFvSmZDaWt6UQ?oc=5",
     "source": "",
@@ -1329,22 +1485,22 @@
     "summary": [],
     "time": "1일 전",
     "pub_date": "2026-07-29T17:27:38+09:00",
-    "scraped_at": "2026-07-31T08:13:59.054220+09:00"
+    "scraped_at": "2026-07-31T15:44:54.466245+09:00"
   },
   {
-    "id": 243,
-    "title": "‘참교육’ 넷플릭스 역대 비영어 시리즈 10위...‘오겜’ 이은 쾌거 - 스타투데이",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5BczZVel9pVF8tSGw2NEJ2YXhST0trV29xakdoMXNGVG9KQW84NjItOHNuZjgtUEp4Q0ZickV2VDQ3U1ZfT3RmLURNbzNYWXBFal9yNjczUDA?oc=5",
+    "id": 135,
+    "title": "이억원 금융위원장 \"기간산업 공공성 보호 공감…PEF 규제 방식 검토 필요\"",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA0YzQtaExVNEVMcWc3blFCZk16MHl0NkMwMkFqU2lZZ0dvLWhaVV9Ld2NCMkZmTVU4eVpURUVZSS1rc3J6MEZRWDEtbXViM3c?oc=5",
     "source": "",
-    "category": "VC",
+    "category": "PE",
     "tag": "대체투자",
     "summary": [],
     "time": "1일 전",
-    "pub_date": "2026-07-29T17:12:16+09:00",
-    "scraped_at": "2026-07-31T08:17:21.589236+09:00"
+    "pub_date": "2026-07-29T16:52:03+09:00",
+    "scraped_at": "2026-07-31T15:45:35.027885+09:00"
   },
   {
-    "id": 133,
+    "id": 130,
     "title": "이억원 \"국가기간산업 PEF 규제 공감…제도개선 검토\"",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ESHJWUENaVEJzMGFSZ2lUdkp0US1SZ01Uc3o0WW1EWnR3QnVzbEFoX25RN0ZBeUxPcWV4blhUOEFiRExJRm8yYXpoWGxrcXVETXNvc3NMOGZpWi1Ldzg2OWdONXozYXVfOWJMLVZDdXJ3UQ?oc=5",
     "source": "",
@@ -1353,10 +1509,10 @@
     "summary": [],
     "time": "1일 전",
     "pub_date": "2026-07-29T16:14:49+09:00",
-    "scraped_at": "2026-07-31T08:14:39.805272+09:00"
+    "scraped_at": "2026-07-31T15:45:28.338207+09:00"
   },
   {
-    "id": 177,
+    "id": 178,
     "title": "GPU·HBM 이은 '반도체 병목'은?…CPU ETF에도 관심",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9EbmE1UEExNjI0ZXk1MDRPck5EcnktNm9rYTFVNElzeExOVVNlai1PZmVJbVgxMTVWQ29VVlpKVzhfZXVlVHVubm1UbzB4bU01OUE5U1JfUlBfUQ?oc=5",
     "source": "",
@@ -1365,31 +1521,19 @@
     "summary": [],
     "time": "1일 전",
     "pub_date": "2026-07-29T16:13:45+09:00",
-    "scraped_at": "2026-07-31T08:15:43.812068+09:00"
+    "scraped_at": "2026-07-31T15:46:35.318556+09:00"
   },
   {
-    "id": 237,
-    "title": "[단독] CJ 4D플렉스, 국민성장펀드서 투자 유치…'영화산업 침체' 돌파구 노린다",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA2cWdoRk03TEdENGNGNzREdmlmTkJqWHNiSFM5a0lKcjBfcmZyUVFLOEtFZkhtVVpObmdScUlicFpMbnJra0xPenFWVjJBcFVTYXlDb2Y0X1ZXUQ?oc=5",
-    "source": "",
-    "category": "VC",
-    "tag": "대체투자",
-    "summary": [],
-    "time": "1일 전",
-    "pub_date": "2026-07-29T16:13:34+09:00",
-    "scraped_at": "2026-07-31T08:17:12.524833+09:00"
-  },
-  {
-    "id": 45,
+    "id": 44,
     "title": "[단독]\"퍼시스는 제조업 아닌 서비스업\"…국내 첫 오피스 구독 나왔다",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5zN2dlOTZhTk1VSTQyU1dzcFhCSEFqeUxEbzRhQmpyS0l0c2lxUkI1ejFkZ2NHN0lTQlRmcVRVQ2ZKUnNtbmxXMXpTU3oyUWtEWXExSWpaNjJqQQ?oc=5",
     "source": "",
     "category": "부동산",
     "tag": "오피스",
     "summary": [],
-    "time": "1일 전",
+    "time": "2일 전",
     "pub_date": "2026-07-29T15:21:49+09:00",
-    "scraped_at": "2026-07-31T08:12:30.640378+09:00"
+    "scraped_at": "2026-07-31T15:43:27.274138+09:00"
   },
   {
     "id": 53,
@@ -1399,9 +1543,9 @@
     "category": "부동산",
     "tag": "오피스",
     "summary": [],
-    "time": "1일 전",
+    "time": "2일 전",
     "pub_date": "2026-07-29T15:03:31+09:00",
-    "scraped_at": "2026-07-31T08:12:42.490201+09:00"
+    "scraped_at": "2026-07-31T15:43:40.079495+09:00"
   },
   {
     "id": 211,
@@ -1411,180 +1555,144 @@
     "category": "VC",
     "tag": "AI",
     "summary": [],
-    "time": "1일 전",
+    "time": "2일 전",
     "pub_date": "2026-07-29T15:03:24+09:00",
-    "scraped_at": "2026-07-31T08:16:33.826896+09:00"
+    "scraped_at": "2026-07-31T15:47:21.518909+09:00"
   },
   {
-    "id": 67,
+    "id": 70,
     "title": "진보당·시민단체 \"태양광·풍력 이격거리 시행령 철회해야\"",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5qZXpaclRMU3RxUzYtS1lEQnVaTkRQa2FLZ3pYWVVoektaUHJmZmhteVVaT2VPT2JvV0xScldlQkxDSThIZTUwZlFILURxRkR3ODRkU0N4elBRakpuTzNmT9IBYEFVX3lxTE5qZXpaclRMU3RxUzYtS1lEQnVaTkRQa2FLZ3pYWVVoektaUHJmZmhteVVaT2VPT2JvV0xScldlQkxDSThIZTUwZlFILURxRkR3ODRkU0N4elBRakpuTzNmTw?oc=5",
     "source": "",
     "category": "인프라",
     "tag": "에너지",
     "summary": [],
-    "time": "1일 전",
+    "time": "2일 전",
     "pub_date": "2026-07-29T14:36:51+09:00",
-    "scraped_at": "2026-07-31T08:13:03.067652+09:00"
+    "scraped_at": "2026-07-31T15:44:03.817691+09:00"
   },
   {
-    "id": 128,
-    "title": "진보당·시민단체 \"태양광·풍력 이격거리 시행령 철회해야\"",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE81Y1ZTelNWNzZhV3JVT0hSdVdLbl8xWUhZR00tUkI4MUFqM2hVMDZYbTZaVTUyeFhPdzg4NUJqUmlKY0xCenozbU5RcGYxYzhSQ3JNbkEtSlJ5cFHSAWBBVV95cUxOamV6WnJUTFN0cVM2LUtZREJ1Wk5EUGthS2d6WFlVaHpLWlByZmZobXlVWk9lT09ib1dMUnJXZUJMQ0k4SGU1MGZRSC1EcUZEdzg0ZFNDeHpQUWpKbk8zZk8?oc=5",
-    "source": "",
-    "category": "인프라",
-    "tag": "에너지",
-    "summary": [],
-    "time": "1일 전",
-    "pub_date": "2026-07-29T14:36:51+09:00",
-    "scraped_at": "2026-07-31T08:14:32.232232+09:00"
-  },
-  {
-    "id": 29,
+    "id": 28,
     "title": "증권사들, 제이알리츠 주총 앞두고 의결권 안내… ETF 운용사 판단 주목 - 조선비즈",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa0c0NUJ6eU1EVWFDNjd3OVMtY0gyQl9Pd25pOHRCYVBId3pWazJxSjRrM0pySTRmaU51UjFRbU96bXRDdVdPX08yek93TjQ1alE3cHgwXzdWZlk4LTZmdkFYWGk2Sy1RdUNXamtLTXVGT3hNNnNjOUZNUm9LRl9tTDQtS2ZEV0hP0gGcAUFVX3lxTE40Tkg3Um9rUE44ZkM5am0wenpfVFhxNWRPZnUyVDUtZkVCQmtUdXAzT0kzVkZIajZ3QlNIdm03QkJHdG9JYlR5NkxEV2pINzd1M0NGSlM4ZDQ0ZzdZc2IyZVVYcW54Uzh2cDB5VTRmVXhXYjdob2ZnTEJPY2pxU2FuZ3dRNmVDTDREdU1STUpoYklVeHZGRDE1QWFtXw?oc=5",
     "source": "",
     "category": "부동산",
     "tag": "리츠",
     "summary": [],
-    "time": "1일 전",
+    "time": "2일 전",
     "pub_date": "2026-07-29T14:15:00+09:00",
-    "scraped_at": "2026-07-31T08:12:07.171727+09:00"
+    "scraped_at": "2026-07-31T15:43:04.857858+09:00"
   },
   {
-    "id": 75,
+    "id": 197,
+    "title": "‘기업설명 AI Agent’ 도입 MOU…“투자자에게 안정적 정보 제공”",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBPVk55MDlna29paHF4TkJSX0F5M1ZkZU5uMUVjaG01T21tU18yZFVXZDZ3YW1NS3c5Wk9xS3hnTlRodFlyU256YkJDaURLOTA?oc=5",
+    "source": "",
+    "category": "VC",
+    "tag": "AI",
+    "summary": [],
+    "time": "2일 전",
+    "pub_date": "2026-07-29T14:11:36+09:00",
+    "scraped_at": "2026-07-31T15:47:01.741238+09:00"
+  },
+  {
+    "id": 76,
     "title": "태웅, SMR 대량생산 기술로 승부수...소형모듈원전 시장 '메인 플레이어' 시동",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBtVEpZTzZsdzVBMjEyN09aYXE1R3FLQnNkLVMyelIwSkEyMkFDZl9DQzgxR3FEZHJXQjNpVXphb3RucTk4MnRSUnJtMHdYVG1aNEJQbURqQWI2WXczMjVQUWZFZjFhWmhSMl8ya1VB?oc=5",
     "source": "",
     "category": "인프라",
     "tag": "에너지",
     "summary": [],
-    "time": "1일 전",
+    "time": "2일 전",
     "pub_date": "2026-07-29T14:06:06+09:00",
-    "scraped_at": "2026-07-31T08:13:15.131477+09:00"
+    "scraped_at": "2026-07-31T15:44:12.311840+09:00"
   },
   {
-    "id": 180,
+    "id": 181,
     "title": "[컨콜 종합] SK하이닉스 AI 반도체 호황 장기화…HBM 리더십 굳건",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10WmNEOU5XQXR2eEFmdjdDV21TYXhRZWNIYkFfNVNycjJNSjNzRTNHZnd1RjdEVTdzVENmTWpUcHVVME9TSnBxREJpMUpmb2RBSUVndWNaQm13d9IBWEFVX3lxTE5KeV9lMjgtMWhUdGtpWEVCOF9MN3NuZVpZSlJQTm1IdE4xb1NYUFpyNFYwOXIzRFJjQnNlbjFKZzVOaU1GTlhnTjBZbC1yZ3I4Y1FOUmgtcE4?oc=5",
     "source": "",
     "category": "VC",
     "tag": "AI",
     "summary": [],
-    "time": "1일 전",
+    "time": "2일 전",
     "pub_date": "2026-07-29T12:18:48+09:00",
-    "scraped_at": "2026-07-31T08:15:48.042149+09:00"
+    "scraped_at": "2026-07-31T15:46:39.434932+09:00"
   },
   {
-    "id": 208,
+    "id": 209,
     "title": "11월 코리아 핀테크 위크…참가기업 모집 규모 20% 확대",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBrTnI1bnVVVmJac3VjNE9BajJoRE84ekZnWGoyRENRbFZmcnlTb1BveXdBRENfcHg5UjR4NVN2MEhfSVNWNzQzeDJyZmdLTmZUN3c?oc=5",
     "source": "",
     "category": "VC",
     "tag": "핀테크",
     "summary": [],
-    "time": "1일 전",
+    "time": "2일 전",
     "pub_date": "2026-07-29T12:00:10+09:00",
-    "scraped_at": "2026-07-31T08:16:29.413253+09:00"
+    "scraped_at": "2026-07-31T15:47:18.812678+09:00"
   },
   {
-    "id": 214,
+    "id": 213,
     "title": "한화투자증권, 글로벌 넘버원 실물연계자산 허브 꿈꾼다…핵심은 '파트너십'",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iMUs2NnhCMWUzVWxNYUNIZUhMbjh1RU5tdTJyT2Jodi11ZU9sTDBTa0V2RlktcjJPc2ozVzJCaXJxWUlZRlQ4SFpicW1wWDcyUzRDVXRR?oc=5",
     "source": "",
     "category": "VC",
     "tag": "대체투자",
     "summary": [],
-    "time": "1일 전",
+    "time": "2일 전",
     "pub_date": "2026-07-29T11:58:57+09:00",
-    "scraped_at": "2026-07-31T08:16:38.186283+09:00"
+    "scraped_at": "2026-07-31T15:47:24.201739+09:00"
   },
   {
-    "id": 112,
-    "title": "\"40%나 싼 데 안 쓸 이유가\"…중국산 공습에 유럽도 초비상",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8xVTdoeklJN0FuY1lsZ29WOHRiRlkzblBkSERMT3pLdmZwbHdGUjRUNnBaVkc3Y0lqc3R2TzM5NDlUYXJkRXg4UmNWZkR0c09LRnNJM0xPR3UwQQ?oc=5",
-    "source": "",
-    "category": "인프라",
-    "tag": "대체투자",
-    "summary": [],
-    "time": "1일 전",
-    "pub_date": "2026-07-29T11:17:25+09:00",
-    "scraped_at": "2026-07-31T08:14:08.867322+09:00"
-  },
-  {
-    "id": 16,
-    "title": "천문학적 투자 부담에… 메타, AI 데이터센터 짓고 빌려 쓴다",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNEE3NzJWUElmZUh1VG0zQnlRQzk3NndOVEZFRFBhV1BTaWpXMUtJdVdjQm96QnBjOHhST2VQN3BqeEJLVUcwX1RsQVJRaU5meDIxUUx1SmNnaXhnUHpYM0tPN0k3WXJzSnc3UjZ1eW1IZzlIYXduR1QyY2pKdTVfX0tVWQ?oc=5",
-    "source": "",
-    "category": "부동산",
-    "tag": "디지털",
-    "summary": [],
-    "time": "1일 전",
-    "pub_date": "2026-07-29T11:05:00+09:00",
-    "scraped_at": "2026-07-31T08:11:47.961552+09:00"
-  },
-  {
-    "id": 46,
+    "id": 45,
     "title": "주택저당증권 늘고 부동산PF는 줄고…상반기 등록 ABS 26.6兆 발행",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RNkQzaENiTlhkcVFJVzMwMGlPZDRtS0tzN0Y2d1B1NDZrX0tWb3Bob0xkeDhaTGNlTWpOX05zNjhYUXdTa2lxX3hqbjhWZ2tNSkkwei13MnNrQQ?oc=5",
     "source": "",
     "category": "부동산",
     "tag": "대체투자",
     "summary": [],
-    "time": "1일 전",
+    "time": "2일 전",
     "pub_date": "2026-07-29T10:09:11+09:00",
-    "scraped_at": "2026-07-31T08:12:32.104117+09:00"
+    "scraped_at": "2026-07-31T15:43:28.631196+09:00"
   },
   {
-    "id": 230,
-    "title": "[AI서머리] 엠아이디, 157억원 시리즈A 투자 유치‧마스오토, 우체국 물류망에 자율주행 확대",
-    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA2NHVCLVBWR0x2QmwwT0dPUDhoYktEeFgyMnZMTWZDU2V2VVZ0U2V2QlhyT3FBVXpHWGdxbmdEMTdnLXNYRFJxbnVJYkFFalBlMDVQT09fOA?oc=5",
-    "source": "",
-    "category": "VC",
-    "tag": "물류",
-    "summary": [],
-    "time": "1일 전",
-    "pub_date": "2026-07-29T09:52:53+09:00",
-    "scraped_at": "2026-07-31T08:17:02.061035+09:00"
-  },
-  {
-    "id": 47,
+    "id": 46,
     "title": "BNK금융, 부동산 펀드 일회성 비용에 '발목'…주가 10% 급락",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1jTV9ia3YtSmdiS1cyM1hLa05oSXpXUjRaTWNzUlF6cVBMX0kxQXEzTkx5cnRneExrYVRRQXY0aEZSLXBDVWVjSUVORFdZQl9LMmw0eXBOek9hZw?oc=5",
     "source": "",
     "category": "부동산",
     "tag": "대체투자",
     "summary": [],
-    "time": "1일 전",
+    "time": "2일 전",
     "pub_date": "2026-07-29T09:36:33+09:00",
-    "scraped_at": "2026-07-31T08:12:33.497874+09:00"
+    "scraped_at": "2026-07-31T15:43:29.978658+09:00"
   },
   {
-    "id": 224,
+    "id": 228,
     "title": "서울창경 추천 스타트업 ‘프랩’, 2026년 팁스(TIPS) 최종 선정",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE00SFpBc0tPQ0c4QnRrWEtwRVIzU1dTX3JPNGttd2FjcFFuNy0ya1U3cWJkekt6T293endPaHc2eWlGdWRyeF9UbldmT3FSRnU3Y2g4YzZCRE1jS1gxc2dGS2FCS3RXRXNGVmZDZks3N09hNWZBRHfSAWZBVV95cUxOY3NUanBlZXRBaG9WRW82MUFkX0M3LURRSzlhUlBYeHF1Z0J2dHJjc0RjLWh5bi1RaEM1UzBTUmlYcGV3OVRJWmxURXhRWkJMY1p1YTEtOENSWHV1RGpybFhCREllNnc?oc=5",
     "source": "",
     "category": "VC",
     "tag": "대체투자",
     "summary": [],
-    "time": "1일 전",
+    "time": "2일 전",
     "pub_date": "2026-07-29T09:00:00+09:00",
-    "scraped_at": "2026-07-31T08:16:53.593355+09:00"
+    "scraped_at": "2026-07-31T15:47:45.586845+09:00"
   },
   {
-    "id": 93,
+    "id": 95,
     "title": "CATL, 전기차 넘어 AI 전력망·선박시장 사업 확장",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTmNaMHh4OUpGQ3RTYWh2MGZheGs1QW1kLXlaaG1vN0JhTU1rai1KUXQzd1hSQ25FYjhuSEQtNFkxYzYzNGpNS2hsUWJZamNNYkx4WGlCSDlTNXFlbHBoQ2g1czdCaEFicHFBYmlycm1YWDQwbUVxUFQ5aXlYTGpYYVBSd054S1Vl?oc=5",
     "source": "",
     "category": "인프라",
     "tag": "AI",
     "summary": [],
-    "time": "1일 전",
+    "time": "2일 전",
     "pub_date": "2026-07-29T08:35:42+09:00",
-    "scraped_at": "2026-07-31T08:13:41.364580+09:00"
+    "scraped_at": "2026-07-31T15:44:38.730258+09:00"
   },
   {
-    "id": 205,
+    "id": 204,
     "title": "로보틱스 산업전망 한눈에…현주소와 투자 승부수 짚어 - 머니투데이",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8wSlFXajlUTTh1a3hHS0ZtYjJ2UGF5bGp4VXc2cmlLaGZYOWFxZU56WEUyZHBQaTh6ZkU2eTVUZGlQazJuOTkyeWNNTFdBV2NjUGh6dUVNeS1vUXJncS1VY0Nja1hFSWE30gFuQVVfeXFMTjRsMzlYMWxRVVhjRVQ5dlFjakRkTGtfOGd1RUlWQ2syTVZkTWJ6Y0poclQ3TS1NYmpMUklTeVV5Q0FnUENoYlprNlNXZUFCeDhJeVVHbWl0Q3ZtLXNqZGdrcjBJeDNiYXNkS3oza1E?oc=5",
     "source": "",
@@ -1593,10 +1701,10 @@
     "summary": [],
     "time": "2일 전",
     "pub_date": "2026-07-29T07:55:00+09:00",
-    "scraped_at": "2026-07-31T08:16:24.564435+09:00"
+    "scraped_at": "2026-07-31T15:47:11.579446+09:00"
   },
   {
-    "id": 215,
+    "id": 214,
     "title": "비자, 스테이블코인 투자 전략 공개…3분기 매출 14% 성장",
     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5aeHlXcFBEZFpNUzFZdnV0SmR0eXZMWDVrYzlMbnJYTTYzZ25vdFphWWNZZ3BfZUM2SkZiQTZ2eVN1dFh0bnFzdllIaURUdmhH?oc=5",
     "source": "",
@@ -1605,7 +1713,19 @@
     "summary": [],
     "time": "2일 전",
     "pub_date": "2026-07-29T07:29:27+09:00",
-    "scraped_at": "2026-07-31T08:16:39.621470+09:00"
+    "scraped_at": "2026-07-31T15:47:25.537098+09:00"
+  },
+  {
+    "id": 216,
+    "title": "지역화폐부터 AI 결제까지…신한증권 핀테크 보고서 - 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA2T3Rlc3M2amhqUnVhWjBSWW4yWF81azFsZk5Wd01pa2loaHlFblBPZVctekU4Q2RlLUJVbUY0V09pRGRnRlFmMWNlbGFSR1VVLTV5THFiQldyLWRRRUNTU2VwZG5SNWViOThGY1930gFuQVVfeXFMUDZPdGVzczZqaGpSdWFaMFJZbjJYXzVrMWxmTlZ3TWlraWhoeUVuUE9lVy16RThDZGUtQlVtRjRXT2lEZGdGUWYxY2VsYVJHVVUtNXlMcWJCV3ItZFFFQ1NTZXBkblI1ZWI5OEZjX3c?oc=5",
+    "source": "",
+    "category": "VC",
+    "tag": "AI",
+    "summary": [],
+    "time": "2일 전",
+    "pub_date": "2026-07-29T07:15:00+09:00",
+    "scraped_at": "2026-07-31T15:47:28.282142+09:00"
   },
   {
     "id": 26,
@@ -1617,7 +1737,7 @@
     "summary": [],
     "time": "2일 전",
     "pub_date": "2026-07-29T07:01:02+09:00",
-    "scraped_at": "2026-07-31T08:12:02.999617+09:00"
+    "scraped_at": "2026-07-31T15:43:02.145154+09:00"
   },
   {
     "id": 159,
@@ -1629,10 +1749,10 @@
     "summary": [],
     "time": "2일 전",
     "pub_date": "2026-07-29T06:00:01+09:00",
-    "scraped_at": "2026-07-31T08:15:17.445863+09:00"
+    "scraped_at": "2026-07-31T15:46:08.497940+09:00"
   },
   {
-    "id": 111,
+    "id": 110,
     "title": "李대통령 \"韓·브라질, 민항기 공동개발\" 수소·희토류도 협력",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMY0lDVktxaWdHRTE2WEh0ckhicjVWM001RXdYTFQzNXR3UmJFa0o1OE5kdnBLNTF4czJJaTNvZUZ4aUc4VU1VYkpzdzBNMVBRRjAwUkkxTjdlZw?oc=5",
     "source": "",
@@ -1641,22 +1761,10 @@
     "summary": [],
     "time": "2일 전",
     "pub_date": "2026-07-29T05:58:10+09:00",
-    "scraped_at": "2026-07-31T08:14:07.491943+09:00"
+    "scraped_at": "2026-07-31T15:44:59.860621+09:00"
   },
   {
-    "id": 18,
-    "title": "빈 사무실 늘었다…서울 오피스 공실률 5년만에 최고",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9XeTA5Y0Z2RDlZcnUwVkJkOGR4TDlaSVcxMEVxVlpZUFlDVHJFUWpUeFlwSHlYRWRoNUx0MHlYMkxEcC0yNGZrQUgtazVWVzllc3hqVFpMcUZLVEt4TExEalNrQm5vWjNJbE82aWx3?oc=5",
-    "source": "",
-    "category": "부동산",
-    "tag": "오피스",
-    "summary": [],
-    "time": "2일 전",
-    "pub_date": "2026-07-29T05:30:00+09:00",
-    "scraped_at": "2026-07-31T08:11:51.253184+09:00"
-  },
-  {
-    "id": 166,
+    "id": 167,
     "title": "CJ제일제당, 전분당 사업부 매각 추진",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBMNXoyYUpDYXBGa2p4TV96MWV6a3NxVDAzbEIxN1FYalU4ZldfeVdMRkpFSGxfdV9HNDRrSV94dkU5bDBFdmdmTFgyNC1UTmF0VDk3dA?oc=5",
     "source": "",
@@ -1665,7 +1773,7 @@
     "summary": [],
     "time": "2일 전",
     "pub_date": "2026-07-28T19:17:54+09:00",
-    "scraped_at": "2026-07-31T08:15:27.613564+09:00"
+    "scraped_at": "2026-07-31T15:46:19.704165+09:00"
   },
   {
     "id": 61,
@@ -1677,10 +1785,10 @@
     "summary": [],
     "time": "2일 전",
     "pub_date": "2026-07-28T18:41:37+09:00",
-    "scraped_at": "2026-07-31T08:12:54.245109+09:00"
+    "scraped_at": "2026-07-31T15:43:51.324757+09:00"
   },
   {
-    "id": 138,
+    "id": 140,
     "title": "LP Scope\"국민성장 탈락사에 기회\"…교공 PEF 5000억 출자 : 네이버 블로그",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNU1JWblhUaHRuX282WVVvb0UzR0hXelRXUk95OUp2bkNtRFhycm5rUlZkbE9zR3dORWhTYnNNZnFnME9NMUladk56WVp6bExBZUVGTC1oWWJnLVpSQnRueEhVOXlCdFVVeFEySEpIMVRJc2dCNWxWYWVqUVBYSjgtYXpRcmZ0T01ldmFybUpCQQ?oc=5",
     "source": "",
@@ -1689,7 +1797,7 @@
     "summary": [],
     "time": "2일 전",
     "pub_date": "2026-07-28T17:43:46+09:00",
-    "scraped_at": "2026-07-31T08:14:47.275498+09:00"
+    "scraped_at": "2026-07-31T15:45:42.205940+09:00"
   },
   {
     "id": 160,
@@ -1701,10 +1809,10 @@
     "summary": [],
     "time": "2일 전",
     "pub_date": "2026-07-28T17:30:07+09:00",
-    "scraped_at": "2026-07-31T08:15:18.822901+09:00"
+    "scraped_at": "2026-07-31T15:46:09.844282+09:00"
   },
   {
-    "id": 228,
+    "id": 230,
     "title": "천장 뚫은 韓·美·中 로봇 스타트업 기업가치",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mYldSbk5ETGVQempSMWdZQzVPZjBWNlVmYkpQNnlfSFh4Wi0yODlBVmpSTkhwbDBxY2I5bHBRNE1IdFk2T3BESU1CaWRtMkxOdzRUZE1GRkRwQQ?oc=5",
     "source": "",
@@ -1713,31 +1821,19 @@
     "summary": [],
     "time": "2일 전",
     "pub_date": "2026-07-28T17:25:30+09:00",
-    "scraped_at": "2026-07-31T08:16:59.175764+09:00"
+    "scraped_at": "2026-07-31T15:47:48.269919+09:00"
   },
   {
-    "id": 27,
-    "title": "환율이 도왔다…신한글로벌액티브리츠, 300억 유증으로 '체질 개선'",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ibU83QlNzdVM1M2E2RHFIUUJHU2dWdW4zUjdYZzd1bG1LU1VoWmFSVDVvSkJDcWpjdEY3RVRGLUNkdFpfRGlEWDkweHlaQ3k0MjIwR2dITGxIMmVMX2FyOUx5RzRZVmh0dDZ2NnM0OTRWQQ?oc=5",
+    "id": 180,
+    "title": "[천안 24시] 천안시, 삼성 HBM 반도체·배터리 투자 총력 지원…초고속 행정 처리체계 구축",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14SEJWSkdrbHNqR3F5VDBlVTdNZnVrZnZJNmx2V3R6cUpOZ0p2MmdqZFVHR2p0SlUyOXQ4ZF96RmYzaWZCeGFNc3FlNkl6cE1TVWVUSA?oc=5",
     "source": "",
-    "category": "부동산",
-    "tag": "리츠",
+    "category": "VC",
+    "tag": "AI",
     "summary": [],
     "time": "2일 전",
-    "pub_date": "2026-07-28T17:20:41+09:00",
-    "scraped_at": "2026-07-31T08:12:04.396808+09:00"
-  },
-  {
-    "id": 96,
-    "title": "용수는 강점, 전력망은 과제…새만금 미래 가를 ‘송·변전 인프라’ 구축 숙제",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8xSV9UVElYVjdid0V0U05SaXdWYm1SUnNuUEY4UW9yaDBtTmdrcS1KWmhNcm9zekdfNlBBcEluYVR1TW1zR21mRGJaZ1I0S2NXRmRGZNIBWEFVX3lxTE9pejFXQXdQRGMxU2lvQjRqUzFoMmxWNU9TcUlQcmcxWXFnY1ZkZmo2OWZraF9weXBxd0pUR0syZTQ0OW9oMVh5U0VPdF93U3N1NTc3YjY2VXQ?oc=5",
-    "source": "",
-    "category": "인프라",
-    "tag": "대체투자",
-    "summary": [],
-    "time": "2일 전",
-    "pub_date": "2026-07-28T16:45:44+09:00",
-    "scraped_at": "2026-07-31T08:13:45.514579+09:00"
+    "pub_date": "2026-07-28T17:06:09+09:00",
+    "scraped_at": "2026-07-31T15:46:38.021205+09:00"
   },
   {
     "id": 48,
@@ -1749,10 +1845,22 @@
     "summary": [],
     "time": "2일 전",
     "pub_date": "2026-07-28T16:29:40+09:00",
-    "scraped_at": "2026-07-31T08:12:34.883449+09:00"
+    "scraped_at": "2026-07-31T15:43:32.671811+09:00"
   },
   {
-    "id": 135,
+    "id": 47,
+    "title": "인천 쿠팡화재 현장 감식...화재원인 추정 증거물 수거",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02ajlROUZ1T3ZycW9nVzNsTE1MSHJjYi1pUXZNUkxMNnBtX256Rks5aHM2aVV4RjJsWkx2TjJiemxZaG8wMUVkQ1VNaWZyQkR4eEZnSFpNRS10Zw?oc=5",
+    "source": "",
+    "category": "부동산",
+    "tag": "대체투자",
+    "summary": [],
+    "time": "2일 전",
+    "pub_date": "2026-07-28T16:25:43+09:00",
+    "scraped_at": "2026-07-31T15:43:31.336031+09:00"
+  },
+  {
+    "id": 132,
     "title": "[기업인사이트 8]사모펀드(PEF)는 왜 기업을 살까…투자와 구조조정의 두 얼굴",
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE54SUlBbENUNTRZdEwySzQwa3VSRFdTOVdJOG9MdnBOQm9SMW5idmFKZnhmQkVtTThMRE45MVdyN2M2dkpod1F5SmtVNElpVkt3cWNrbWdFYmR1UWdPTEdTYzNpcXU?oc=5",
     "source": "",
@@ -1761,19 +1869,19 @@
     "summary": [],
     "time": "2일 전",
     "pub_date": "2026-07-28T15:53:55+09:00",
-    "scraped_at": "2026-07-31T08:14:42.571926+09:00"
+    "scraped_at": "2026-07-31T15:45:31.026873+09:00"
   },
   {
-    "id": 55,
+    "id": 56,
     "title": "MK Pick | 동서식품, 홈·오피스 겨냥 프리미엄 캡슐머신 ‘카누 바리스타 오아시스’ 출시",
     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE96QXM0RVhXWGJfcG90SFpRLXI3NnMtMnFDTnBqR1NHWHVDcUtoX1g3ZllMcjFqT0t3RTVxbFhTUnRYa0VXTnJ0RlRVZk5xbF9F?oc=5",
     "source": "",
     "category": "부동산",
     "tag": "오피스",
     "summary": [],
-    "time": "2일 전",
+    "time": "3일 전",
     "pub_date": "2026-07-28T15:17:33+09:00",
-    "scraped_at": "2026-07-31T08:12:45.235593+09:00"
+    "scraped_at": "2026-07-31T15:43:44.096774+09:00"
   },
   {
     "id": 25,
@@ -1783,9 +1891,9 @@
     "category": "부동산",
     "tag": "리츠",
     "summary": [],
-    "time": "2일 전",
+    "time": "3일 전",
     "pub_date": "2026-07-28T14:26:00+09:00",
-    "scraped_at": "2026-07-31T08:12:01.560938+09:00"
+    "scraped_at": "2026-07-31T15:43:00.795715+09:00"
   },
   {
     "id": 77,
@@ -1795,45 +1903,45 @@
     "category": "인프라",
     "tag": "에너지",
     "summary": [],
-    "time": "2일 전",
+    "time": "3일 전",
     "pub_date": "2026-07-28T14:09:56+09:00",
-    "scraped_at": "2026-07-31T08:13:17.920315+09:00"
+    "scraped_at": "2026-07-31T15:44:13.652253+09:00"
   },
   {
-    "id": 229,
+    "id": 231,
     "title": "워커린스페이스, 스케일업팁스 선정…AI 기반 궤도상 서비싱 기술 개발",
     "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5MeC1kZms3WENhZ3lRLWNHLVFsMm13N3RxX3VnbldtUUtlMWNXc3UtVi1KdG9ZVFI0WXlzelVXVmtkaElYVGc?oc=5",
     "source": "",
     "category": "VC",
     "tag": "AI",
     "summary": [],
-    "time": "2일 전",
+    "time": "3일 전",
     "pub_date": "2026-07-28T14:00:30+09:00",
-    "scraped_at": "2026-07-31T08:17:00.554180+09:00"
+    "scraped_at": "2026-07-31T15:47:49.621785+09:00"
   },
   {
-    "id": 171,
+    "id": 172,
     "title": "대기업일수록 과징금 더 크고 세게…공정위, 부과체계 개편 추진",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1RZG16eUFlWGdGOXF5eHgtYkFyWHpqbXZTVDNQRmxQOFVkTzNoTHRzRmxBYVYzMVBpdFRHYkV0U2lHaXlhN084cHk4bVl3dHlldzV6c3l6bnVPelnSAWBBVV95cUxOTEtnYjdrb2RiMFFLSE5MRmJGVExlS3VGVFBGakhUdXFyOWVCZkptN0RtQmJsZVdWRjI0cnVJMWxBYVZNMm11UzM5MThKVGxmYTEya1Ytc3M5Qm55cU8wTU8?oc=5",
     "source": "",
     "category": "PE",
     "tag": "대체투자",
     "summary": [],
-    "time": "2일 전",
+    "time": "3일 전",
     "pub_date": "2026-07-28T11:32:58+09:00",
-    "scraped_at": "2026-07-31T08:15:35.023744+09:00"
+    "scraped_at": "2026-07-31T15:46:26.869656+09:00"
   },
   {
-    "id": 68,
+    "id": 71,
     "title": "태양광 사업권 매각으로 재미 본 삼성물산, 수소 등 신재생에너지로 외연 확장",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zenJ6QUZqQk5qcjVONzJhbDlWbmpYZUFhaFZTb2xQWTRRbld5ZDZ1ZWFQNHFMUGpTcHJzY0xNSFpHeXdqNkZkQTdsWDZkMFBvSVNLdzk3NDVHejlqWHZ3eg?oc=5",
     "source": "",
     "category": "인프라",
     "tag": "에너지",
     "summary": [],
-    "time": "2일 전",
+    "time": "3일 전",
     "pub_date": "2026-07-28T10:57:43+09:00",
-    "scraped_at": "2026-07-31T08:13:04.465311+09:00"
+    "scraped_at": "2026-07-31T15:44:05.179965+09:00"
   },
   {
     "id": 186,
@@ -1843,24 +1951,12 @@
     "category": "VC",
     "tag": "바이오",
     "summary": [],
-    "time": "2일 전",
+    "time": "3일 전",
     "pub_date": "2026-07-28T09:35:00+09:00",
-    "scraped_at": "2026-07-31T08:15:56.885565+09:00"
+    "scraped_at": "2026-07-31T15:46:46.543120+09:00"
   },
   {
-    "id": 56,
-    "title": "10만도 위태로운 ‘호프’, 예매율 8%대로 추락[MK박스오피스] - 스타투데이",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9BR0RmeVhqeTdXZmdTSHVmcnNObVFYOVNjM25NcEdPWkRNNnVEUkZobm9FX0pUUUdnY1YzMkNBWTJpLTVOZWhmV2F0Y0VKSUJLc0FR?oc=5",
-    "source": "",
-    "category": "부동산",
-    "tag": "오피스",
-    "summary": [],
-    "time": "2일 전",
-    "pub_date": "2026-07-28T08:35:14+09:00",
-    "scraped_at": "2026-07-31T08:12:46.671586+09:00"
-  },
-  {
-    "id": 213,
+    "id": 212,
     "title": "[N2 뷰] 토큰증권 D-6개월…달라지는 자본시장",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE80SWI3RVZvS0E2bE5naE5xTE5qZjBsd2dtUTAzaDMwYXhNMU1EODhlQW5mWGFyTWRPNGZBN29CeGpiSHYxci1DTVY5c1pQUWpTUUdNWFg5UEFVeGxrcmc?oc=5",
     "source": "",
@@ -1869,7 +1965,7 @@
     "summary": [],
     "time": "3일 전",
     "pub_date": "2026-07-28T05:28:00+09:00",
-    "scraped_at": "2026-07-31T08:16:36.655496+09:00"
+    "scraped_at": "2026-07-31T15:47:22.863364+09:00"
   },
   {
     "id": 35,
@@ -1881,10 +1977,22 @@
     "summary": [],
     "time": "3일 전",
     "pub_date": "2026-07-27T20:44:21+09:00",
-    "scraped_at": "2026-07-31T08:12:16.025614+09:00"
+    "scraped_at": "2026-07-31T15:43:14.739200+09:00"
   },
   {
-    "id": 155,
+    "id": 129,
+    "title": "사모펀드 한목소리 쉽지 않네…PEF협회 전환 ‘더딘 걸음’",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE55bkd6d2ZqQXgwdWdOYl9OZFJWS214d0dNS0FvLWRWblkxME9XNmxqMlV1TDdBVlBQX1dmV3ZCWjBZVHBYdWVwdFNZYk5ZdlkzY05ReHdZZ2tia055cnphY0l0SmpMZ0pNenlaOHJYX1JEZw?oc=5",
+    "source": "",
+    "category": "PE",
+    "tag": "대체투자",
+    "summary": [],
+    "time": "3일 전",
+    "pub_date": "2026-07-27T20:43:03+09:00",
+    "scraped_at": "2026-07-31T15:45:26.989584+09:00"
+  },
+  {
+    "id": 156,
     "title": "[단독] 실탄 두둑한 한국타이어, 롯데렌탈·SK렌터카 인수 추진",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sSF9yRlJxeHBGSVRqa2ZxT2wxQ2NqQjZBN051RkNvWGlwV3RvdmRSWXNiSU0xTVZfeUFkVmgwMFRIRHczVGJIOC1hcEdwMnpVS3dxU00xVks4Zw?oc=5",
     "source": "",
@@ -1893,22 +2001,10 @@
     "summary": [],
     "time": "3일 전",
     "pub_date": "2026-07-27T17:42:18+09:00",
-    "scraped_at": "2026-07-31T08:15:11.894483+09:00"
+    "scraped_at": "2026-07-31T15:46:04.461744+09:00"
   },
   {
-    "id": 71,
-    "title": "재생에너지 100GW까지 남은 61GW… 태양광 ‘3.6배 가속’ 관건",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9yZ1hoYTNaVnUzOXAydWRQZXM0ZUF2aXNKcURlYkZHdlRjNS1OaGhaVVBBZ241anBETmo2XzlxMVh1TWZyLW1mYjJkcGg1UlRFYTk1Yk54OWNaaFBqNDg0V0NkOGFKbW5Md3BETmIzUTQ?oc=5",
-    "source": "",
-    "category": "인프라",
-    "tag": "에너지",
-    "summary": [],
-    "time": "3일 전",
-    "pub_date": "2026-07-27T17:35:52+09:00",
-    "scraped_at": "2026-07-31T08:13:08.838948+09:00"
-  },
-  {
-    "id": 220,
+    "id": 223,
     "title": "NHN 품 안긴 이노그리드...이테크시스템도 100억 쐈다",
     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBzVEJ1Ukg3OFJ3UE9lVjZ3dXdnb1dtRF9YWlB2QzBnWnJNYVFzanRnUTFremFJek4wSFJ6UG9rOTBWdlpneEprQkdIRmhCU3NCb3RWOE9SaVRKVlF2UUZSNkp3M0VZQdIBakFVX3lxTFBxdWlVYzlWUEQ0MEVEZEswbE4xZzlOVHBjVEtjUjN2VmNjZlBKaENkVVVvcHdkRkRXREdCLWZNUHRPVGtTNkZnbVYzbXpqMmh2LURZWHRtYnNCM3RLX1ZVN0YxM251SHZVa3c?oc=5",
     "source": "",
@@ -1917,115 +2013,115 @@
     "summary": [],
     "time": "3일 전",
     "pub_date": "2026-07-27T16:16:30+09:00",
-    "scraped_at": "2026-07-31T08:16:47.210107+09:00"
+    "scraped_at": "2026-07-31T15:47:38.365791+09:00"
   },
   {
-    "id": 231,
-    "title": "워커린스페이스, 스케일업팁스 선정···AI기반 위성 수명 연장 핵심기술 개발",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZYTRwa3ZfLXBLdm9JTFU4Z1JmUkotWEpTQ0dGbVZabGdqZXZLZ0ZBbFpCZVEtRTIzZ016VlkyOG5EeFpKbWRaS3Y0T3l1TGVZU2RZcnMyVEhGUU9ibkhFWkN3b0dZcUFqbGc?oc=5",
-    "source": "",
-    "category": "VC",
-    "tag": "AI",
-    "summary": [],
-    "time": "3일 전",
-    "pub_date": "2026-07-27T16:10:00+09:00",
-    "scraped_at": "2026-07-31T08:17:03.440197+09:00"
-  },
-  {
-    "id": 172,
+    "id": 173,
     "title": "스틱인베스트, '롯데에너지머티리얼즈 인수금융' 대주단 교체",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9UbGNjckc5RmRHbm5KUFU1MWZBMGJjM1lfUC1sQmpKZnNDU0JsZEkyRUFiY1luV2JYVmZ0bmFKT1Y5VHNjVU1zMTJ3T0MtZFBEV2F6QnVSWF9vb3fSAWBBVV95cUxOMWpJakc0V1d4d1l6TEU1TzRBQUJ0Yk5Bb2MyVjhtcDVKM0dSeG85SFZJV0RKRjRRT2VXR1c1LVVMbTdwbVBBSnh0ZGtOY09VdGNtOWtHajl1aTJ4V2E1TXY?oc=5",
     "source": "",
     "category": "PE",
     "tag": "에너지",
     "summary": [],
-    "time": "3일 전",
+    "time": "4일 전",
     "pub_date": "2026-07-27T15:35:04+09:00",
-    "scraped_at": "2026-07-31T08:15:36.408227+09:00"
+    "scraped_at": "2026-07-31T15:46:28.201164+09:00"
   },
   {
-    "id": 168,
+    "id": 170,
     "title": "전 NBA 구단주 큐번 주도한 사모펀드도 애슬레틱스 지분 투자",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZOHBWaG1yeW9RclZuSFk4d3lSRVRGaGRzSGJBeWFMdk5IeFRNaHBSLUNTSHItaVpULVBNRXgtY014Y0E4YWp5TGpsUzJfUDUxN1FoRmpWa3VTcnPSAWBBVV95cUxOb0ctOWVHM29FLUM0TGcwcUhlOFFoTDN4YTZIWUM1MkFBX1lvNE9RT1lSU0JTbkZqQjJpVUVjdk0yNVk3NHg0bzRjUXhhMUpucy1PSzRHc3l0OGZ3SnNramM?oc=5",
     "source": "",
     "category": "PE",
     "tag": "대체투자",
     "summary": [],
-    "time": "3일 전",
+    "time": "4일 전",
     "pub_date": "2026-07-27T15:02:27+09:00",
-    "scraped_at": "2026-07-31T08:15:30.860783+09:00"
+    "scraped_at": "2026-07-31T15:46:24.168773+09:00"
   },
   {
-    "id": 54,
+    "id": 55,
     "title": "2분기 서울 오피스 신규 임대차 2025년 1분기 이후 최대",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE53blN2ZU12cFZXWXpSenBaT0FiR0Y2YmhDTnNWMUprbW5adG9udVFLQVpsT2hRdGNfNHAzSGJwN1dNWFY5TloyOVp4aEhlVV95NzFRV25ycFlYZnRRUlFRNUhpM2o0b1hCcDJ0ODhnZC0yZw?oc=5",
     "source": "",
     "category": "부동산",
     "tag": "오피스",
     "summary": [],
-    "time": "3일 전",
+    "time": "4일 전",
     "pub_date": "2026-07-27T15:01:00+09:00",
-    "scraped_at": "2026-07-31T08:12:43.862312+09:00"
+    "scraped_at": "2026-07-31T15:43:42.768924+09:00"
   },
   {
-    "id": 225,
+    "id": 229,
     "title": "기술 창업의 성장 사다리 '팁스'…FDA 임상부터 글로벌 투자까지",
     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE83R3pGQnp2eGNzT1I4ZXBxQXRWeVhDeW1Ed29RSDJPQXVIZXRod1ExZTQwT3hoNU5vQUhkNzhpUmZTUG9wazFCSDVUOG41dw?oc=5",
     "source": "",
     "category": "VC",
     "tag": "대체투자",
     "summary": [],
-    "time": "3일 전",
+    "time": "4일 전",
     "pub_date": "2026-07-27T14:00:00+09:00",
-    "scraped_at": "2026-07-31T08:16:55.031458+09:00"
+    "scraped_at": "2026-07-31T15:47:46.921537+09:00"
   },
   {
-    "id": 216,
+    "id": 18,
+    "title": "기업들 이전·확장 늘어…서울 오피스 계약 5분기 만에 최대",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9uZ3BYaWJUX19JbTh2d0dqNzZCOU1zYnlPOXlDenFLWklhRVZDRHRWZTdWb0xsSXZ4cFpwSU02VkpXdVF5OFdKRGRxcWxkTkRwMC1YZDJrM2NTQUo0ajBpWNIBeEFVX3lxTFAwTmlhdjhfNy1ZUWU2aC1WNUF5Q1lRMVdTWUlGNUgwaVZOSmFyWWdyaWg0b0lyQXZnVVZIVzhVUU9fZ09ZNnVEZ2gtVEM4T0E5QnN4cWJGd3dadEtobW1xVUg2QlhkWnY4RmhiU2lmVmJ6Z0RpVDMwdw?oc=5",
+    "source": "",
+    "category": "부동산",
+    "tag": "오피스",
+    "summary": [],
+    "time": "4일 전",
+    "pub_date": "2026-07-27T13:33:08+09:00",
+    "scraped_at": "2026-07-31T15:42:51.002596+09:00"
+  },
+  {
+    "id": 220,
     "title": "수소 전극 시험대 오른 LG화학…전해조 투자는 감소세",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pTTdhVmN0SWdZSExWdkhsMU01TkhRTHhyR240aGV5aVNYRUxpaS1CblI3SGhqNHF6RkJacDdOcEd2MUR0S3BES1RWU3R1MmU2SW5qSHpja2JLaE5tU0d0M1RzSlkxeXpl0gFsQVVfeXFMT2l0QXhoTk9fSGQxaXBCZFhzbFhuSGw0VGswUkJjaEpiWjRfNWNfMU03dlg4UDIyYUZqT2Nwb3lKcklRRzd2a01RVHN6M040MjEyYWRMcnR0amZOVmFPeURPQnYxMHBXWjJWRGZN?oc=5",
     "source": "",
     "category": "VC",
     "tag": "에너지",
     "summary": [],
-    "time": "3일 전",
+    "time": "4일 전",
     "pub_date": "2026-07-27T13:22:49+09:00",
-    "scraped_at": "2026-07-31T08:16:41.488201+09:00"
+    "scraped_at": "2026-07-31T15:47:34.163102+09:00"
   },
   {
-    "id": 98,
+    "id": 183,
+    "title": "한미반도체, HBM 넘어 칩렛·로직으로…첨단 패키징 장비 영토 넓힌다",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9vajRPZWxRWFo1TVUwSmI0dVRvUDMtT3p5Zmc5SzBHMElZYm41XzJMdl9QU1ctVEZoeDBfeXF4M25ZcXp3T2Mxb1N4QnhGRmd6cFVwQTRyQXkyOUp4LWNLVm8tNmVhTWd2?oc=5",
+    "source": "",
+    "category": "VC",
+    "tag": "AI",
+    "summary": [],
+    "time": "4일 전",
+    "pub_date": "2026-07-27T11:27:45+09:00",
+    "scraped_at": "2026-07-31T15:46:42.123389+09:00"
+  },
+  {
+    "id": 97,
     "title": "엔비디아 품은 네이버…AI 인프라도 '에쿼티+PF' 결합",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPT2hHZGppVGw0ZURra2NFQ0hMeUpWR3l0N3ZSd0tFYm82TVJ3N21pVDhaT1piTWpCWWJIVzNTVHlSQXU5RTNFTEpQNVJ3R3loa1NtNl9rUGEzckJSOXhZS3JDSmtyTXpJTThiWnhMT3hLRHRiZGUwOW4yQ2FRNFhiZ2IxNA?oc=5",
     "source": "",
     "category": "인프라",
     "tag": "AI",
     "summary": [],
-    "time": "3일 전",
+    "time": "4일 전",
     "pub_date": "2026-07-27T11:24:00+09:00",
-    "scraped_at": "2026-07-31T08:13:48.850237+09:00"
+    "scraped_at": "2026-07-31T15:44:41.827430+09:00"
   },
   {
-    "id": 183,
-    "title": "AI 반도체 붐 타고 퀀텀점프… 디아이, 차세대 HBM 검사장비 시장 독주",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5WTURRcUxqS05UWmpJT2pMeXlyZzNoOW5IZTFxTHI2UVRlSWJ6MnJ5S2p3bUtwN1FjSkFVdnpRYTl0ZkZXTUZROUd3MGdMNTIyWld6Y0ZLejJDSTAyUWRrMlU1VnFSZVNCOGN6LW1ZUDV0X1HSAXdBVV95cUxPX2lpdS1VWVZicDE0bkVfenV6dm05UXc2QVFXamwtbU1rOVVHOEhWRVpEOVFtTm5NR2dJU2haQzZ6SlNNX3oyWjYzNlJiXzBuYzlQdnBqdTY1ajU0UE93aVdnNXR3ZEszS21sc2VRSWVZWVZraTluQQ?oc=5",
-    "source": "",
-    "category": "VC",
-    "tag": "AI",
-    "summary": [],
-    "time": "3일 전",
-    "pub_date": "2026-07-27T10:33:56+09:00",
-    "scraped_at": "2026-07-31T08:15:52.208407+09:00"
-  },
-  {
-    "id": 206,
+    "id": 208,
     "title": "액시스 로보틱스, 1200만달러 시드 투자 유치…피지컬 AI 데이터 사업 확대",
     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE14bkVNWGRlb1RnamNNVVMyaVJGRERvTTVBT2RWSjdIUnhjUUR0dkpZYjRVSmZMRWl1NG1lQVRqMHVlWG9uanU4X1lXQzdzMzRt?oc=5",
     "source": "",
     "category": "VC",
     "tag": "AI",
     "summary": [],
-    "time": "3일 전",
+    "time": "4일 전",
     "pub_date": "2026-07-27T10:20:24+09:00",
-    "scraped_at": "2026-07-31T08:16:26.007056+09:00"
+    "scraped_at": "2026-07-31T15:47:17.062869+09:00"
   },
   {
     "id": 182,
@@ -2035,21 +2131,21 @@
     "category": "VC",
     "tag": "AI",
     "summary": [],
-    "time": "3일 전",
+    "time": "4일 전",
     "pub_date": "2026-07-27T10:08:28+09:00",
-    "scraped_at": "2026-07-31T08:15:50.841318+09:00"
+    "scraped_at": "2026-07-31T15:46:40.786171+09:00"
   },
   {
-    "id": 203,
+    "id": 205,
     "title": "소프트뱅크, 유럽 로봇 스타트업 '그라비스' 인수 검토…AI 로보틱스 투자 확대",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5XcHN3Z01veEhfNDkwQ1FQYnZDTDRnbEdGbUROcFRPaFdRU3RubjVMWlJZZnc1NkpzcFpmS2xqbEpqNHI4bTF1Slh6V2dMQTBfdkhiVnVUNmJoVzVjSnBsbUJNdw?oc=5",
     "source": "",
     "category": "VC",
     "tag": "바이아웃",
     "summary": [],
-    "time": "3일 전",
+    "time": "4일 전",
     "pub_date": "2026-07-27T09:23:40+09:00",
-    "scraped_at": "2026-07-31T08:16:21.636387+09:00"
+    "scraped_at": "2026-07-31T15:47:12.928924+09:00"
   },
   {
     "id": 33,
@@ -2061,43 +2157,19 @@
     "summary": [],
     "time": "4일 전",
     "pub_date": "2026-07-27T07:00:00+09:00",
-    "scraped_at": "2026-07-31T08:12:13.240781+09:00"
+    "scraped_at": "2026-07-31T15:43:12.043936+09:00"
   },
   {
-    "id": 156,
-    "title": "김이동 삼정KPMG 재무자문 대표 \"韓, 로봇·우주 M&A 확대해야\"",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA1ckJLem9kWDlsQ1Jic19xRTE4dHlnMi0yV2NmRmxTS2JMNHNRY0FtNTNCdkwwa0pRelE2SWJjLXRtUEZ5LUxjVFE5VFFWcVduS21ZOTVlZmxfUQ?oc=5",
-    "source": "",
-    "category": "PE",
-    "tag": "로봇",
-    "summary": [],
-    "time": "4일 전",
-    "pub_date": "2026-07-26T18:14:53+09:00",
-    "scraped_at": "2026-07-31T08:15:13.282835+09:00"
-  },
-  {
-    "id": 154,
-    "title": "[단독]카카오엔터 2대주주 앵커PE, 지분 매각 나선다",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5tSF9xT1I1eThYNFNwV1ZHOGUtNjV5bDJyRVhnU1N6cDI5X3VxVFhwQndrb0VNUWg5aFo5T2RQa0NfejFKR1N5QVJnZmE3REdCQXltYklxdkpDdw?oc=5",
-    "source": "",
-    "category": "PE",
-    "tag": "엑시트",
-    "summary": [],
-    "time": "4일 전",
-    "pub_date": "2026-07-26T16:58:23+09:00",
-    "scraped_at": "2026-07-31T08:15:10.491110+09:00"
-  },
-  {
-    "id": 30,
+    "id": 29,
     "title": "상장리츠 23개 중 19개 연초 대비 하락…'자본 리사이클링'으로 반격",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91VUVxZXNOdzhEM0czZzNaSVFxRkQ3bVY3OHRObk1uWDVVaEdId3hyRTY3cEI4ai1jUXBWVTNHZEw3Y2s5WVpVc0RmUTk2bVMxWVc3d2JiVFpKaFRzRHdQdzhvUmRzR3M?oc=5",
     "source": "",
     "category": "부동산",
     "tag": "리츠",
     "summary": [],
-    "time": "4일 전",
+    "time": "5일 전",
     "pub_date": "2026-07-26T14:47:56+09:00",
-    "scraped_at": "2026-07-31T08:12:08.560360+09:00"
+    "scraped_at": "2026-07-31T15:43:06.222421+09:00"
   },
   {
     "id": 238,
@@ -2107,24 +2179,12 @@
     "category": "VC",
     "tag": "대체투자",
     "summary": [],
-    "time": "4일 전",
+    "time": "5일 전",
     "pub_date": "2026-07-26T10:25:30+09:00",
-    "scraped_at": "2026-07-31T08:17:13.904940+09:00"
+    "scraped_at": "2026-07-31T15:47:59.512661+09:00"
   },
   {
-    "id": 80,
-    "title": "HD현대·삼성중공업, 원자력 시장 공략 광폭 행보…미래 먹거리 경쟁",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fakM4SDhlTkFfRGltenJlVS14OGNQRHNWVk4ybG03cU5vMmR0eWdrUkUtcGh0SFBfaGFXTlNLSDNyWXQ3WXBPWmN6SUdkNy1oWWxDeWZOck9sSl80d2lpdGM2cnkwbUdKZ3dRZXpxLVJ6OTTSAXdBVV95cUxNMWlENHBhdnc2b09Kb0VmZEdaSFhvM2pQTEl0cTN4T0dLU09Udkk1SVNVQXBOM1ZTU3M4RVg2VnBfeF9uX2w2Z2lRNzBsamZWbExvZU9fSncycHI1cnRwYVRPSUdFM01tX3p3LTlDX01mcWZCeXQzQQ?oc=5",
-    "source": "",
-    "category": "인프라",
-    "tag": "대체투자",
-    "summary": [],
-    "time": "4일 전",
-    "pub_date": "2026-07-26T09:00:00+09:00",
-    "scraped_at": "2026-07-31T08:13:22.097658+09:00"
-  },
-  {
-    "id": 164,
+    "id": 165,
     "title": "“투자금 회수 전략 내세운 PEF”…식음료 기업 ‘몸값 높이기’ 속도전",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBJYkVQaHdEM25aVTMzM3FmaDIzWU8zckVIS2Z2Sk5icmZkQ1YzZ0NPNXk1MHFISklXN3ZFNWlTdldsbGNhMGRwb3pvWk1ia1hER2Rnbw?oc=5",
     "source": "",
@@ -2133,10 +2193,10 @@
     "summary": [],
     "time": "5일 전",
     "pub_date": "2026-07-25T22:20:48+09:00",
-    "scraped_at": "2026-07-31T08:15:24.844561+09:00"
+    "scraped_at": "2026-07-31T15:46:17.006328+09:00"
   },
   {
-    "id": 173,
+    "id": 175,
     "title": "혁신당 대표에 신장식…\"檢개혁 완수, 민주당과 통합 열려 있어\"(종합)",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wNVNINk1Sa2hkVURsS3p0R0IxTHFJR21rbUp4QlpWZ2xuTFJrMG0wTHc0TVlTZVh0OG9HTmZRbk1sR3VfSEVyUHhBYmxMV2t3emgxUFVyR2o3TDDSAWBBVV95cUxOWlV5aWRqbGtBa3lhanRqRllpeXNZVjVCMmdadTZrSDRUb2xLSVFNbFk3SUcwZUlUZXRIUlVFQVlRY2J0XzRGUVhiRUNUMDNpZnpkQ1l6QnZVT3hOTXJTdzE?oc=5",
     "source": "",
@@ -2145,22 +2205,10 @@
     "summary": [],
     "time": "5일 전",
     "pub_date": "2026-07-25T16:48:56+09:00",
-    "scraped_at": "2026-07-31T08:15:37.796837+09:00"
+    "scraped_at": "2026-07-31T15:46:30.912722+09:00"
   },
   {
-    "id": 222,
-    "title": "GM 벤처스 투자 유치한 피크 에너지, 새크라멘토에 미국 최초 그리드 규모 나트륨 이온 배터리 공장 건설",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPU01sNFJCeUFORDZBT1NnNDdINjhSVUxFSTBaeDVhVi1GUnE4R3J6anFVQUxkSFhQM0pYemZPVmN1c1Jib3lqMDVic1dXdGVXLUJmMzlfWF9MY3p1dDRTTEZ2ak0xMUdsamZGeVREQzNrNW1ab2VLTGd5RGxpNDYxLWUybXFzWEtPZVBUUUtuRzQ5ZkZvVG9SSnNpMXoxc0RVMGdzZmI5MTkzdHVRZlpaSENiSG8tdDRBVDVxaDd5eXF0bWNRWUp4Um1TV0d6ZXphdGtHSnB4Mko4d2RQRWhrVmV3VV8?oc=5",
-    "source": "",
-    "category": "VC",
-    "tag": "에너지",
-    "summary": [],
-    "time": "5일 전",
-    "pub_date": "2026-07-25T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:16:50.020869+09:00"
-  },
-  {
-    "id": 141,
+    "id": 144,
     "title": "제네시스PE, 8000억 모은다…블라인드펀드 클로징 눈앞",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5IUDJnN243RThOMnhUa1VrWTBNd1B4RzVvTkJVaGZYaGZLclJQNHhUUzMteVpyYmtpRklEMUEzWTFfeE42aVBxOV9Ga3Vsb2JZSVh1Y1d3?oc=5",
     "source": "",
@@ -2169,19 +2217,7 @@
     "summary": [],
     "time": "6일 전",
     "pub_date": "2026-07-25T08:00:00+09:00",
-    "scraped_at": "2026-07-31T08:14:51.584895+09:00"
-  },
-  {
-    "id": 221,
-    "title": "기후테크 특별법 논의 속 정부도 육성방안에 속도 낸다",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1GanBJWUJ0YnBBdnFKR09teUJWSlotdlNlMVpoWElBd0pVMW9udFpFbFk4LUxYaDhnbmwyQmpTNGxZOWJIeTBLRi1xZDA3WjVuUWNWLXRFR0dyMndRRXlqUtIBeEFVX3lxTFBzbG5OcjBRSHFZZjdYMUZxNnlrblVpTkNGRzdtajFQSkF1czRfX281MktldFRuZGlCN1hQcURkVkhxV0dKQmZocEFmeHRJWXpZS2VQSjVrd0pMcTJucWd0eTdnM1hIcEo1eUc3SDJWd05ZZ290dFRvRQ?oc=5",
-    "source": "",
-    "category": "VC",
-    "tag": "기후테크",
-    "summary": [],
-    "time": "6일 전",
-    "pub_date": "2026-07-25T07:00:00+09:00",
-    "scraped_at": "2026-07-31T08:16:48.625550+09:00"
+    "scraped_at": "2026-07-31T15:45:47.593496+09:00"
   },
   {
     "id": 190,
@@ -2193,19 +2229,7 @@
     "summary": [],
     "time": "6일 전",
     "pub_date": "2026-07-25T04:13:43+09:00",
-    "scraped_at": "2026-07-31T08:16:02.660798+09:00"
-  },
-  {
-    "id": 165,
-    "title": "SK, 자회사 '시그넷' 상폐후 매각…앵커EP 품에 안기나",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ULUhhVUNZMExRMkNTdi1UUDdxS0daWUl6R2pmeHRVQV9CdnhpNG8weV9iTjNxSnhTV2wzcGlFalR5SFoyLTlQMU1uS3cxb1p3X2c?oc=5",
-    "source": "",
-    "category": "PE",
-    "tag": "엑시트",
-    "summary": [],
-    "time": "6일 전",
-    "pub_date": "2026-07-24T17:48:47+09:00",
-    "scraped_at": "2026-07-31T08:15:26.230082+09:00"
+    "scraped_at": "2026-07-31T15:46:51.924919+09:00"
   },
   {
     "id": 157,
@@ -2217,55 +2241,43 @@
     "summary": [],
     "time": "6일 전",
     "pub_date": "2026-07-24T17:39:21+09:00",
-    "scraped_at": "2026-07-31T08:15:14.655823+09:00"
+    "scraped_at": "2026-07-31T15:46:05.807942+09:00"
   },
   {
-    "id": 79,
+    "id": 80,
     "title": "현대엔지니어링, 美 원자력 전문가 초청 세미나 개최…SMR·핵융합 사업 박차",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBpenI2dFZwU1RIQmNCM0NubUZua0RYRFQ0LXNDNE5HenVxbUEtYVlUZVI0RmNKb3lMWmd6dXU5ZUktQ0tEcnAxNGE0WS1tNHh4ZFo5N1AwdnRzakc2ZGxmZU40QW5fcE0?oc=5",
     "source": "",
     "category": "인프라",
     "tag": "에너지",
     "summary": [],
-    "time": "6일 전",
+    "time": "7일 전",
     "pub_date": "2026-07-24T15:22:57+09:00",
-    "scraped_at": "2026-07-31T08:13:20.721880+09:00"
+    "scraped_at": "2026-07-31T15:44:17.681055+09:00"
   },
   {
-    "id": 169,
-    "title": "FT \"'AI붐' 현금 확보한 한국 기업들, 미국 기업 M&A\"",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBxSEZ6SndfN0Zha1EyVlNYOUt3M3ZPZFdPUjMxSmFRN3FXaTNhc1hvODFTRXFuSDZ1em91T3VCR1BsZ2tRdnd1RC02cFJ6SnJ2RjlwSVV4Q1l6dWvSAWBBVV95cUxPeUxJS3BNV19BS0NVUXlzaVNUVUFRQ0c1X3d6QnYwUmZRSjRUMVIxQ20yTm4yRnlVbkVXUkhPT1Brem1pRmp4b0RVRGMteTRWSHdIaFRYU0V3Ti02OGFVd00?oc=5",
-    "source": "",
-    "category": "PE",
-    "tag": "AI",
-    "summary": [],
-    "time": "6일 전",
-    "pub_date": "2026-07-24T14:48:29+09:00",
-    "scraped_at": "2026-07-31T08:15:32.253422+09:00"
-  },
-  {
-    "id": 137,
+    "id": 143,
     "title": "국민연금, 9월 블라인드펀드 출자 재개…'중형 리그' 부활 검토",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOE5JcHNjMEs3VEdlTlNRaTc5ZVg1ODFaZEFwYng3NXBBRUNVa2RNMTFVclNaMUVwcjNYdTF1eWZ0WjhiOUFFRlZyX3dSMzRjbDI4OEpSRHNMVjQxU0RWaXF6ajhJQ1JZOTNqMWtqNGhad1ctQUNicmJ1QnJUd2RCeGlKUQ?oc=5",
     "source": "",
     "category": "PE",
     "tag": "펀드결성",
     "summary": [],
-    "time": "6일 전",
+    "time": "7일 전",
     "pub_date": "2026-07-24T13:51:00+09:00",
-    "scraped_at": "2026-07-31T08:14:45.891817+09:00"
+    "scraped_at": "2026-07-31T15:45:46.243246+09:00"
   },
   {
-    "id": 78,
+    "id": 79,
     "title": "[분석] 정부, 'SMR 국가전략산업' 승부수…원전 수출 넘어 차세대 에너지 패권 경쟁 돌입",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tWkdfNkJGOFpkeHVpUGFMVlljbnVDdmlYQUxnM0YwXzBLOWVFUTUyNkhuZXVpdjdhR29SU3E5RFVfd2hCWDhOdzc2Tmx4eGFkUndFUVZocndTNk1uSm82TUpFWV83alpkdWJuQjQ5TjRUZw?oc=5",
     "source": "",
     "category": "인프라",
     "tag": "에너지",
     "summary": [],
-    "time": "6일 전",
+    "time": "7일 전",
     "pub_date": "2026-07-24T11:39:56+09:00",
-    "scraped_at": "2026-07-31T08:13:19.342904+09:00"
+    "scraped_at": "2026-07-31T15:44:16.350011+09:00"
   },
   {
     "id": 189,
@@ -2275,9 +2287,9 @@
     "category": "VC",
     "tag": "바이오",
     "summary": [],
-    "time": "6일 전",
+    "time": "7일 전",
     "pub_date": "2026-07-24T11:38:15+09:00",
-    "scraped_at": "2026-07-31T08:16:01.284692+09:00"
+    "scraped_at": "2026-07-31T15:46:50.581881+09:00"
   },
   {
     "id": 43,
@@ -2287,69 +2299,57 @@
     "category": "부동산",
     "tag": "물류",
     "summary": [],
-    "time": "6일 전",
+    "time": "7일 전",
     "pub_date": "2026-07-24T10:52:51+09:00",
-    "scraped_at": "2026-07-31T08:12:27.878477+09:00"
+    "scraped_at": "2026-07-31T15:43:25.935101+09:00"
   },
   {
-    "id": 28,
+    "id": 27,
     "title": "ETF 리밸런싱에 상장리츠 재편 '속속'…수급·차환 관건",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9zMlVjNnVKYmk2angxRGZ0RldxQW0waTh3ZEdoNHhKUkh4WlJJVkVteF93bV9CdVZFbmlWaHloS083aVplYzhzYVRFVlUyV3l2QXZWcDc2S3hjNDFkRTc4Y0lBVXFnbmhnQVh5em1TUzQ?oc=5",
     "source": "",
     "category": "부동산",
     "tag": "리츠",
     "summary": [],
-    "time": "6일 전",
-    "pub_date": "2026-07-24T10:05:00+09:00",
-    "scraped_at": "2026-07-31T08:12:05.800874+09:00"
-  },
-  {
-    "id": 31,
-    "title": "한국리츠협회, 상장리츠 공매도 대상 제외 건의",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MZmRkbTJlVGQteTlkUlFlSk8zUzhQOTZKUnFscnJhcHBvaVcxaDRqRlpFQW10Z2VMcjM0T19zd28tRENOYXpxSm0tUVF1UUF6VVJjOGlQUTFiMzRJQWNHQmhYX1U?oc=5",
-    "source": "",
-    "category": "부동산",
-    "tag": "리츠",
-    "summary": [],
     "time": "7일 전",
-    "pub_date": "2026-07-23T18:02:04+09:00",
-    "scraped_at": "2026-07-31T08:12:10.020512+09:00"
+    "pub_date": "2026-07-24T10:05:00+09:00",
+    "scraped_at": "2026-07-31T15:43:03.511851+09:00"
   },
   {
-    "id": 223,
+    "id": 224,
     "title": "기후가치 평가로 자금·금융 연계…기후테크 전문투자조합 신설",
     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1xVlJkMVRhMWh5Nmsyek41SkJuWGIyeEgxaFRxbGZFNDRZb1p3WkxoTTZlejhWZGhoa1pBdVc3YmJVT2FvSE1EZGNwUE4?oc=5",
     "source": "",
     "category": "VC",
     "tag": "기후테크",
     "summary": [],
-    "time": "7일 전",
+    "time": "8일 전",
     "pub_date": "2026-07-23T13:42:00+09:00",
-    "scraped_at": "2026-07-31T08:16:51.603538+09:00"
+    "scraped_at": "2026-07-31T15:47:39.688967+09:00"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "쿠팡 화재에 물류센터 투자 '급제동'…국내 연기금·공제회 \"당분간 안본다\"",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNkVNaDNwM0I1akF5MzhpWERJcHBnUHNKbUhSdmE2NWJ2U0ZCZTZyTmJmQkxibVRmdjVVZ2paUzRKMnM3dnMxN0ZielVqMWxyN3hacFVIYWpmNnozVlRwQ3pUOU52QklJTkprUFhWZVo1MVhkR2ZrRXNqN0hBbUEwNGpiaw?oc=5",
     "source": "",
     "category": "부동산",
     "tag": "물류",
     "summary": [],
-    "time": "7일 전",
+    "time": "8일 전",
     "pub_date": "2026-07-23T11:44:00+09:00",
-    "scraped_at": "2026-07-31T08:11:30.586609+09:00"
+    "scraped_at": "2026-07-31T15:42:32.076411+09:00"
   },
   {
-    "id": 163,
+    "id": 164,
     "title": "“펀드에 돈 묻어뒀더니 효자가 따로 없네”…이익배당금만 41조, 70% 급증",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBPLXZBVFZhb29tQVRsTVUyTXI1N0xsQ25DSEp0eUo2UFUyZUhSOFphdnl5UHpmaVh2VHd6Tm5uRFB0MzdCYWNVTW1kY1VfbU9EampFSg?oc=5",
     "source": "",
     "category": "PE",
     "tag": "대체투자",
     "summary": [],
-    "time": "7일 전",
+    "time": "8일 전",
     "pub_date": "2026-07-23T11:27:24+09:00",
-    "scraped_at": "2026-07-31T08:15:23.451824+09:00"
+    "scraped_at": "2026-07-31T15:46:15.664075+09:00"
   },
   {
     "id": 21,
@@ -2360,8 +2360,8 @@
     "tag": "오피스",
     "summary": [],
     "time": "8일 전",
-    "pub_date": "2026-07-22T17:15:21+09:00",
-    "scraped_at": "2026-07-31T08:11:55.531085+09:00"
+    "pub_date": "2026-07-22T16:00:00+09:00",
+    "scraped_at": "2026-07-31T15:42:55.012261+09:00"
   },
   {
     "id": 38,
@@ -2373,34 +2373,22 @@
     "summary": [],
     "time": "8일 전",
     "pub_date": "2026-07-22T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:12:20.315743+09:00"
+    "scraped_at": "2026-07-31T15:43:18.731178+09:00"
   },
   {
-    "id": 161,
-    "title": "PEF협의회, 내달 협회 전환 총회…초대회장 외부선임도 추진",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ldHNMX1NOalhwdWxSemx3X2FDTzdSY3NHeUJ5VmZvdEJGU0JhQmRfR3F1aV9LLXU5RElsZ0lkRWlVSEpSUXpNMTNJa2syMGFSbF9DdQ?oc=5",
+    "id": 155,
+    "title": "[단독] \"승계 막히면 일자리·기술 증발\"…稅부담 낮춰 中企 매각 유도",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9EcVUtaDZreEhENlBTMkNnVlZPTnRhaU1KbUpPOFdMR19XZUwtcmhsSkpTek93OGpvUS16SE9IS2V0TnJNWTIteGhpb2RieWJnYVRFM0ZVSmhNQQ?oc=5",
     "source": "",
     "category": "PE",
-    "tag": "대체투자",
+    "tag": "엑시트",
     "summary": [],
     "time": "8일 전",
-    "pub_date": "2026-07-22T15:09:41+09:00",
-    "scraped_at": "2026-07-31T08:15:20.695578+09:00"
+    "pub_date": "2026-07-22T16:00:00+09:00",
+    "scraped_at": "2026-07-31T15:46:03.141641+09:00"
   },
   {
-    "id": 8,
-    "title": "켄달스퀘어, 김포 고촌에 위치한 물류센터 매각 추진 - SPI",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yZHV5TlNQY212UFU3djhfUFc5cXpCNTN6UDFaMlF1Rkw3b2E0ak5hcWNPckdPOEFFUGhqMi00Wk1hRHYxVmhuSkwwZFpoWlNmUUJ3YUdBTmJYQ2c?oc=5",
-    "source": "",
-    "category": "부동산",
-    "tag": "물류",
-    "summary": [],
-    "time": "8일 전",
-    "pub_date": "2026-07-22T08:48:29+09:00",
-    "scraped_at": "2026-07-31T08:11:36.259746+09:00"
-  },
-  {
-    "id": 39,
+    "id": 40,
     "title": "[종합금융 꿈꾸는 OK] 부동산 PF 부실 축소 속도전",
     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wWUhXV0o5aUVqMkxuamY2UVFaMW9nRXdhLWNWalFNclhHY0hreHJjdmdzcTVSNkc4THJGcGFidW8xbGxTUkkyRWl0NW1YR1VIVDJkWWJn?oc=5",
     "source": "",
@@ -2409,7 +2397,7 @@
     "summary": [],
     "time": "9일 전",
     "pub_date": "2026-07-22T08:00:26+09:00",
-    "scraped_at": "2026-07-31T08:12:21.832343+09:00"
+    "scraped_at": "2026-07-31T15:43:21.442876+09:00"
   },
   {
     "id": 100,
@@ -2421,19 +2409,31 @@
     "summary": [],
     "time": "9일 전",
     "pub_date": "2026-07-21T23:11:02+09:00",
-    "scraped_at": "2026-07-31T08:13:51.625285+09:00"
+    "scraped_at": "2026-07-31T15:44:45.886527+09:00"
   },
   {
-    "id": 219,
+    "id": 72,
+    "title": "[초점] '신재생' 시대 막 내리고 '재생에너지' 시대 연다… 이격거리 기준도 첫 법제화",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE80OE04d1A4M3JZYkhzX2N0UmxxYzVHT210c0w2WkFaSHg2WG1JSEp5Q0NYOTlySUt3YTkxMmJzZTVLbUtHTWNvU3VncFhtdVA4QmZZUGhxTXk0dFJZVFRNWGdoNGxTX0JhM2ZqblhBM0FvUQ?oc=5",
+    "source": "",
+    "category": "인프라",
+    "tag": "에너지",
+    "summary": [],
+    "time": "9일 전",
+    "pub_date": "2026-07-21T16:00:00+09:00",
+    "scraped_at": "2026-07-31T15:44:06.527267+09:00"
+  },
+  {
+    "id": 222,
     "title": "기후성과, 투자 판단 기준 된다…기후테크 육성 패러다임 바뀌나",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE45dTlMc29reGtieHloa0JZR2NVNHZZYmFYT0g4aWZXaDJMZVV6U3hfeFFIcndINzFUek5uS3Z1aG9aM0Q1UlJnbHhTd3lrcTdIVjZNZkVqX092ek92djV2aVJ3dmJLb0daeXRMbmZka0_SAXRBVV95cUxPc3dlamI1cVo5azc2TGJWdzNiVHowUDhQb3RUakJ0cDJhTjNnT0hsSldNdjN5VWNHcjRnRUNIcHczWkVlZTl5SklDd3AtNll3MmlPQTBLS2pwR09FZ25zTGFxdkZGclBoTjIyS3NwVERBMnpzTQ?oc=5",
     "source": "",
     "category": "VC",
     "tag": "기후테크",
     "summary": [],
-    "time": "9일 전",
+    "time": "10일 전",
     "pub_date": "2026-07-21T09:38:19+09:00",
-    "scraped_at": "2026-07-31T08:16:45.683368+09:00"
+    "scraped_at": "2026-07-31T15:47:36.992236+09:00"
   },
   {
     "id": 34,
@@ -2445,10 +2445,10 @@
     "summary": [],
     "time": "10일 전",
     "pub_date": "2026-07-21T05:00:23+09:00",
-    "scraped_at": "2026-07-31T08:12:14.661884+09:00"
+    "scraped_at": "2026-07-31T15:43:13.393160+09:00"
   },
   {
-    "id": 40,
+    "id": 39,
     "title": "시공사가 다 책임지는 부동산 PF…\"3년 뒤 주택공급 끊길 수 있다\"",
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5SbXhVbHlBRmM1WnlKY1lTbFlxdUtHRVl3S1p6aTJDekhGbGgyeW1rMzVHaFFLSk56cGw1V1Fpb3pmSzg5VW42NTI3Q2FVb24yMVdnb1RLU3pPdl93?oc=5",
     "source": "",
@@ -2457,10 +2457,10 @@
     "summary": [],
     "time": "10일 전",
     "pub_date": "2026-07-20T16:17:00+09:00",
-    "scraped_at": "2026-07-31T08:12:23.218583+09:00"
+    "scraped_at": "2026-07-31T15:43:20.083551+09:00"
   },
   {
-    "id": 167,
+    "id": 168,
     "title": "얼라인에 시달리던 가비아…백기사 맥쿼리가 공개매수",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9EbHF1X2hyaDRua2pfeG8yZmJ2TGhkTTliS3ZZdGxJdThYYzVteDlFcnY0RGhPbEdxaUp3OWtsZTFOR2FkZl9hSllBd0lCcUM5ajJnZw?oc=5",
     "source": "",
@@ -2469,19 +2469,31 @@
     "summary": [],
     "time": "10일 전",
     "pub_date": "2026-07-20T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:15:28.988285+09:00"
+    "scraped_at": "2026-07-31T15:46:21.038477+09:00"
   },
   {
-    "id": 143,
-    "title": "출자제한 딛은 미래에셋벤처…국민연금 GP로 대형 펀드 복귀",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBpdVhHX3Z2THFqZDdacnZKN2U2MmstRnk2cnUzWFZ3VEJJWkk5aXo4c1M1TFRpOWpSb016UE1sSG96c3ctSVJ5X2xlN2hLcnRB?oc=5",
+    "id": 31,
+    "title": "금리 인상 여파, 상장리츠 배당수익률 8년만에 7% 밑으로",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yNlU2RWo4V196X2VZUGFxMWF6SGtXbVZBOWxydmlHeGZiaVVHeEhMSzBOVW1LT0VXTFZyb0F6YjR3MlJSYXdkSkU3ek4tdTI3MFR4blpsOG9SeHJpbHc4ZXJuc2tXT1ktOVF4S1BTTzlySEk?oc=5",
     "source": "",
-    "category": "PE",
-    "tag": "펀드결성",
+    "category": "부동산",
+    "tag": "리츠",
     "summary": [],
-    "time": "16일 전",
-    "pub_date": "2026-07-14T09:05:00+09:00",
-    "scraped_at": "2026-07-31T08:14:54.360783+09:00"
+    "time": "11일 전",
+    "pub_date": "2026-07-20T06:40:25+09:00",
+    "scraped_at": "2026-07-31T15:43:08.945125+09:00"
+  },
+  {
+    "id": 32,
+    "title": "배당률 높을수록 좋다?…2026년 K리츠 분석 [리츠 이슈]",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1IcmdxbWc1QU16cDR1bVVoRDlxR0JZaFBsZUpIUVk0am5IZXl3U2RlemZRSUtfWEttWWNLVG82U1lWNjItZVhsdkZ2NlI4ZXRsRnFCSWNGWGZ2NjZkX0xn?oc=5",
+    "source": "",
+    "category": "부동산",
+    "tag": "리츠",
+    "summary": [],
+    "time": "15일 전",
+    "pub_date": "2026-07-15T16:00:00+09:00",
+    "scraped_at": "2026-07-31T15:43:10.292561+09:00"
   },
   {
     "id": 36,
@@ -2493,7 +2505,7 @@
     "summary": [],
     "time": "17일 전",
     "pub_date": "2026-07-13T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:12:17.429443+09:00"
+    "scraped_at": "2026-07-31T15:43:16.072535+09:00"
   },
   {
     "id": 37,
@@ -2505,7 +2517,7 @@
     "summary": [],
     "time": "17일 전",
     "pub_date": "2026-07-13T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:12:18.928811+09:00"
+    "scraped_at": "2026-07-31T15:43:17.398976+09:00"
   },
   {
     "id": 146,
@@ -2517,7 +2529,7 @@
     "summary": [],
     "time": "17일 전",
     "pub_date": "2026-07-13T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:14:58.930244+09:00"
+    "scraped_at": "2026-07-31T15:45:50.673192+09:00"
   },
   {
     "id": 207,
@@ -2529,19 +2541,7 @@
     "summary": [],
     "time": "17일 전",
     "pub_date": "2026-07-13T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:16:27.530932+09:00"
-  },
-  {
-    "id": 127,
-    "title": "현대차그룹, 청정 수소 생산시설 준공",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5FUlJRQ0VSMkVHajVac00yLUl3bkVJMXAzMVlHdnBNMU5sQXNsd3FHMU0tYzZGQllJMklwbVU2aUhET2pkeno3NEVmSEstN1BJV1RoSkhlODVnVWNwREhRLdIBYEFVX3lxTE5FUlJRQ0VSMkVHajVac00yLUl3bkVJMXAzMVlHdnBNMU5sQXNsd3FHMU0tYzZGQllJMklwbVU2aUhET2pkeno3NEVmSEstN1BJV1RoSkhlODVnVWNwREhRLQ?oc=5",
-    "source": "",
-    "category": "인프라",
-    "tag": "에너지",
-    "summary": [],
-    "time": "21일 전",
-    "pub_date": "2026-07-09T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:14:30.779518+09:00"
+    "scraped_at": "2026-07-31T15:47:15.650376+09:00"
   },
   {
     "id": 145,
@@ -2553,10 +2553,10 @@
     "summary": [],
     "time": "21일 전",
     "pub_date": "2026-07-09T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:14:57.557446+09:00"
+    "scraped_at": "2026-07-31T15:45:49.313927+09:00"
   },
   {
-    "id": 140,
+    "id": 142,
     "title": "우본, 추석 전 블라인드 PEF 출자사업 공고…하반기 모험자본 공급 물꼬",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE05b2dGVWFNWVJ6MWZtUzhRYldZSVpzRWhYQjlSdG5xODkyZUJWRnB2SkdqRkswZkdxNEdsYXRVLVBHeXpNTFFrYm5nZnQtYjg?oc=5",
     "source": "",
@@ -2565,7 +2565,7 @@
     "summary": [],
     "time": "23일 전",
     "pub_date": "2026-07-07T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:14:50.065404+09:00"
+    "scraped_at": "2026-07-31T15:45:44.904247+09:00"
   },
   {
     "id": 191,
@@ -2577,10 +2577,10 @@
     "summary": [],
     "time": "23일 전",
     "pub_date": "2026-07-07T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:16:04.047645+09:00"
+    "scraped_at": "2026-07-31T15:46:53.278299+09:00"
   },
   {
-    "id": 218,
+    "id": 221,
     "title": "\"투자 양극화 시대, 본질을 잃지 말아야\"…한상엽이 말하는 기후테크의 과제",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1sb2FOT3R6eGljdmN4VlUtZVgyQm51UWVOc2dWclZzMExlWnlIVUVqbUJvSWFwNU1SSDNnODY3aUxPS1BpbEpFenU4SUJESnhUTkE?oc=5",
     "source": "",
@@ -2589,7 +2589,7 @@
     "summary": [],
     "time": "23일 전",
     "pub_date": "2026-07-07T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:16:44.235197+09:00"
+    "scraped_at": "2026-07-31T15:47:35.630164+09:00"
   },
   {
     "id": 147,
@@ -2601,7 +2601,7 @@
     "summary": [],
     "time": "28일 전",
     "pub_date": "2026-07-02T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:15:00.311902+09:00"
+    "scraped_at": "2026-07-31T15:45:52.019719+09:00"
   },
   {
     "id": 150,
@@ -2613,7 +2613,7 @@
     "summary": [],
     "time": "29일 전",
     "pub_date": "2026-07-01T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:15:04.543576+09:00"
+    "scraped_at": "2026-07-31T15:45:56.046498+09:00"
   },
   {
     "id": 151,
@@ -2625,19 +2625,7 @@
     "summary": [],
     "time": "29일 전",
     "pub_date": "2026-07-01T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:15:05.923620+09:00"
-  },
-  {
-    "id": 144,
-    "title": "'원펀드 뚝심' SL인베, 국민성장·국민연금 출자사업에 승부수",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9iRDNYMHFsNFhMSGc2cEl0al94WEtCZGJKczJzR2xuVWlmUEw3NlpoclQybUczRmRadVE2X2lELWFUalFHOW1CZmpxY1Q5QVVHVVNlZ0czLTMtNFNHRzlGYTBQR2o4R3pB0gFsQVVfeXFMTnphX2o4WHNaT2JadG5INERINzZjM2JIeXY1VTFucDlqVE9nQ1BGUnBWVW5fUDk1RHpTY1FTa1RqYk1YT0ZXZUNJSmdMRmpNZEFUVVJnYndrMUR6enY0VXl1a2hvN1BSRXVkaGZS?oc=5",
-    "source": "",
-    "category": "PE",
-    "tag": "펀드결성",
-    "summary": [],
-    "time": "37일 전",
-    "pub_date": "2026-06-23T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:14:55.743826+09:00"
+    "scraped_at": "2026-07-31T15:45:57.379743+09:00"
   },
   {
     "id": 148,
@@ -2649,10 +2637,10 @@
     "summary": [],
     "time": "51일 전",
     "pub_date": "2026-06-09T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:15:01.680350+09:00"
+    "scraped_at": "2026-07-31T15:45:53.363652+09:00"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "케이원 김포로지스 물류센터, 매각 무산 후 소송전",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yNUxhSGxJejJkVnhkTU11cTJDdkpod0s0T3lOLVhyVnNWdWtDNk5iY3N6Yl9rUnVWZXBOT0ZBTHNwSlR2c05yMFhBYWNGc00?oc=5",
     "source": "",
@@ -2661,7 +2649,19 @@
     "summary": [],
     "time": "58일 전",
     "pub_date": "2026-06-02T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:11:33.361596+09:00"
+    "scraped_at": "2026-07-31T15:42:34.801561+09:00"
+  },
+  {
+    "id": 192,
+    "title": "신약개발 리스크 낮추고 도전욕구 높이자... K성공불융자 설계 착수",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96T3Y4d0tMZ2w1WnFTYzRySVd6SGFOWVpoZmM0UjRrc2NpblZqTGs4aVUtdnRUV3FmdDRCTjM0T3V6MUJ1U1dmNzE0X1BrLTR2UDVYUTUwRVZIZlJaWmNBZUVIc3VkSDYyTS1z?oc=5",
+    "source": "",
+    "category": "VC",
+    "tag": "바이오",
+    "summary": [],
+    "time": "63일 전",
+    "pub_date": "2026-05-28T16:00:00+09:00",
+    "scraped_at": "2026-07-31T15:46:54.606508+09:00"
   },
   {
     "id": 101,
@@ -2673,10 +2673,22 @@
     "summary": [],
     "time": "69일 전",
     "pub_date": "2026-05-22T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:13:53.027080+09:00"
+    "scraped_at": "2026-07-31T15:44:47.234552+09:00"
   },
   {
     "id": 22,
+    "title": "부동산플래닛 “방배동 오피스 ‘청남빌딩’ 매각 절차 본격화”",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FbmxUTVpTUkZBakxWRDhWOXp5SWhIUFJibmhiUktHbkVWUTVnUEJBYVJtbWtYbUgyMlhlNFU3UmRCRFRqNjBZbkJkUWRJWnM2VjVDVEhnS25mMEpTZVHSAWNBVV95cUxNYUp5MUZROTNya0JuWXVIcERJMUZYVWp4WlpidklTa2FZR2ZwZGFtTVZTZmtQbXI3QVJKX0haVFY4WWlxY0NnZmQyMlhwaGZqUTdMWm94bmFPLThnbHJwTHM2WTg?oc=5",
+    "source": "",
+    "category": "부동산",
+    "tag": "오피스",
+    "summary": [],
+    "time": "70일 전",
+    "pub_date": "2026-05-21T16:00:00+09:00",
+    "scraped_at": "2026-07-31T15:42:56.344197+09:00"
+  },
+  {
+    "id": 23,
     "title": "서울 오피스 공실률 4%, 2년 만에 꺾였다",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5xZHo5endXY3RCWW5jNVZBYnZ1bkd6UG9sam9fWWN5V0M1eEVpXzZLdUswZ0RTVzBKakxXd2taWUprbjY1QnY5SGZIOTNwaWJhQjdxck5nc0dKNGV1b1V0M0tnNldEajg?oc=5",
     "source": "",
@@ -2685,7 +2697,7 @@
     "summary": [],
     "time": "71일 전",
     "pub_date": "2026-05-20T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:11:56.929105+09:00"
+    "scraped_at": "2026-07-31T15:42:57.686871+09:00"
   },
   {
     "id": 149,
@@ -2697,10 +2709,22 @@
     "summary": [],
     "time": "72일 전",
     "pub_date": "2026-05-19T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:15:03.164124+09:00"
+    "scraped_at": "2026-07-31T15:45:54.725013+09:00"
   },
   {
-    "id": 5,
+    "id": 174,
+    "title": "더본코리아, 1분기 영업손실 42억원…4개 분기 연속 적자",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9DMUtqZDFuaG5JNFhlWVltU1BybGlaT1hiQ3Fmb2MtTVBRcHpjS21RQ3ItUmNNSWdjNmpiNHVDZXYyaHUzdDFXdDVraEd3VHNpTHI4TlU0eDdEOU3SAWBBVV95cUxOb29qWEdwZFJvX09JVGFXb3RQSEtVQktMZV9kejdBNW9kQWdFOUtJbmZqMDJQTVAxWEdNaVNsektNSk9XODkxcFlsVEo5MGdfRWMyV29UX0RDRm0xNnJicWc?oc=5",
+    "source": "",
+    "category": "PE",
+    "tag": "대체투자",
+    "summary": [],
+    "time": "76일 전",
+    "pub_date": "2026-05-15T16:00:00+09:00",
+    "scraped_at": "2026-07-31T15:46:29.570996+09:00"
+  },
+  {
+    "id": 6,
     "title": "한때 황금알이라더니…물류센터 PF, 은행 건전성 압박",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WUzRKT1dJVmtqV0t2MFZJT0E3dFdGUXZqczFOZnNvdUZUTW95ZWRVNkdBZ2FIemVWOUNEQm1BSnYyTUE1XzNEckJYWjBrazI2TVHSAVNBVV95cUxQeEJsRVRGNTlnb3V4b2VTOFdHSjM4NFptVWNtR2thZ0QtN2tOTjFkQ01LUXRlQVZNdTQ4VVFCb19Rd3ZHN243eDhWeWZNXzNtaTRJVQ?oc=5",
     "source": "",
@@ -2709,22 +2733,10 @@
     "summary": [],
     "time": "77일 전",
     "pub_date": "2026-05-14T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:11:31.981073+09:00"
+    "scraped_at": "2026-07-31T15:42:33.442997+09:00"
   },
   {
-    "id": 24,
-    "title": "공실률 10%였던 이곳... 삼전닉스 천장 뚫자 “자리 없어요”",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBOQkIzeWpsaVF1cGdoSUNGWWhRX0lBMUxMQjd1ZEo3ZkhEbWpsbGtTOGx2SDV2dV8tZEJCQ0ZxOU9JeG9yZTlOalZMbU1HbXM4Y3fSAVNBVV95cUxOel9CdmZDYnJpMWF1d2x1bDJ2SnRqcE5tWGFKVnhacGNiU2FlTHh0MmNyakd1STJ0S190Z25DdVlOLTIwRWpHdkJXc0RRXzkxdlktMA?oc=5",
-    "source": "",
-    "category": "부동산",
-    "tag": "대체투자",
-    "summary": [],
-    "time": "79일 전",
-    "pub_date": "2026-05-12T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:11:59.746634+09:00"
-  },
-  {
-    "id": 139,
+    "id": 141,
     "title": "JYP의 VC, 첫 블라인드 펀드 만든다…모태펀드 GP 선정",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5kY0J3UHExU3BvbVRWaGNVV1ZENGJNMlhSMFdSUHhHUDZBZGNBT2VtN0I3YXJZRmZRNFhHeDBpc0QxbmRySndDcHZadVd2MFk2VW9kemtzVU5jOGtYUVdHandiVkJaeWpoZFowcDhyclZrZw?oc=5",
     "source": "",
@@ -2733,10 +2745,10 @@
     "summary": [],
     "time": "99일 전",
     "pub_date": "2026-04-22T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:14:48.649592+09:00"
+    "scraped_at": "2026-07-31T15:45:43.569227+09:00"
   },
   {
-    "id": 23,
+    "id": 24,
     "title": "공유오피스 덕에 강남 빌딩 '환골탈태'…도입 후 공실률 75%→ 0% [다시 뜨는 공유오피스]",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9aSnk2RG5iaTUyN1BoVmU5TnJXS05qMkhPSkxtc1BNRHVkamJwV2hRU3MxNndJd0FXSWoxcEg4RFE1cGVZOVNWUkhNdDY4d3BvVHprN3BUbnZnUQ?oc=5",
     "source": "",
@@ -2745,7 +2757,7 @@
     "summary": [],
     "time": "102일 전",
     "pub_date": "2026-04-19T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:11:58.351668+09:00"
+    "scraped_at": "2026-07-31T15:42:59.030132+09:00"
   },
   {
     "id": 102,
@@ -2757,7 +2769,7 @@
     "summary": [],
     "time": "104일 전",
     "pub_date": "2026-04-17T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:13:54.405722+09:00"
+    "scraped_at": "2026-07-31T15:44:48.605669+09:00"
   },
   {
     "id": 81,
@@ -2769,7 +2781,7 @@
     "summary": [],
     "time": "107일 전",
     "pub_date": "2026-04-14T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:13:24.008326+09:00"
+    "scraped_at": "2026-07-31T15:44:19.419199+09:00"
   },
   {
     "id": 88,
@@ -2781,7 +2793,7 @@
     "summary": [],
     "time": "126일 전",
     "pub_date": "2026-03-26T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:13:33.808465+09:00"
+    "scraped_at": "2026-07-31T15:44:28.890371+09:00"
   },
   {
     "id": 85,
@@ -2793,7 +2805,7 @@
     "summary": [],
     "time": "133일 전",
     "pub_date": "2026-03-19T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:13:29.641960+09:00"
+    "scraped_at": "2026-07-31T15:44:24.846152+09:00"
   },
   {
     "id": 152,
@@ -2803,12 +2815,12 @@
     "category": "PE",
     "tag": "바이아웃",
     "summary": [],
-    "time": "153일 전",
+    "time": "154일 전",
     "pub_date": "2026-02-27T09:12:51+09:00",
-    "scraped_at": "2026-07-31T08:15:07.286388+09:00"
+    "scraped_at": "2026-07-31T15:45:58.727159+09:00"
   },
   {
-    "id": 32,
+    "id": 30,
     "title": "국토부, 리츠 규제 개선 모색…두 달 걸리는 유상증자 관행 '도마 위'",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWGRJOVljYWFxWTBqTW5UZEtJMmJoeVJVdnR5XzJQdmQ0TkRkTTU4NUg4NlhwMGtDRFh3eEZ3LUVSOUppbGJUMFNWN29wNUp2YWlkeGU5SWxRMjd4bjAxNHZfNlV4SUh2NS1jX05IMW1sOWVWRWtLRWxsMVZacGtHM3dyNA?oc=5",
     "source": "",
@@ -2817,7 +2829,7 @@
     "summary": [],
     "time": "156일 전",
     "pub_date": "2026-02-24T17:00:00+09:00",
-    "scraped_at": "2026-07-31T08:12:11.413618+09:00"
+    "scraped_at": "2026-07-31T15:43:07.594919+09:00"
   },
   {
     "id": 99,
@@ -2829,7 +2841,7 @@
     "summary": [],
     "time": "157일 전",
     "pub_date": "2026-02-23T17:00:00+09:00",
-    "scraped_at": "2026-07-31T08:13:50.232189+09:00"
+    "scraped_at": "2026-07-31T15:44:44.544223+09:00"
   },
   {
     "id": 103,
@@ -2841,7 +2853,7 @@
     "summary": [],
     "time": "157일 전",
     "pub_date": "2026-02-23T17:00:00+09:00",
-    "scraped_at": "2026-07-31T08:13:55.823455+09:00"
+    "scraped_at": "2026-07-31T15:44:49.960180+09:00"
   },
   {
     "id": 104,
@@ -2853,7 +2865,7 @@
     "summary": [],
     "time": "157일 전",
     "pub_date": "2026-02-23T17:00:00+09:00",
-    "scraped_at": "2026-07-31T08:13:57.223947+09:00"
+    "scraped_at": "2026-07-31T15:44:51.321667+09:00"
   },
   {
     "id": 84,
@@ -2865,7 +2877,7 @@
     "summary": [],
     "time": "171일 전",
     "pub_date": "2026-02-09T17:00:00+09:00",
-    "scraped_at": "2026-07-31T08:13:28.254084+09:00"
+    "scraped_at": "2026-07-31T15:44:23.479033+09:00"
   },
   {
     "id": 19,
@@ -2877,7 +2889,7 @@
     "summary": [],
     "time": "174일 전",
     "pub_date": "2026-02-06T17:00:00+09:00",
-    "scraped_at": "2026-07-31T08:11:52.749263+09:00"
+    "scraped_at": "2026-07-31T15:42:52.328249+09:00"
   },
   {
     "id": 87,
@@ -2889,7 +2901,7 @@
     "summary": [],
     "time": "190일 전",
     "pub_date": "2026-01-21T17:00:00+09:00",
-    "scraped_at": "2026-07-31T08:13:32.412571+09:00"
+    "scraped_at": "2026-07-31T15:44:27.542750+09:00"
   },
   {
     "id": 20,
@@ -2901,7 +2913,7 @@
     "summary": [],
     "time": "198일 전",
     "pub_date": "2026-01-13T17:00:00+09:00",
-    "scraped_at": "2026-07-31T08:11:54.135600+09:00"
+    "scraped_at": "2026-07-31T15:42:53.674860+09:00"
   },
   {
     "id": 82,
@@ -2913,7 +2925,7 @@
     "summary": [],
     "time": "198일 전",
     "pub_date": "2026-01-13T17:00:00+09:00",
-    "scraped_at": "2026-07-31T08:13:25.475039+09:00"
+    "scraped_at": "2026-07-31T15:44:20.758438+09:00"
   },
   {
     "id": 83,
@@ -2925,7 +2937,7 @@
     "summary": [],
     "time": "241일 전",
     "pub_date": "2025-12-01T17:00:00+09:00",
-    "scraped_at": "2026-07-31T08:13:26.859914+09:00"
+    "scraped_at": "2026-07-31T15:44:22.148260+09:00"
   },
   {
     "id": 86,
@@ -2937,10 +2949,10 @@
     "summary": [],
     "time": "308일 전",
     "pub_date": "2025-09-25T16:00:00+09:00",
-    "scraped_at": "2026-07-31T08:13:31.008761+09:00"
+    "scraped_at": "2026-07-31T15:44:26.199552+09:00"
   },
   {
-    "id": 174,
+    "id": 176,
     "title": "\"삼성전자 현금 184억달러…亞기업중 2위\"",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5rMGJHclZtNEJWbTR5Z21vWVFkWTdqQUVmOUtCTlVsMm9Za1RZakZmZUNMbm5RNGppSmFJRlBVMDhsdnVOS21qbU5NMEVWY0xEb2puVnhZTmlPdw?oc=5",
     "source": "",
@@ -2949,6 +2961,6 @@
     "summary": [],
     "time": "5736일 전",
     "pub_date": "2010-11-15T17:00:00+09:00",
-    "scraped_at": "2026-07-31T08:15:39.178519+09:00"
+    "scraped_at": "2026-07-31T15:46:32.233799+09:00"
   }
 ]
